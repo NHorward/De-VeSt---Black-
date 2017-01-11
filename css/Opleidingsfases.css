@@ -1,0 +1,78 @@
+#GKM header{
+  margin-left: 16%;
+  min-height: 210px;
+  padding-top: 5%;
+  box-sizing: border-box;
+background-color: #85c226;
+}
+
+#GKM header h1{
+  border-bottom: solid white 10px;
+  padding-bottom: 1%;
+  color: white;
+  text-indent: 5%;
+  width: 80%;
+}
+
+#GKM .menubar ul li:first-child{
+  margin-top: 0;
+}
+
+#GKM section{
+  margin-top: 0.8%;
+  margin-left: 16%;
+  padding-left: 5%;
+}
+
+#GKM h2{
+  margin-bottom: 2%;
+}
+
+#GKM h3{
+  margin-top: 2%;
+}
+
+
+
+p{
+ width:80%;   
+}
+
+.rond{
+border-radius: 5px;
+border: 1px solid white;
+width:10%;
+text-align: center;
+}
+
+
+#opleidingen{
+margin-left:30%;
+
+}
+
+#keuze{
+margin-top:2%;
+margin-left:16%;
+}
+
+
+.HL:hover{
+    opacity: 0.8;
+}
+
+.TA:hover{
+    opacity: 0.8;
+}
+
+.LA:hover{
+  opacity: 0.8;   
+}
+
+.SD:hover{
+    opacity: 0.8;
+}
+
+.GKM:hover{
+    opacity: 0.8;
+}

@@ -1,0 +1,74 @@
+ /* OPMERKINGEN:
+
+- Op elke pagina moet de link naar het css-bestand gecontroleerd worden;
+- De active-class moet geen a-tag bevatten, deze mag in HTML weggelaten worden;
+- Elke pagina moet een taal atribuut bevatten: <!doctype HTML> <html lang="nl">;
+
+*/
+ /*KLEUREN  
+Accent groen: #85c226
+Accent blauw: #29aae2 
+Logo grijs: #5a5760 
+Kleur HL rood: #e74c3c
+Kleur TA groen: #1abc9c
+Kleur GKM geel: #f1c40f
+Kleur LA paars: #973cb6
+Kleur SD oranje: #fd8125
+Kleur duaal groen: #5ec64d */
+ /* ---- HOME PAGE ---- */
+ 
+ .welkom {
+   color: #85c226;
+   text-align: center;
+ }
+ 
+ .welkom h1 {
+   color: #85c226;
+   text-align: center;
+ }
+ /* -- nieuws sectie -- */
+ 
+ .nieuws {
+   padding-left: 16%;
+ }
+ 
+ .nieuws h2 {
+   color: #29aae2;
+ }
+ /* -- Aanbod sectie -- */
+ 
+ .aanbod {
+   height: auto;
+ }
+ 
+ .aanbod h2 {
+   color: #85c226;
+   margin-left: 16%;
+ }
+ 
+ .basis {
+   padding-left: 16%;
+   float: left;
+   width: 30%;
+ }
+ 
+ .type9 {
+   float: right;
+   width: 32%;
+   padding-right: 13%;
+ }
+ /* -- Sfeerbeelden sectie -- */
+ 
+ .sfeerbeelden {
+   width: 100%;
+ }
+ 
+ .slider {
+   width: 80%;
+   margin-left: 16%;
+   text-align: center;
+ }
+ 
+ .slider img {
+   width: 50%;
+ }

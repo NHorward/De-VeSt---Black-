@@ -1,0 +1,86 @@
+#GKM .headerbackground{
+  margin-left: 16%;
+  min-height: 210px;
+  padding-top: 5%;
+  box-sizing: border-box;
+  background-color: #f1c40f;
+}
+
+#GKM header h1{
+  border-bottom: solid white 10px;
+  padding-bottom: 1%;
+  color: white;
+  text-indent: 5%;
+  width: 90%;
+}
+
+#GKM .menubar ul li:first-child{
+  margin-top: 0;
+}
+
+#GKM section{
+  margin-top: 5%;
+  margin-left: 16%;
+  padding-left: 5%;
+}
+
+#GKM h2{
+  margin-bottom: 2%;
+}
+
+#GKM #algemeen p{
+  margin-bottom: 4%;
+}
+
+#GKM #algemeenlinks{
+  width: 30%;
+  float: left;
+}
+
+#GKM #algemeenrechts{
+  width: 50%;
+  float: right;
+  margin-right: 10%;
+}
+
+#GKM #slider{
+  height: 150px;
+  overflow: hidden;
+}
+
+#GKM #slider figcaption {
+  margin-top: 2%;
+}
+
+#GKM #slider figure img{
+  height: 150px;
+  overflow: hidden;
+}
+
+/*Sectie Taken*/
+
+#GKM #taken div{
+  width: 34%;
+  float: left;
+  margin-right: 2%;
+  padding: 5%;
+  margin-top:2%;
+  min-height: 150px; 
+}
+
+#GKM #taken #basis{
+  width: 80%;
+  float: none;
+  background-color: #5a5760;
+  margin-right: 2%;
+  color: white;
+  min-height: 100px;
+}
+
+#GKM #taken #basis h3{
+  color: #f1c40f;
+}
+
+#GKM #taken ul li{
+ 
+}
