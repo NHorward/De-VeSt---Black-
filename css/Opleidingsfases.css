@@ -46,7 +46,7 @@ text-align: center;
 }
 
 .rond:hover{
-opacity: 0.8;
+opacity: 0.7;
 cursor:pointer;
 }
 
@@ -56,14 +56,23 @@ margin-left:30%;
 }
 
 .opleidingen{
-margin-top:0.5%;  
+margin-top:0.5%;
+margin-bottom:4%;
 }
 
 #keuze{
-margin-top:2%;
+margin-top:4%;
 margin-left:16%;
 }
 
+.vlaklinks{
+width:11%; 
+
+position: absolute;
+height:25.5%;
+z-index: -1
+    
+}
 
 
 .HL:hover{
@@ -84,4 +93,20 @@ margin-left:16%;
 
 .GKM:hover{
     opacity: 0.8;  
+}
+
+.Kwalificatiefase{
+width:26%;
+position: absolute;
+
+
+
+
+
+}
+
+.Duaal{
+    float:right;
+    margin-left:1%;
+    width:26%;
 }
