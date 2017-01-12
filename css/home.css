@@ -72,3 +72,35 @@ Kleur duaal groen: #5ec64d */
  .slider img {
    width: 50%;
  }
+ /* ---- TEAM PAGINA ---- */
+ 
+ .personeel {
+   margin-left: 16%;
+ }
+ 
+ .personeel li {
+   text-align: center;
+   list-style: none;
+   margin-right: 1%;
+   width: 15%;
+   display: inline-block;
+   border-bottom: solid #5a5760 1px;
+   padding-bottom: 1%;
+ }
+ 
+ .personeel a {
+   text-decoration: none;
+   color: #5a5760;
+ }
+ 
+ .team li {
+   text-align: center;
+   list-style: none;
+   margin-right: 1%;
+   width: 15%;
+   display: inline-block;
+ }
+ 
+ .team img {
+   width: 100%;
+ }
