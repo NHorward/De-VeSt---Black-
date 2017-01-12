@@ -72,6 +72,10 @@
   margin-right: 10%;
 }
 
+#GKM #slider figcaption a{
+  text-indent: -9999px;
+  
+}
 /*Sectie Taken*/
 
 #GKM #taken div{
