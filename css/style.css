@@ -119,6 +119,25 @@ section {
 }
 
 
+/* --- HEADER TEMPLATE --- */
+
+.template .headerbackground {
+ margin-left: 16%;
+ min-height: 210px;
+ padding-top: 5%;
+ box-sizing: border-box;
+ background-color: #f1c40f;
+}
+
+.template header h1 {
+ border-bottom: solid white 10px;
+ padding-bottom: 1%;
+ color: white;
+ text-indent: 5%;
+ width: 90%;
+}
+
+
 /* ---- NAVIGATIE MENU ----- */
 
 .menubar {
