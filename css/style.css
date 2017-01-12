@@ -483,6 +483,8 @@ footer li {
 .opleidingen article {
  margin-top: 2em;
  margin-bottom: 2em;
+ color: white;
+ padding: 0.5em;
 }
 
 .opleidingen article ul {
@@ -494,42 +496,6 @@ footer li {
 .opleidingen-foto-rechts {
  float: right;
  width: 40%;
-}
-
-.opleidingen-HL {
- background-color: #e74c3c;
- color: white;
- padding: 0.5em;
-}
-
-.opleidingen-TA {
- background-color: #1abc9c;
- color: white;
- padding: 0.5em;
-}
-
-.opleidingen-LA {
- background-color: #973cb6;
- color: white;
- padding: 0.5em;
-}
-
-.opleidingen-SD {
- background-color: #fd8125;
- color: white;
- padding: 0.5em;
-}
-
-.opleidingen-GKM {
- background-color: #f1c40f;
- color: white;
- padding: 0.5em;
-}
-
-.opleidingen-Duaal {
- background-color: #5ec64d;
- color: white;
- padding: 0.5em;
 }
 
 .opleidingen-hrarticle {
