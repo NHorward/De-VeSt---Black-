@@ -224,10 +224,11 @@ li.active {
 /* -- kleurvak links -- */
 
 .vak_links {
-  width: 11%;
+  width: 15%;
   float: left;
   margin-right: 1%;
   text-indent: -9999px;
+  box-sizing: border-box;
 }
 
 
