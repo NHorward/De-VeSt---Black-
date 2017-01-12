@@ -457,9 +457,11 @@ footer li {
 /* OPLEIDINGEN PAGINA */
 
 .opleidingenpagina h2:before {
+ display: inline-block;
  font-size: 2em;
- padding-right: 0.75em;
  padding: 0.5em;
+ padding-right: 1.5em;
+ max-width: 3%;
 }
 
 .opleidingen-header {
@@ -503,7 +505,7 @@ footer li {
  width: 40%;
  background-color: white;
  border: none;
- margin-left: 6em;
+ margin-left: 9em;
 }
 
 .opleidingen-button {
