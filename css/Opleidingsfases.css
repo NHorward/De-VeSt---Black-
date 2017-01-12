@@ -1,48 +1,14 @@
-#GKM header{
-  margin-left: 16%;
-  min-height: 210px;
-  padding-top: 5%;
-  box-sizing: border-box;
-background-color: #85c226;
-}
-
-#GKM header h1{
-  border-bottom: solid white 10px;
-  padding-bottom: 1%;
-  color: white;
-  text-indent: 5%;
-  width: 80%;
-}
-
-#GKM .menubar ul li:first-child{
-  margin-top: 0;
-}
-
-#GKM section{
-  margin-top: 0.8%;
-  margin-left: 16%;
-  padding-left: 5%;
-}
-
-#GKM h2{
-  margin-bottom: 2%;
-}
-
-#GKM h3{
-  margin-top: 2%;
-}
-
-
-
 p{
- width:80%;   
+ width:90%; 
+margin-left:5%;
 }
 
 .rond{
 border-radius: 5px;
 border: 1px solid white;
-width:10%;
 text-align: center;
+width:10%;
+
 }
 
 .rond:hover{
@@ -50,63 +16,95 @@ opacity: 0.7;
 cursor:pointer;
 }
 
-#opleidingen{
-margin-left:30%;
-
-}
-
 .opleidingen{
 margin-top:0.5%;
 margin-bottom:4%;
+margin-left:30%
+ 
+    
+    
 }
 
 #keuze{
 margin-top:4%;
-margin-left:16%;
+margin-left:30%;
+width:50%;
 }
 
-.vlaklinks{
+.links{
 width:11%; 
+padding: 2%;
 
 position: absolute;
-height:25.5%;
+height:22.5%;
 z-index: -1
     
 }
 
-
-.HL:hover{
-    opacity: 0.8; 
-}
-
-.TA:hover{
-    opacity: 0.8;
-}
-
-.LA:hover{
-  opacity: 0.8; 
-}
-
-.SD:hover{
-    opacity: 0.8;   
-}
-
-.GKM:hover{
-    opacity: 0.8;  
-}
-
-.Kwalificatiefase{
-width:26%;
-position: absolute;
-
-
-
-
-
+.observatiefase{
+margin-top:2%;
 }
 
 .Duaal{
     float:right;
-    margin-left:1%;
     width:26%;
+    margin-top:4%;
+padding-right:20%; 
+padding-bottom: 7.1%;
+margin-bottom:4%;
+
+
+    
+}
+.Kwalificatiefase{
+width:26%;
+position: absolute;
+margin-top:4%;
+
+}
+
+
+.ABO{
+clear:both;
+margin-bottom: 4%;
+}
+
+.pijl{
+position: absolute;
+width:10%;
+height:43.5%;
+margin-left:30%;
+margin-top:-5.5%;
+margin-left:17%;
+}
+
+.links2{
+width:11%; 
+position: absolute;
+height:50.3%;
+z-index: -1 ;
+margin-top:4%;
+padding-right:3%;
+}
+
+h2{
+text-decoration: underline;
+margin-left:5%;
+}
+
+.links3{
+width:11%; 
+position: absolute;  
+margin-top:-21.75%;
+height:27.5%;
+z-index: -1 ;
+
+}
+
+.bizar{
+   width:30%; 
+}
+
+.huh{
+ margin-left:10%;   
 }
