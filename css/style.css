@@ -191,6 +191,7 @@ li.active {
 .blauw {
   color: white;
   background-color: #29aae2;
+  box-sizing: border-box;
   padding: 2%;
 }
 
@@ -222,7 +223,7 @@ li.active {
 /* -- kleurvak links -- */
 
 .vak_links {
-  width: 11%;
+  width: 15%;
   float: left;
   margin-right: 1%;
   text-indent: -9999px;
