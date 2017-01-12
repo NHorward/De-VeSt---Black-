@@ -18,6 +18,7 @@ Kleur duaal groen: #5ec64d */
 article,
 section {
   margin-left: 16%;
+  margin-top: 2%;
 }
 
 
@@ -130,7 +131,7 @@ h3 {
   margin-left: 16%;
   min-height: 210px;
   padding-top: 5%;
-padding-bottom: 3.4%;
+  padding-bottom: 3.4%;
   box-sizing: border-box;
 }
 
@@ -170,7 +171,7 @@ header h1 {
 .menubar a {
   text-decoration: none;
   color: white;
-  font-size: 1em;
+  font-size: 1.25em;
   display: block;
   height: 100%;
   width: 100%;
@@ -186,7 +187,7 @@ header h1 {
 li.active {
   background-color: #29aae2;
   color: white;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 
@@ -211,7 +212,6 @@ li.active {
 .groen {
   background-color: #85c226;
   color: white;
- 
 }
 
 .groen h3 {
@@ -263,27 +263,27 @@ li.active {
   background-color: #5ec64d;
 }
 
-.HL:hover {
+.opl .HL:hover {
   opacity: 0.8;
 }
 
-.TA:hover {
+.opl .TA:hover {
   opacity: 0.8;
 }
 
-.LA:hover {
+.opl .LA:hover {
   opacity: 0.8;
 }
 
-.SD:hover {
+.opl .SD:hover {
   opacity: 0.8;
 }
 
-.GKM:hover {
+.opl .GKM:hover {
   opacity: 0.8;
 }
 
-.duaal:hover {
+.opl .duaal:hover {
   opacity: 0.8;
 }
 
@@ -292,7 +292,13 @@ li.active {
 
 .opleidingen {
   margin-left: 16%;
-  margin-top: 5%;
+  margin-top: 2%;
+}
+
+.opleidingen a {
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  color: #5a5760;
 }
 
 .opl ul {
@@ -419,12 +425,21 @@ footer li {
   margin: 0;
 }
 
+.nieuws img {
+  width: 16%;
+  float: right;
+}
+
+.nieuws li {
+  list-style: none;
+}
+
 
 /* -- Aanbod sectie -- */
 
 .aanbod {
   height: auto;
-  margin: 0;
+  margin-left: 0;
 }
 
 .aanbod h2 {
@@ -432,18 +447,24 @@ footer li {
   margin-left: 16%;
 }
 
+.aanbod article {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
 .basis {
   margin: 0;
   padding-left: 16%;
   float: left;
-  width: 30%;
+  width: 32%;
 }
 
 .type9 {
   margin: 0;
   float: right;
-  width: 32%;
+  width: 35%;
   padding-right: 13%;
+  padding-left: 2%;
 }
 
 
@@ -465,7 +486,7 @@ footer li {
 }
 
 
-/* OPLEIDINGEN PAGINA */
+/* OPLEIDINGEN PAGINA 
 
 .opleidingen h2:before {
   font-size: 2em;
@@ -529,4 +550,65 @@ footer li {
   border-style: solid;
   border-width: 0.15em;
   border-radius: 0.5em;
+}
+
+
+/* ---- TEAM PAGINA ---- */
+
+.personeel {
+  margin-left: 16%;
+}
+
+.personeel li {
+  text-align: center;
+  list-style: none;
+  margin-right: 1%;
+  width: 15%;
+  display: inline-block;
+  border-bottom: solid #85c226 1px;
+  padding-bottom: 1%;
+}
+
+.personeel a {
+  text-decoration: none;
+  color: #5a5760;
+}
+
+.team h2 {
+  color: #85c226;
+  text-decoration: underline;
+}
+
+.team li {
+  text-align: center;
+  list-style: none;
+  margin-right: 1%;
+  width: 15%;
+  display: inline-block;
+}
+
+strong {}
+
+.team img {
+  width: 100%;
+}
+
+#directie {
+  margin: 1% 0 0 0;
+  padding-left: 16%;
+}
+
+#oht li {
+  text-align: left;
+  list-style: none;
+  display: block;
+  padding-bottom: 1%;
+  width: 100%;
+}
+
+
+/* ---- CONTACT PAGINA ---- */
+
+#adresgeg p::first-line {
+  font-weight: bolder;
 }
