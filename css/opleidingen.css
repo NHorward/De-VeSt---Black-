@@ -456,7 +456,7 @@ footer li {
 
 /* OPLEIDINGEN PAGINA */
 
-.opleidingen h2:before {
+.opleidingenpagina h2:before {
  font-size: 2em;
  padding-right: 0.75em;
  padding: 0.5em;
@@ -480,14 +480,14 @@ footer li {
  margin-left: 15%;
 }
 
-.opleidingen article {
+.opleidingenpagina article {
  margin-top: 2em;
  margin-bottom: 2em;
  color: white;
  padding: 0.5em;
 }
 
-.opleidingen article ul {
+.opleidingenpagina article ul {
  max-width: 50%;
  margin: 2em;
  margin-bottom: 3em;
@@ -521,7 +521,7 @@ footer li {
  border-radius: 0.5em;
 }
 
-.opleidingen a {
+.opleidingenpagina a {
  font-family: 'Raleway', sans-serif;
  color: white;
  text-decoration: none;
