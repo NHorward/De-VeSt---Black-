@@ -492,12 +492,13 @@ footer li {
 .opleidingenpagina article ul {
  max-width: 50%;
  margin: 2em;
+ margin-left: 10em;
  margin-bottom: 3em;
 }
 
 .opleidingen-foto-rechts {
  float: right;
- width: 40%;
+ width: 38%;
 }
 
 .opleidingen-hrarticle {
@@ -515,7 +516,6 @@ footer li {
  color: white;
  padding: 0.5em;
  margin: 2em;
- margin-bottom: 4em;
  margin-left: 40%;
  width: 10%;
  border-style: solid;
