@@ -29,7 +29,7 @@
 }
 
 #GKM #algemeen p{
-  margin-bottom: 4%;
+  margin-bottom: 10%;
 }
 
 #GKM #algemeenlinks{
@@ -63,9 +63,9 @@
   width: 34%;
   float: left;
   margin-right: 2%;
-  padding: 5%;
+  padding: 2% 5% 5% 5%;
   margin-top:2%;
-  min-height: 150px; 
+  min-height: 190px; 
 }
 
 #GKM #taken #basis{
@@ -74,13 +74,49 @@
   background-color: #5a5760;
   margin-right: 2%;
   color: white;
-  min-height: 100px;
+  min-height: 90px;
+}
+
+#GKM #taken h3{
+  color: #ffffff;
+  padding-bottom: 4%;
 }
 
 #GKM #taken #basis h3{
   color: #f1c40f;
+  padding-bottom: 0%;
 }
 
 #GKM #taken ul li{
- 
+ padding-top: 2.5%;
+}
+
+#GKM #taken #basis ul li{
+  padding-top: 2%;
+}
+
+#GKM #takenimg{
+  background-image: url(../img/GKM/studentkerstcupcakes.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+/*Sectie attitudes en stages*/
+
+#GKM #attitudeswrapper .blauw, #GKM #stageswrapper .blauw{
+  padding-bottom: 25%;
+}
+
+#GKM #attitudes ul, #GKM #stages ul{
+  padding-left: 5%;
+}
+
+#GKM #attitudes ul li, #GKM #stages ul li{
+  padding-top: 1.5%;
+  color: #29aae2;
+}
+
+/*Aside lessentabel*/
+#lessentabel{
+  margin-left: 25%;
 }
