@@ -37,6 +37,7 @@
 
 #GKM #algemeen p{
   margin-bottom: 10%;
+  line-height: 1.5;
 }
 
 #GKM #algemeenlinks{
@@ -157,6 +158,8 @@
   margin: 5% 0;
   width: 100%;
   font-weight: lighter;
+  border-collapse: collapse;
+  
 }
 
 #lessentabel table th{
