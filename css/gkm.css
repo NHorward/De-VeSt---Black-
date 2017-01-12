@@ -73,7 +73,9 @@
 }
 
 #GKM #slider figcaption a{
-  text-indent: -9999px;
+  width: 20%;
+  text-indent: -9999;
+  padding: 0 15%;
   
 }
 /*Sectie Taken*/
@@ -136,8 +138,7 @@
 
 /*Aside lessentabel*/
 #lessentabel{
-  margin-left: 16%;
-  margin-right: 10%;
+  margin: 5% 10% 0% 16%;
   padding-left: 5%;
 }
 #lessentabel h2{
