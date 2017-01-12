@@ -24,10 +24,6 @@
   margin-top: 0;
 }
 
-#GKM .GKMnav{
-  background-color: #f1c40f;
-}
-
 /* --- GKM sections --- */
 
 #GKM section{
@@ -61,6 +57,8 @@
 #GKM #slider figcaption {
   margin-top: 2%;
   padding: 3%;
+  text-align: center;
+  margin-right: 10%;
 }
 
 #GKM #slider figure img{
@@ -71,6 +69,7 @@
 #GKM #slider figure #imgwrapper{
   height: 300px;
   overflow: hidden;
+  margin-right: 10%;
 }
 
 /*Sectie Taken*/
@@ -120,7 +119,6 @@
 /*Sectie attitudes en stages*/
 
 #GKM #attitudeswrapper div, #GKM #stageswrapper div{
-  
 }
 
 #GKM #attitudes ul, #GKM #stages ul{
@@ -134,7 +132,8 @@
 
 /*Aside lessentabel*/
 #lessentabel{
-  margin: 5% 10% 0% 16%;
+  margin-left: 16%;
+  margin-right: 10%;
   padding-left: 5%;
 }
 #lessentabel h2{
@@ -153,7 +152,6 @@
   margin: 5% 0;
   width: 100%;
   font-weight: lighter;
-  border-collapse: collapse;
 }
 
 #lessentabel table th{
