@@ -45,10 +45,18 @@ width:10%;
 text-align: center;
 }
 
+.rond:hover{
+opacity: 0.8;
+cursor:pointer;
+}
 
 #opleidingen{
 margin-left:30%;
 
+}
+
+.opleidingen{
+margin-top:0.5%;  
 }
 
 #keuze{
@@ -57,8 +65,9 @@ margin-left:16%;
 }
 
 
+
 .HL:hover{
-    opacity: 0.8;
+    opacity: 0.8; 
 }
 
 .TA:hover{
@@ -66,13 +75,13 @@ margin-left:16%;
 }
 
 .LA:hover{
-  opacity: 0.8;   
+  opacity: 0.8; 
 }
 
 .SD:hover{
-    opacity: 0.8;
+    opacity: 0.8;   
 }
 
 .GKM:hover{
-    opacity: 0.8;
+    opacity: 0.8;  
 }

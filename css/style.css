@@ -242,6 +242,29 @@ li.active {
   background-color: #5ec64d;
 }
 
+.HL:hover{
+    opacity: 0.8; 
+}
+
+.TA:hover{
+    opacity: 0.8;
+}
+
+.LA:hover{
+  opacity: 0.8; 
+}
+
+.SD:hover{
+    opacity: 0.8;   
+}
+
+.GKM:hover{
+    opacity: 0.8;  
+}
+
+.duaal:hover{
+    opacity: 0.8;
+}
 
 /* --- OPMAAK VAN DE NAV VAN DE VERSCHILLENDE OPLEIDINGEN --- */
 
