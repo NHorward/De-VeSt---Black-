@@ -34,11 +34,14 @@ width:50%;
 .links{
 width:11%; 
 padding: 2%;
-
 position: absolute;
-height:22.5%;
-z-index: -1
+height:16%;
+z-index: -1;
     
+}
+
+.opleidingsfase{
+ padding-bottom: 2%;   
 }
 
 .observatiefase{
@@ -48,9 +51,9 @@ margin-top:2%;
 .Duaal{
     float:right;
     width:26%;
-    margin-top:4%;
+    margin-top:8%;
 padding-right:20%; 
-padding-bottom: 7.1%;
+
 margin-bottom:4%;
 
 
@@ -59,7 +62,7 @@ margin-bottom:4%;
 .Kwalificatiefase{
 width:26%;
 position: absolute;
-margin-top:4%;
+margin-top:8%;
 
 }
 
@@ -67,6 +70,7 @@ margin-top:4%;
 .ABO{
 clear:both;
 margin-bottom: 4%;
+padding-bottom:2%;
 }
 
 .pijl{
@@ -83,7 +87,7 @@ width:11%;
 position: absolute;
 height:50.3%;
 z-index: -1 ;
-margin-top:4%;
+margin-top:8%;
 padding-right:3%;
 }
 
@@ -95,9 +99,12 @@ margin-left:5%;
 .links3{
 width:11%; 
 position: absolute;  
-margin-top:-21.75%;
-height:27.5%;
+margin-top:-18.5%;
+height:21.5%;
 z-index: -1 ;
+padding: 2%;
+
+
 
 }
 
