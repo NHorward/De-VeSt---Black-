@@ -345,3 +345,68 @@ footer li {
   margin-top: 11%;
   padding: 0.5% 0 2% 0;
 }
+
+
+/* ---- HOME PAGE ---- */
+
+.welkom {
+  color: #85c226;
+  text-align: center;
+}
+
+.welkom h1 {
+  color: #85c226;
+  text-align: center;
+}
+
+
+/* -- nieuws sectie -- */
+
+.nieuws {
+  padding-left: 16%;
+}
+
+.nieuws h2 {
+  color: #29aae2;
+}
+
+
+/* -- Aanbod sectie -- */
+
+.aanbod {
+  height: auto;
+}
+
+.aanbod h2 {
+  color: #85c226;
+  margin-left: 16%;
+}
+
+.basis {
+  padding-left: 16%;
+  float: left;
+  width: 30%;
+}
+
+.type9 {
+  float: right;
+  width: 32%;
+  padding-right: 13%;
+}
+
+
+/* -- Sfeerbeelden sectie -- */
+
+.sfeerbeelden {
+  width: 100%;
+}
+
+.slider {
+  width: 80%;
+  margin-left: 16%;
+  text-align: center;
+}
+
+.slider img {
+  width: 50%;
+}
