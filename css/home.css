@@ -84,13 +84,18 @@ Kleur duaal groen: #5ec64d */
    margin-right: 1%;
    width: 15%;
    display: inline-block;
-   border-bottom: solid #5a5760 1px;
+   border-bottom: solid #85c226 1px;
    padding-bottom: 1%;
  }
  
  .personeel a {
    text-decoration: none;
    color: #5a5760;
+ }
+ 
+ .team h2 {
+   color: #85c226;
+   text-decoration: underline;
  }
  
  .team li {
@@ -102,5 +107,18 @@ Kleur duaal groen: #5ec64d */
  }
  
  .team img {
+   width: 100%;
+ }
+ 
+ #directie {
+   margin: 1% 0 0 0;
+   padding-left: 16%;
+ }
+ 
+ #oht li {
+   text-align: left;
+   list-style: none;
+   display: block;
+   padding-bottom: 1%;
    width: 100%;
  }
