@@ -1,3 +1,7 @@
+/* --- GKM --- */
+
+/* --- GKM header --- */
+
 #GKM .headerbackground{
   margin-left: 16%;
   min-height: 210px;
@@ -14,13 +18,16 @@
   width: 90%;
 }
 
+/* --- GKM menubar --- */
+
 #GKM .menubar ul li:first-child{
   margin-top: 0;
 }
 
+/* --- GKM sections --- */
+
 #GKM section{
   margin-top: 5%;
-  margin-left: 16%;
   padding-left: 5%;
 }
 
@@ -158,4 +165,27 @@
 
 #lessentabel tr:nth-of-type(odd) th{
     background-color: #f1c40f;
+}
+
+/* -- GKM andere opleidingen-- */
+
+#GKM .opleidingen{
+  margin-left: 0;
+}
+
+#GKM #andereopleidingen h2 a{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+  color: #5a5760;
+}
+
+#GKM .opl ul {
+  text-align: left;
+}
+
+#GKM #andereopleidingen ul li a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 25% 2%;
 }
