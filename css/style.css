@@ -186,12 +186,9 @@ header h1 {
 li.active {
   background-color: #29aae2;
   color: white;
-<<<<<<< HEAD
   font-size: 1em;
   padding: 7% 5% 10% 10%;
-=======
   font-size: 1.25em;
->>>>>>> origin/master
 }
 
 
