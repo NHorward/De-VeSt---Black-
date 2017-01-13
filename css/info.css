@@ -12,6 +12,14 @@ Kleur duaal groen: #5ec64d */
 
 /* --- PRAKTISCHE INFO --- */
 
+.info h2:before {
+ display: inline-block;
+ font-size: 2em;
+ padding: 0.5em;
+ padding-right: 1.5em;
+ max-width: 3%;
+}
+
 .info article:nth-child(odd) {
  color: #5a5760;
 }
@@ -91,5 +99,9 @@ Kleur duaal groen: #5ec64d */
 }
 
 a.info-button-grijs {
+ color: #5a5760;
+}
+
+a.grijzelink {
  color: #5a5760;
 }
