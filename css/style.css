@@ -412,6 +412,11 @@ footer li {
   padding: 3% 0;
 }
 
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
 .f_prakt_info {
   float: left;
   width: 16%;
@@ -486,9 +491,6 @@ footer li {
 .f_copyright ul li a:hover {
   color: #85c226;
 }
-
-
-/* -- Spritesheet -- */
 
 
 /* ---- HOME PAGE ---- */
@@ -658,6 +660,51 @@ strong {}
   display: block;
   padding-bottom: 1%;
   width: 100%;
+}
+
+.team p:nth-child(even) {
+  font-weight: regular;
+}
+
+.team p:nth-child(odd) {
+  font-style: italic;
+}
+
+
+/* --- nieuws sectie home page --- */
+
+.team ul {
+  margin-top: 1%;
+}
+
+.lkr ul {
+  position: relative;
+  width: 50%;
+  padding: 1% 30% 1% 0;
+  margin-right: 16%;
+}
+
+.lkr li {
+  list-style: none;
+  padding: 1.25% 1%;
+  width: 45%;
+}
+
+.lkr li:focus,
+.lkr li:hover {
+  background-color: #4c750b;
+}
+
+.lkr li:hover img {
+  display: block;
+}
+
+.lkr img {
+  width: 30%;
+  display: none;
+  position: absolute;
+  top: 6%;
+  right: 2%;
 }
 
 
