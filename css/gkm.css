@@ -63,7 +63,14 @@ li.GKMselected{
   margin-right: 10%;
 }
 
+#GKM #sliderwrapper{
+  background-color: #f1c40f;
+}
+
 #GKM #slider{
+  background-color: white;
+  margin-left: 15%;
+
 }
 
 #GKM #slider figcaption {
@@ -71,6 +78,7 @@ li.GKMselected{
   padding: 3%;
   text-align: center;
   margin-right: 10%;
+  color: white;
 }
 
 #GKM #slider figure img{
@@ -134,8 +142,18 @@ li.GKMselected{
 }
 
 /*Sectie attitudes en stages*/
+#GKM #attitudes, #GKM #stages{
+  margin-left: 15%;
+  padding-left: 0;
+}
 
-#GKM #attitudeswrapper div, #GKM #stageswrapper div{
+#GKM #stageswrapper, #GKM #attitudeswrapper{
+  background-color: #29aae2;
+}
+
+#GKM #stageswrapper .balkeffect, #GKM #attitudeswrapper .balkeffect{
+  background-color: white;
+  padding-left: 7%;
 }
 
 #GKM #attitudes ul, #GKM #stages ul{

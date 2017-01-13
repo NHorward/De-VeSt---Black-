@@ -55,3 +55,45 @@ p:nth-child(odd){
    top: 6%;
    right: 2%;
  }
+
+/* --- SLIDER ---*/
+
+#HOME #sliderwrapper{
+  background-color: #29aae2;
+}
+
+#HOME #slider{
+  background-color: white;
+  margin-left: 15%;
+}
+
+#HOME .balkeffect{
+  background-color: white;
+  padding-left: 1%;
+}
+
+#HOME #slider figcaption {
+  margin-top: 2%;
+  padding: 3%;
+  text-align: center;
+  margin-right: 10%;
+  background-color: #29aae2;
+  color: white;
+}
+
+#HOME #slider figure img{
+  max-width: 100%;
+  overflow: hidden;
+}
+
+#HOME #slider figure #imgwrapper{
+  overflow: hidden;
+  margin-right: 10%;
+}
+
+#HOME #slider figcaption a{
+  width: 20%;
+  padding: 0 15%;
+  color: white;
+  text-decoration: none;
+}

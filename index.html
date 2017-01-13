@@ -8,13 +8,13 @@
   <link rel="stylesheet" href="css/home.css">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> </head>
 
-<body>
+<body id="HOME">
   <div class="banner"><img class="logo" src="img/Logo_Grijs.png"><img src="img/header.jpg"> </div>
   <nav class="menubar">
     <ul>
       <li class="active"> Home </li>
-      <li> <a href="#"> Aanbod</a></li>
-      <li> <a href="opleidingsfasen.html"> Opleidingen</a></li>
+      <li> <a href="opleidingen.html"> Aanbod</a></li>
+      <li> <a href="opleidingsfases.html"> Opleidingen</a></li>
       <li> <a href="info.html"> Praktische info</a></li>
       <li> <a href="team.html"> Team</a></li>
       <li> <a href="contact.html"> Contact</a></li>
@@ -78,12 +78,18 @@
           <br> tuinbeheer </a> </li>
     </ul>
   </nav>
-  <section class="sfeerbeelden">
-    <div class="blauw vak_links"></div>
-    <figure class="blauw slider"> <img src="img/HL/HL-lokaal.JPG">
-      <figcaption> Lokaal HL </figcaption>
-    </figure>
-  </section>
+  <div id="sliderwrapper">
+    <section id="slider" class="clearfix">
+      <div class="balkeffect">
+        <figure class="">
+          <div id="imgwrapper">
+            <img src="img/HL/HL-lokaal.JPG" alt="Student in de keuken">
+          </div>
+          <figcaption><a href="#"><span class="icon-arrowlinkswit"></span></a>3e graad Grootkeukenmedewerker: Eindwerken<a href="#"><span class="icon-arrowrechtswit"></span></a></figcaption>
+        </figure>
+      </div>
+    </section>
+  </div>
   <footer>
     <div id="footercontent">
       <nav class="f_prakt_info">
@@ -114,9 +120,9 @@
           <li>Fax.: 02/251 94 29</li>
         </ul>
       </article>
-     </div>
-      <article class="f_copyright clearfix"> logo facebook
-        <br> &copy; de VeSt - 2017 </article>
+    </div>
+    <article class="f_copyright clearfix"> logo facebook
+      <br> &copy; de VeSt - 2017 </article>
   </footer>
 </body>
 
