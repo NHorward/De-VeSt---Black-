@@ -77,26 +77,57 @@ h3 {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-facebookgrijs:before {
+  content: "\e90a";
+}
+.icon-facebookwit:before {
+  content: "\e90b";
+}
+.icon-arrowrechtswit:before {
+  content: "\e906";
+}
+.icon-arrowlinksgrijs:before {
+  content: "\e907";
+}
+.icon-arrowlinkswit:before {
+  content: "\e908";
+}
+.icon-arrowrechtsgrijs:before {
+  content: "\e909";
+}
+.icon-add-contact:before {
+  content: "\e90e";
+}
+.icon-agreement:before {
+  content: "\e90f";
+}
+.icon-coins-on-hand:before {
+  content: "\e910";
+}
+.icon-newspaper:before {
+  content: "\e911";
+}
+.icon-open-magazine:before {
+  content: "\e912";
+}
+.icon-open-pdf-booklet:before {
+  content: "\e913";
+}
 .icon-Duaal:before {
   content: "\e900";
 }
-
 .icon-TA:before {
   content: "\e901";
 }
-
 .icon-GKM:before {
   content: "\e902";
 }
-
 .icon-HL:before {
   content: "\e903";
 }
-
 .icon-LA:before {
   content: "\e904";
 }
-
 .icon-SD:before {
   content: "\e905";
 }
@@ -173,7 +204,7 @@ header h1 {
   display: block;
   height: 100%;
   width: 100%;
-  padding: 7% 5% 10% 10%;
+  padding: 7% 5% 2% 10%;
 }
 
 .menubar li:hover {
@@ -413,6 +444,24 @@ footer li {
   padding: 0.5% 0 2% 0;
 }
 
+.f_copyright ul li{
+  padding:0;
+}
+
+.f_copyright ul li:first-child{
+  padding-top:1%;
+}
+
+.f_copyright ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+.f_copyright ul li a:hover{
+  color: #85c226;
+}
+
+/* -- Spritesheet -- */
 
 /* ---- HOME PAGE ---- */
 
