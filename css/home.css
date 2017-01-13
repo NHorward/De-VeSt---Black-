@@ -15,43 +15,4 @@ p:nth-child(odd){
 */
  /* ---- TEAM PAGINA ---- */
  
- .team p:nth-child(even) {
-   font-weight: regular;
- }
  
- .team p:nth-child(odd) {
-   font-style: italic;
- }
- /* --- nieuws sectie home page --- */
- 
- .lkr ul {
-   position: relative;
-   width: 50%;
-   margin-top: 1%;
-   padding: 1% 30% 1% 0;
-   margin-right: 16%;
- }
- 
- .lkr li {
-   list-style: none;
-   padding: 1.25% 1%;
-   width: 45%;
- }
- 
- .lkr li:focus,
- .lkr li:hover {
-   background-color: #0c6c96;
-   color: #fff;
- }
- 
- .lkr li:hover img {
-   display: block;
- }
- 
- .lkr img {
-   width: 30%;
-   display: none;
-   position: absolute;
-   top: 6%;
-   right: 2%;
- }
