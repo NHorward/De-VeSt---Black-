@@ -7,48 +7,73 @@ Kleur TA groen: #1abc9c
 Kleur GKM geel: #f1c40f
 Kleur LA paars: #973cb6
 Kleur SD oranje: #fd8125
-Kleur duaal groen: #5ec64d */
+Kleur duaal groen: #5ec64d 
+
+p:nth-child(odd){
+  font-weight: bold;
+}
+*/
  /* ---- TEAM PAGINA ---- */
  
- .nieuws ul {
+ .team p:nth-child(even) {
+   font-weight: regular;
+ }
+ 
+ .team p:nth-child(odd) {
+   font-style: italic;
+ }
+ /* --- nieuws sectie home page --- */
+ 
+ .nieuws .blauw {
+   padding: 0;
+ }
+ 
+ .nieuws ul,
+ .lkr ul {
    display: inline-block;
    position: relative;
    width: 100%;
    list-style: none;
  }
  
- .nieuws li {
+ .nieuws li,
+ .lkr li {
    font: bold sans-serif;
    list-style: none;
+   padding: 1.25% 1%;
  }
  
  .nieuws li:focus,
- .nieuws li:hover {
-   background-color: transparent;
+ .nieuws li:hover,
+ .lkr li:focus,
+ .lkr li:hover {
+   background-color: #0c6c96;
    color: #fff;
  }
  
- .nieuws img {
-   background-color: #f4f4f4;
-   display: none;
-   height: 501px;
-   position: absolute;
-   right: 0;
-   top: 0;
-   width: 60%;
+ .nieuws h3,
+ .nieuws p {
+   width: 50%;
  }
  
- .nieuws a:hover + img,
- img:hover {
+ .nieuws li:hover img,
+ .lkr li:hover img {
    display: block;
  }
  
- .nieuws h2,
- p {
-   line-height: 20px;
-   padding: 0.5em;
+ .nieuws img {
+   height: 100%;
+   display: none;
+   position: absolute;
+   top: 0;
+   right: 0;
+   width: 45%;
  }
  
- .nieuws li {
-   height: 100px;
+ .lkr img {
+   display: none;
+   position: absolute;
+   top: 0;
+   right: 0;
+   width: 45%;
  }
