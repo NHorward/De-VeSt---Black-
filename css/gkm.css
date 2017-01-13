@@ -87,9 +87,9 @@ li.GKMselected{
 
 #GKM #slider figcaption a{
   width: 20%;
-  text-indent: -9999;
   padding: 0 15%;
-  
+  color: white;
+  text-decoration: none;
 }
 /*Sectie Taken*/
 
