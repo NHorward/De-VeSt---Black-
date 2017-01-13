@@ -336,30 +336,51 @@ footer {
   color: white;
   font-size: 0.75em;
   width: 100%;
-  padding-top: 1%;
-  margin-top: 1%;
+  padding-top: 3%;
+  margin-top: 5%;
+}
+
+#footercontent{
+  margin-left: 16%;
+  padding-left: 5%;
 }
 
 footer h5 {
   font-size: 1em;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
 }
 
 footer li {
   list-style: none;
-  padding: 1% 0;
+  font-family: 'Raleway', sans-serif;
+  padding: 3% 0;
 }
 
 .f_prakt_info {
   float: left;
   width: 16%;
   position: relative;
-  left: 9%;
+  left: 0%;
   overflow: hidden;
   text-align: right;
+  border-right: solid white 1px;
+  padding-right: 2%;
 }
 
 .f_logo {
+  float: left;
+  width: 16%;
+  position: relative;
+  left: 6%;
+  overflow: hidden;
+  padding: 0 5%;
+}
+
+.f_logo img {
+  width: 120%;
+}
+
+.f_aanbod {
   float: left;
   width: 16%;
   position: relative;
@@ -367,20 +388,10 @@ footer li {
   overflow: hidden;
   border-left: solid white 1px;
   padding-left: 2%;
-  border-right: solid white 1px;
-  padding-right: 2%;
 }
 
-.f_logo img {
-  width: 100%;
-}
-
-.f_aanbod {
-  float: left;
-  width: 10%;
-  position: relative;
-  left: 12%;
-  overflow: hidden;
+.f_aanbod ul li:nth-child(3), .f_aanbod ul li:nth-child(4){
+  text-indent: -9999px;
 }
 
 .f_contact {
@@ -388,7 +399,7 @@ footer li {
   float: left;
   width: 16%;
   position: relative;
-  left: 17%;
+  left: 12%;
   overflow: hidden;
   border-left: solid white 1px;
   padding-left: 2%;

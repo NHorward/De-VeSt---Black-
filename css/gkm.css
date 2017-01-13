@@ -48,6 +48,10 @@ li.GKMselected{
   line-height: 1.5;
 }
 
+#GKM #algemeen h3{
+  color: #f1c40f;
+}
+
 #GKM #algemeenlinks{
   width: 30%;
   float: left;
@@ -194,6 +198,7 @@ li.GKMselected{
 
 #GKM .opleidingen{
   margin-left: 0;
+  margin-right: 13%;
 }
 
 #GKM #andereopleidingen h2 a{
