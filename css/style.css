@@ -417,6 +417,11 @@ footer a {
   color: white;
 }
 
+footer a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
 .f_prakt_info {
   float: left;
   width: 16%;
