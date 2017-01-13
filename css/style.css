@@ -84,13 +84,11 @@ h3 {
 .icon-facebookwit:before {
   content: "\e90b";
 }
-<<<<<<< HEAD
 
-=======
 .icon-bus:before {
   content: "\e90c";
 }
->>>>>>> origin/master
+
 .icon-arrowrechtswit:before {
   content: "\e906";
 }
@@ -245,7 +243,7 @@ li.active {
   background-color: #29aae2;
   color: white;
   font-size: 1em;
-  padding: 7% 5% 10% 10%;
+  padding: 7% 5% 2% 10%;
   font-size: 1.25em;
 }
 
