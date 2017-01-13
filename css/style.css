@@ -83,6 +83,9 @@ h3 {
 .icon-facebookwit:before {
   content: "\e90b";
 }
+.icon-bus:before {
+  content: "\e90c";
+}
 .icon-arrowrechtswit:before {
   content: "\e906";
 }
