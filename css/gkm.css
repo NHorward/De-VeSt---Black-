@@ -64,7 +64,6 @@ li.GKMselected{
 }
 
 #GKM #slider{
-  height: 400px;
 }
 
 #GKM #slider figcaption {
@@ -80,7 +79,6 @@ li.GKMselected{
 }
 
 #GKM #slider figure #imgwrapper{
-  height: 300px;
   overflow: hidden;
   margin-right: 10%;
 }
