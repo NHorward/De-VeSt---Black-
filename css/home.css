@@ -24,56 +24,34 @@ p:nth-child(odd){
  }
  /* --- nieuws sectie home page --- */
  
- .nieuws .blauw {
-   padding: 0;
- }
- 
- .nieuws ul,
  .lkr ul {
-   display: inline-block;
    position: relative;
-   width: 100%;
-   list-style: none;
+   width: 50%;
+   margin-top: 1%;
+   padding: 1% 30% 1% 0;
+   margin-right: 16%;
  }
  
- .nieuws li,
  .lkr li {
-   font: bold sans-serif;
    list-style: none;
    padding: 1.25% 1%;
+   width: 45%;
  }
  
- .nieuws li:focus,
- .nieuws li:hover,
  .lkr li:focus,
  .lkr li:hover {
    background-color: #0c6c96;
    color: #fff;
  }
  
- .nieuws h3,
- .nieuws p {
-   width: 50%;
- }
- 
- .nieuws li:hover img,
  .lkr li:hover img {
    display: block;
  }
  
- .nieuws img {
-   height: 100%;
-   display: none;
-   position: absolute;
-   top: 0;
-   right: 0;
-   width: 45%;
- }
- 
  .lkr img {
+   width: 30%;
    display: none;
    position: absolute;
-   top: 0;
-   right: 0;
-   width: 45%;
+   top: 6%;
+   right: 2%;
  }
