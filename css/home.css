@@ -15,6 +15,7 @@ p:nth-child(odd){
 */
  /* ---- TEAM PAGINA ---- */
  
+<<<<<<< HEAD
  .team p:nth-child(even) {
    font-weight: regular;
  }
@@ -97,3 +98,6 @@ p:nth-child(odd){
   color: white;
   text-decoration: none;
 }
+=======
+ 
+>>>>>>> origin/master

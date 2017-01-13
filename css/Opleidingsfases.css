@@ -1,117 +1,109 @@
-p{
- width:90%; 
-margin-left:5%;
-}
+/*kleur  */
 
-.rond{
-border-radius: 5px;
-border: 1px solid white;
-text-align: center;
-width:10%;
-
-}
-
-.rond:hover{
-opacity: 0.7;
-cursor:pointer;
-}
-
-.opleidingen{
-margin-top:0.5%;
-margin-bottom:4%;
-margin-left:30%
- 
-    
-    
-}
-
-#keuze{
-margin-top:4%;
-margin-left:30%;
-width:50%;
-}
-
-.links{
-width:11%; 
-padding: 2%;
-position: absolute;
-height:16%;
-z-index: -1;
-    
-}
-
-.opleidingsfase{
- padding-bottom: 2%;   
-}
-
-.observatiefase{
-margin-top:2%;
-}
-
-.Duaal{
-    float:right;
-    width:26%;
-    margin-top:8%;
-padding-right:20%; 
-
-margin-bottom:4%;
-
-
-    
-}
-.Kwalificatiefase{
-width:26%;
-position: absolute;
-margin-top:8%;
-
+.blauw1 {
+    background-color: #29aae2;
+    color: white;
+    padding-bottom: 2%
 }
 
 
-.ABO{
-clear:both;
-margin-bottom: 4%;
-padding-bottom:2%;
+/* Tekst */
+
+p {
+    width: 90%;
+    margin-left: 5%;
 }
 
-.pijl{
-position: absolute;
-width:10%;
-height:43.5%;
-margin-left:30%;
-margin-top:-5.5%;
-margin-left:17%;
+.rond {
+    border-radius: 5px;
+    border: 1px solid white;
+    text-align: center;
+    width: 10%;
 }
 
-.links2{
-width:11%; 
-position: absolute;
-height:50.3%;
-z-index: -1 ;
-margin-top:8%;
-padding-right:3%;
+.rond:hover {
+    opacity: 0.6;
+    cursor: pointer;
 }
 
-h2{
-text-decoration: underline;
-margin-left:5%;
+#keuze {
+    margin-top: 4%;
+    margin-left: 30%;
+    width: 50%;
 }
 
-.links3{
-width:11%; 
-position: absolute;  
-margin-top:-18.5%;
-height:21.5%;
-z-index: -1 ;
-padding: 2%;
-
-
-
+h2 {
+    text-decoration: underline;
+    margin-left: 5%;
 }
 
-.bizar{
-   width:30%; 
+
+/*Afbeeldingen */
+
+.opleidingen {
+    margin-top: 0.5%;
+    margin-bottom: 4%;
+    margin-left: 30%
 }
 
-.huh{
- margin-left:10%;   
+.pijl {
+    position: absolute;
+    width: 10%;
+    height: 40%;
+    margin-top: -5%;
+    margin-left: 19.5%;
+}
+
+
+/*Opmaak links */
+
+.links {
+    width: 11%;
+    padding: 2%;
+    position: absolute;
+    height: 16%;
+    z-index: -1;
+}
+
+.links2 {
+    width: 11%;
+    position: absolute;
+    margin-top: -18.5%;
+    height: 21%;
+    z-index: -1;
+    padding: 2%;
+}
+
+
+/* Soorten fases */
+
+.opleidingsfase {
+    padding-bottom: 2%;
+}
+
+.Kwalificatiefase {
+    margin: 0;
+    padding-left: 18.5%;
+    width: 26%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.Duaal {
+    float: right;
+    width: 26%;
+    margin-top: 4%;
+    padding-right: 18.5%;
+}
+
+.ABO {
+    margin-bottom: 4%;
+    padding-bottom: 2%;
+}
+
+
+/* Ik begrijp het zelf niet */
+
+.bizar {
+    width: 30%;
 }

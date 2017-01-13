@@ -5,7 +5,6 @@
   <meta charset="utf-8">
   <title>Team - BuSO De VeSt</title>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/home.css">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> </head>
 
 <body>
@@ -17,7 +16,7 @@
     <ul>
       <li> <a href="index.html"> Home</a></li>
       <li> <a href="#"> Aanbod</a></li>
-      <li> <a href="opleidingsfasen.html"> Opleidingen</a></li>
+      <li> <a href="opleidingsfasen.html"> Opleidingsfases</a></li>
       <li> <a href="info.html"> Praktische info</a></li>
       <li class="active"> Team </li>
       <li> <a href="contact.html"> Contact</a></li>
@@ -77,7 +76,7 @@
         </li>
       </ul>
     </section>
-    <section class="lkr">
+    <section class="lkr" id="lkr">
       <h2>Onderwijsteam / leerkrachten</h2>
       <ul class="groen">
         <li>Barbez Dimitri <img src="img/Team/Barbez%20Dimitri.jpg" alt=""></li>
@@ -149,30 +148,42 @@
     </section>
   </main>
   <footer>
-    <nav class="f_prakt_info">
-      <h5>Praktische informatie</h5>
+    <div id="footercontent">
+      <nav class="f_prakt_info">
+        <h5><a href="info.html">Praktische informatie</a></h5>
+        <ul>
+          <li><a href="info.html#inschrijven"> Inschrijven</a></li>
+          <li> <a href="info.html#schoolreglement"> Schoolreglement</a></li>
+          <li><a href="info.html#schoolbrochure">Schoolbrochure</a></li>
+          <li><a href="info.html#bereikbaarheid">Bereikbaarheid</a></li>
+        </ul>
+      </nav>
+      <div class="f_logo"><img src="img/Logo_Wit.png"></div>
+      <nav class="f_aanbod">
+        <h5><a href="#">Aanbod</a></h5>
+        <ul>
+          <li><a href="#">Basisaanbod</a></li>
+          <li><a href="#">Type 9 </a></li>
+          <li>.</li>
+          <li>.</li>
+        </ul>
+      </nav>
+      <article class="f_contact">
+        <h5>Contact</h5>
+        <ul>
+          <li>Vestenstraat 14,</li>
+          <li>1800 Vilvoorde</li>
+          <li>Tel.: 02/251 27 03</li>
+          <li>Fax.: 02/251 94 29</li>
+        </ul>
+      </article>
+    </div>
+    <article class="f_copyright clearfix">
       <ul>
-        <li>Inschrijven</li>
-        <li>Schoolreglement</li>
-        <li>Schoolbrochure</li>
-        <li>Bereikbaarheid</li>
+        <li class="facebook"><a href="https://www.facebook.com/devest.vilvoorde"><span class="icon-facebookwit"></span><br><br></a></li>
+        <li>&copy; de VeSt - 2017</li>
       </ul>
-    </nav>
-    <div class="f_logo"><img src="img/Logo_Wit.png"></div>
-    <nav class="f_aanbod">
-      <h5>Aanbod</h5>
-      <ul>
-        <li>Basisaanbod</li>
-        <li>Type 9</li>
-      </ul>
-    </nav>
-    <article class="f_contact">
-      <h5>Contact</h5> <span>Vestenstraat 14,<br>
-    1800 Vilvoorde <br>
-    Tel.: 02/251 27 03 <br>
-    Fax.: 02/251 94 29</span></article>
-    <article class="f_copyright clearfix"> logo facebook
-      <br> &copy; de VeSt - 2017 </article>
+    </article>
   </footer>
 </body>
 
