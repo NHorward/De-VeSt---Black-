@@ -1,0 +1,62 @@
+ /*KLEUREN  
+Accent groen: #85c226
+Accent blauw: #29aae2 
+Logo grijs: #5a5760 
+Kleur HL rood: #e74c3c
+Kleur TA groen: #1abc9c
+Kleur GKM geel: #f1c40f
+Kleur LA paars: #973cb6
+Kleur SD oranje: #fd8125
+Kleur duaal groen: #5ec64d 
+
+p:nth-child(odd){
+  font-weight: bold;
+}
+*/
+ 
+ .contactform {
+     width: 90%;
+     padding: 3%;
+ }
+ 
+ input,
+ textarea {
+     background-color: white;
+     padding: 7px;
+     font-size: 1em;
+     margin-top: 1%;
+ }
+ 
+ input {
+     width: 40%;
+ }
+ 
+ textarea {
+     width: 80%;
+ }
+ 
+ .btn {
+     width: 80%;
+     border: 1px solid white;
+     border-radius: 6px;
+     background-color: transparent;
+     color: white;
+     font-family: 'Raleway';
+ }
+ 
+ .selectbox {
+     margin-top: 1%;
+     margin-bottom: 4%
+     padding: 7px;
+     height: 30px;
+     width: 40%;
+     background-color: white;
+     border border-radius: 5px;
+ }
+.selectbox select{
+font-size: 0.85em;
+    width: 100%;
+    background-color: transparent;
+    height: 30px;
+    border: none;
+}
