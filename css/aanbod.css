@@ -1,0 +1,107 @@
+/*KLEUREN  
+Accent groen: #85c226
+Accent blauw: #29aae2 
+Logo grijs: #5a5760 
+Kleur HL rood: #e74c3c
+Kleur TA groen: #1abc9c
+Kleur GKM geel: #f1c40f
+Kleur LA paars: #973cb6
+Kleur SD oranje: #fd8125
+Kleur duaal groen: #5ec64d */
+
+
+/* --- PRAKTISCHE INFO --- */
+
+.info h2:before {
+ display: inline-block;
+ font-size: 2em;
+ padding: 0.5em;
+ padding-right: 1.5em;
+ max-width: 3%;
+}
+
+.info article:nth-child(odd) {
+ color: #5a5760;
+}
+
+.info h2:before {
+ display: inline-block;
+ font-size: 2em;
+ padding: 0.5em;
+ padding-right: 1.5em;
+ max-width: 3%;
+}
+
+.info article {
+ margin-top: 2em;
+ margin-bottom: 2em;
+ color: white;
+ padding: 0.5em;
+}
+
+.info article ul {
+ max-width: 70%;
+ margin: 2em;
+ margin-left: 10em;
+ margin-bottom: 3em;
+}
+
+.info a {
+ font-family: 'Raleway', sans-serif;
+ color: white;
+ text-decoration: none;
+}
+
+.info-hrarticle-wit {
+ height: 0.1em;
+ width: 40%;
+ background-color: white;
+ border: none;
+ margin-left: 9em;
+}
+
+.info-hrarticle-grijs {
+ height: 0.1em;
+ width: 40%;
+ background-color: #5a5760;
+ ;
+ border: none;
+ margin-left: 9em;
+}
+
+.info-button-wit {
+ text-align: center;
+ display: block;
+ text-decoration: none;
+ color: white;
+ padding: 0.5em;
+ margin: 2em;
+ margin-left: 40%;
+ max-width: 20%;
+ border-style: solid;
+ border-width: 0.15em;
+ border-radius: 0.5em;
+}
+
+.info-button-grijs {
+ text-align: center;
+ display: block;
+ text-decoration: none;
+ color: #5a5760;
+ padding: 0.5em;
+ margin: 2em;
+ margin-left: 40%;
+ max-width: 20%;
+ border-color: #5a5760;
+ border-style: solid;
+ border-width: 0.15em;
+ border-radius: 0.5em;
+}
+
+a.info-button-grijs {
+ color: #5a5760;
+}
+
+a.grijzelink {
+ color: #5a5760;
+}
