@@ -19,8 +19,9 @@ article,
 section {
   margin-left: 16%;
   margin-top: 2%;
+  margin-top: 5%;
+  padding-left: 5%;
 }
-
 
 /* ALGEMENE OPMAAK*/
 
@@ -167,7 +168,14 @@ h3 {
 
 /* ---- BANNER & LOGO ---- */
 
-.banner {}
+#bannercover {
+  background-image: url(../img/header.jpg);
+  margin-left: 16%;
+  min-height: 210px;
+  box-sizing: border-box;
+  background-size: cover;
+  background-position: center;
+}
 
 .logo {
   width: 15%;
@@ -191,8 +199,10 @@ header h1 {
   border-bottom: solid white 10px;
   padding-bottom: 1%;
   color: white;
-  text-indent: 5%;
-  width: 90%;
+  width: 100%;
+  color: #85c226;
+  text-align: center;
+  margin-right: 0; 
 }
 
 
@@ -503,18 +513,38 @@ footer a:hover {
 .welkom {
   color: #85c226;
   text-align: center;
+  margin-left: 16%;
+  margin: 5% 5% 5% 16%;
 }
 
-.welkom h1 {
-  color: #85c226;
+.moreinfoboxicon{
+  font-size: 0.6em;
+}
+
+#HOME .moreinfobox{
+  border-radius: 10px;
   text-align: center;
+  padding: 1% 0;
+  margin-top: 2%;
+  font-style: italic;
+  
+}
+
+#HOME .welkom .moreinfobox{
+  margin: 2% 40%;
+  border: 1px solid #85c226;
 }
 
 
 /* -- nieuws sectie -- */
 
+.nieuws{
+  padding-left: 0;
+}
+
 .nieuws h2 {
   color: #29aae2;
+  margin-bottom: 2%;
 }
 
 .nieuws article {
@@ -568,16 +598,25 @@ footer a:hover {
 .aanbod {
   height: auto;
   margin-left: 0;
+  padding-left: 0;
 }
 
 .aanbod h2 {
   color: #85c226;
   margin-left: 16%;
+  margin-bottom: 2%;
 }
 
 .aanbod article {
-  padding-top: 1%;
-  padding-bottom: 1%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.aanbod .moreinfobox{
+  width: 30%;
+  border: 1px solid;
+  border-color: white;
+  margin-top: 10%;
 }
 
 .basis {
@@ -585,6 +624,11 @@ footer a:hover {
   padding-left: 16%;
   float: left;
   width: 32%;
+}
+
+.aanbod h3{
+  font-size: 2em;
+  margin-bottom: 2%;
 }
 
 .type9 {
