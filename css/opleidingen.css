@@ -42,7 +42,7 @@ Kleur duaal groen: #5ec64d */
  margin-top: 2em;
  margin-bottom: 2em;
  color: white;
- padding: 0.5em;
+ overflow: hidden;
 }
 
 .opleidingenpagina article ul {
@@ -54,7 +54,10 @@ Kleur duaal groen: #5ec64d */
 
 .opleidingen-foto-rechts {
  float: right;
- width: 38%;
+ width: 42%;
+ overflow: hidden;
+ height: 100%;
+ object-fit: fill;
 }
 
 .opleidingen-hrarticle {
