@@ -319,6 +319,7 @@ li.active {
 
 /* -- Verschillende kleuren van de opleidingen */
 
+li.HL,
 .HL {
   background-color: #e74c3c;
 }
@@ -335,6 +336,7 @@ li.active {
   background-color: #fd8125;
 }
 
+li.GKM,
 .GKM {
   background-color: #f1c40f;
 }
@@ -569,8 +571,8 @@ footer a:hover {
 }
 
 
-
 /* ---- HOME PAGE ---- */
+
 
 /* -- Sectie Welkom -- */
 
@@ -741,7 +743,9 @@ footer a:hover {
 /* ---- TEAM PAGINA ---- */
 
 .p_index {
+  margin-top: 1%;
   margin-left: 16%;
+  padding-left: 5%;
 }
 
 .p_index li {
@@ -760,8 +764,16 @@ footer a:hover {
 }
 
 .team h2 {
+  width: 90%;
   color: #85c226;
-  text-decoration: underline;
+  padding-bottom: 1%;
+  border-bottom: solid #85c226 2px;
+}
+
+#directie h2 {
+  width: 92%;
+  color: white;
+  border-bottom: solid white 2px;
 }
 
 .team li {
@@ -772,15 +784,13 @@ footer a:hover {
   display: inline-block;
 }
 
-strong {}
-
 .team img {
   width: 100%;
 }
 
 #directie {
   margin: 1% 0 0 0;
-  padding-left: 16%;
+  padding-left: 21%;
 }
 
 #oht li {
@@ -837,25 +847,12 @@ strong {}
 }
 
 
-/* ---- CONTACT PAGINA ---- */
+/* ---------- GKM PAGINA (en een klein beetje HL)---------- */
 
-#adresgeg p::first-line {
-  font-weight: bolder;
-}
-
-/* ---------- GKM PAGINA---------- */
 
 /* --- GKM header --- */
 
-#GKM .headerbackground{
-  margin-left: 16%;
-  min-height: 210px;
-  padding-top: 5%;
-  box-sizing: border-box;
-  background-color: #f1c40f;
-}
-
-#GKM header h1{
+.spec_opl header h1 {
   border-bottom: solid white 10px;
   padding-bottom: 1%;
   color: white;
@@ -863,66 +860,81 @@ strong {}
   width: 90%;
 }
 
-/* --- GKM menubar --- */
 
-#GKM .menubar ul li:first-child{
+/* --- GKM menubar --- dit kan je normaal gezien weg laten*/
+
+#GKM .menubar ul li:first-child {
   margin-top: 0;
 }
 
-#GKM .menubar li:hover{
+#GKM .menubar li:hover {
   background-color: #f1c40f;
 }
 
-li.GKMselected{
+#HL .menubar li:hover {
+  background-color: #e74c3c;
+}
+
+li.GKMselected {
   background-color: #f1c40f;
 }
+
 
 /* --- GKM sections --- */
 
-#GKM section{
+.spec_opl section {
   margin-top: 5%;
   padding-left: 5%;
 }
 
-#GKM h2{
+.spec_opl h2 {
   margin-bottom: 2%;
 }
 
+
 /* -- Sectie Algemeen -- */
 
-#GKM #algemeen p{
+.spec_opl #algemeen p {
   margin-bottom: 10%;
   line-height: 1.5;
 }
 
-#GKM #algemeen h3{
+#GKM #algemeen h3 {
   color: #f1c40f;
 }
 
-#GKM #algemeenlinks{
+#HL #algemeen h3 {
+  color: #e74c3c;
+}
+
+.spec_opl #algemeenlinks {
   width: 30%;
   float: left;
 }
 
-#GKM #algemeenrechts{
+.spec_opl #algemeenrechts {
   width: 50%;
   float: right;
   margin-right: 10%;
 }
 
+
 /* -- Sectie Slider -- */
 
-#GKM #sliderwrapper{
+#GKM #sliderwrapper {
   background-color: #f1c40f;
 }
 
-#GKM #slider{
-  background-color: white;
-  margin-left: 15%;
-
+#HL #sliderwrapper {
+  background-color: #e74c3c;
 }
 
-#GKM #slider figcaption {
+.spec_opl #slider {
+  background-color: white;
+  margin-left: 15%;
+}
+
+.spec_opl #slider figcaption {
   margin-top: 2%;
   padding: 3%;
   text-align: center;
@@ -930,38 +942,40 @@ li.GKMselected{
   color: white;
 }
 
-#GKM #slider figure img{
+.spec_opl #slider figure img {
   width: 100%;
   overflow: hidden;
 }
 
-#GKM #slider figure #imgwrapper{
+.spec_opl #slider figure #imgwrapper {
   overflow: hidden;
   margin-right: 10%;
 }
 
-#GKM #slider figcaption a{
+.spec_opl #slider figcaption a {
   width: 20%;
   padding: 0 15%;
   color: white;
   text-decoration: none;
 }
 
-#GKM #slider figcaption a:hover{
-  color: #5a5760 ;
+.spec_opl #slider figcaption a:hover {
+  color: #5a5760;
 }
+
+
 /*Sectie Taken*/
 
-#GKM #taken div{
+.spec_opl #taken div {
   width: 34%;
   float: left;
   margin-right: 2%;
   padding: 5%;
-  margin-top:2%;
-  min-height: 190px; 
+  margin-top: 2%;
+  min-height: 190px;
 }
 
-#GKM #taken #basis{
+.spec_opl #taken #basis {
   width: 80%;
   float: none;
   background-color: #5a5760;
@@ -970,115 +984,146 @@ li.GKMselected{
   min-height: 90px;
 }
 
-#GKM #taken h3{
+.spec_opl #taken h3 {
   color: #ffffff;
   padding-bottom: 4%;
 }
 
-#GKM #taken #basis h3{
+#GKM #taken #basis h3 {
   color: #f1c40f;
   padding-bottom: 0%;
 }
 
-#GKM #taken ul li{
- padding-top: 2.5%;
+#HL #taken #basis h3 {
+  color: #e74c3c;
+  padding-bottom: 0%;
 }
 
-#GKM #taken #basis ul li{
+.spec_opl #taken ul li {
+  padding-top: 2.5%;
+}
+
+.spec_opl #taken #basis ul li {
   padding-top: 2%;
 }
 
-#GKM #takenimg{
+#GKM #takenimg {
   background-image: url(../img/GKM/studentkerstcupcakes.png);
   background-size: cover;
   background-position: bottom;
 }
 
+#HL #takenimg {
+  background-image: url(../img/HL/laswerk.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+
 /*Sectie attitudes en stages*/
-#GKM #attitudes, #GKM #stages{
+
+.spec_opl #attitudes,
+.spec_opl #stages {
   margin-left: 15%;
   padding-left: 0;
 }
 
-#GKM #stageswrapper, #GKM #attitudeswrapper{
+.spec_opl #stageswrapper,
+.spec_opl #attitudeswrapper {
   background-color: #29aae2;
 }
 
-#GKM #stageswrapper .balkeffect, #GKM #attitudeswrapper .balkeffect{
+.spec_opl #stageswrapper .balkeffect,
+.spec_opl #attitudeswrapper .balkeffect {
   background-color: white;
   padding-left: 7%;
 }
 
-#GKM #attitudes ul, #GKM #stages ul{
+.spec_opl #attitudes ul,
+.spec_opl #stages ul {
   padding-left: 5%;
 }
 
-#GKM #attitudes ul li, #GKM #stages ul li{
+.spec_opl #attitudes ul li,
+.spec_opl #stages ul li {
   padding-top: 1.5%;
   color: #29aae2;
 }
 
+
 /*Aside lessentabel*/
 
-#GKM #lessentabel{
+.spec_opl #lessentabel {
   margin: 5% 10% 0% 16%;
   padding-left: 5%;
 }
-#GKM #lessentabel h2{
+
+.spec_opl #lessentabel h2 {
   float: left;
   width: 50%;
 }
-#GKM #lessentabel h3{
+
+.spec_opl #lessentabel h3 {
   float: right;
   width: 50%;
   text-align: right;
   margin-bottom: 3%;
 }
 
-#GKM #lessentabel table{
-  border: solid 3px #f1c40f;
+.spec_opl #lessentabel table {
   margin: 5% 0;
   width: 100%;
   font-weight: lighter;
   border-collapse: collapse;
-  
 }
 
-#GKM #lessentabel table th{
+#GKM #lessentabel table {
+  border: solid 3px #f1c40f;
+}
+
+#HL #lessentabel table {
+  border: solid 3px #e74c3c;
+}
+
+.spec_opl #lessentabel table th {
   text-align: right;
   padding: 2.5% 5% 2.5% 0%;
-  margin-right: 15%; 
+  margin-right: 15%;
   font-weight: normal;
 }
 
-#GKM #lessentabel table td{
+.spec_opl #lessentabel table td {
   text-align: center;
   padding: 2.5% 10% 2.5% 10%;
 }
 
-#GKM #lessentabel .tableheading{
+.spec_opl #lessentabel .tableheading {
   font-size: 1.75em;
 }
 
-#GKM #lessentabel tr:nth-of-type(odd) th{
-    background-color: #f1c40f;
+#GKM #lessentabel tr:nth-of-type(odd) th {
+  background-color: #f1c40f;
 }
+
+#HL #lessentabel tr:nth-of-type(odd) th {
+  background-color: #e74c3c;
+}
+
 
 /* -- GKM andere opleidingen-- */
 
-#GKM .opleidingen{
+.spec_opl .opleidingen {
   margin-left: 0;
   margin-right: 13%;
 }
 
-#GKM #andereopleidingen h2 a{
+.spec_opl #andereopleidingen h2 a {
   font-family: 'Raleway', sans-serif;
   font-size: 1.5em;
   color: #5a5760;
   padding: 0;
 }
 
-#GKM .opl ul {
+.spec_opl .opl ul {
   text-align: left;
 }
-
