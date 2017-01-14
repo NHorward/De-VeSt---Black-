@@ -36,7 +36,6 @@ h1 {
   font-family: 'Raleway', sans-serif;
   font-size: 4em;
   font-weight: 200;
-  padding-top: 2%;
   color: white;
 }
 
@@ -70,7 +69,7 @@ h3 {
   speak: none;
   font-style: normal;
   font-weight: normal;
-  font-size: 2em;
+  font-size: 4em;
   font-variant: normal;
   text-transform: none;
   /*line-height: 1;
@@ -374,6 +373,7 @@ li.active {
 .opleidingen {
   margin-left: 16%;
   margin-top: 2%;
+  padding-left: 5%;
 }
 
 .opleidingen a {
@@ -388,6 +388,8 @@ li.active {
 }
 
 .opl li {
+  font-family: 'Raleway';
+  font-weight: 200;
   color: white;
   margin: 1% 1% 1% 0;
   list-style: none;
@@ -397,8 +399,9 @@ li.active {
   text-align: center;
 }
 
-.opl a {
-  font-family: tahoma, sans-serif;
+.opl li  a {
+  font-family: 'Raleway';
+  font-weight: 200;
   color: white;
   text-decoration: none;
   font-size: 16px;
@@ -555,7 +558,7 @@ footer a:hover {
 }
 
 #HOME .welkom .moreinfobox{
-  margin: 5% 40% 5% 35%;
+  margin: 5% 50% 5% 0%;
   border: 1px solid #85c226;
 }
 
@@ -578,11 +581,26 @@ footer a:hover {
 }
 
 .welkom p{
+    font-family: 'Raleway';
     text-align: left;
-    margin-left: 35%;
+    font-style: italic;
     line-height: 2;
+    font-weight: 300;
 }
 
+.welkom h2{
+  font-size: 1.75em;
+  text-align: left;
+  margin-left: 35%;
+}
+
+#visieinleiding{
+  border-top: solid 1px;
+  margin-left: 35%;
+  padding-left: 0;
+  padding-top: 2%;
+  margin-top: 1%;
+}
 
 /* -- nieuws sectie -- */
 
@@ -614,7 +632,7 @@ footer a:hover {
 .nieuws li {
   font: bold sans-serif;
   list-style: none;
-  padding: 3%;
+  padding: 3% 2% 3% 6%;
 }
 
 .nieuws li:focus,
