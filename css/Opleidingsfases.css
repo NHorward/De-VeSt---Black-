@@ -1,6 +1,6 @@
 /*kleur  */
 
-.blauw1 {
+.blauwopl {
     background-color: #29aae2;
     color: white;
     padding-bottom: 2%
@@ -40,65 +40,48 @@ h2 {
 
 /*Afbeeldingen */
 
-.opleidingen {
-    margin-top: 0.5%;
-    margin-bottom: 4%;
-    margin-left: 30%
+#pijl {
+    width: 10%;
+    height: 46%;
+    margin-left: 19.5%;
+    position: absolute;
+    margin-top: -5.5%;
 }
 
-.pijl {
-    position: absolute;
-    width: 10%;
-    height: 40%;
-    margin-top: -5%;
-    margin-left: 19.5%;
+.opleidingen {
+    margin-left: 25%
 }
 
 
 /*Opmaak links */
 
-.links {
-    width: 11%;
-    padding: 2%;
-    position: absolute;
-    height: 16%;
-    z-index: -1;
+#OPL #opmaak1 {
+    background-color: #85c226;
 }
 
-.links2 {
-    width: 11%;
-    position: absolute;
-    margin-top: -18.5%;
-    height: 21%;
-    z-index: -1;
-    padding: 2%;
+#OPL #witruimte {
+    margin-left: 15%;
+    border-left: 1.1em solid white;
 }
 
 
 /* Soorten fases */
 
-.opleidingsfase {
-    padding-bottom: 2%;
+.fases {
+    padding-left: 0%;
+    margin-bottom: 4%;
 }
 
 .Kwalificatiefase {
-    margin: 0;
-    padding-left: 18.5%;
-    width: 26%;
-    margin-top: 4%;
-    margin-bottom: 4%;
+    width: 30%;
+    margin: 0%;
 }
 
 .Duaal {
     float: right;
-    width: 26%;
-    margin-top: 4%;
-    padding-right: 18.5%;
-}
-
-.ABO {
-    margin-bottom: 4%;
-    padding-bottom: 2%;
+    width: 30%;
+    padding-right: 15%;
+    margin-top: 0%;
 }
 
 
