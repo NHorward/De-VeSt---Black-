@@ -27,7 +27,7 @@ section {
 
 body {
   color: #5a5760;
-  font-family: tahoma, sans-serif;
+  font-family: Tahoma, sans-serif;
   width: 100%;
 }
 
@@ -43,13 +43,13 @@ h1 {
 h2 {
   font-family: 'Raleway', sans-serif;
   font-weight: 200;
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 h3 {
   font-family: 'Raleway', sans-serif;
   font-weight: 200;
-  font-size: 1.25em;
+  font-size: 2em;
 }
 
 
@@ -202,9 +202,8 @@ h3 {
   color: white;
   width: 100%;
   color: #85c226;
-  text-align: center;
+  text-align: left;
   margin-right: 0; 
-  font-weight: 
 }
 
 header h1 {
@@ -232,6 +231,8 @@ header h1 {
 }
 
 .menubar li {
+  font-family: 'Raleway';
+  font-weight: 200;
   margin: 5% 0;
   list-style: none;
   display: block;
@@ -525,13 +526,12 @@ footer a:hover {
   font-size: 0.6em;
 }
 
-#HOME a.moreinfobox{
+#HOME .moreinfobox{
   display: block;
   border-radius: 10px;
   text-align: center;
   padding: 1% 5%;
   margin-top: 3%;
-  font-style: italic;
   background-color: #85c226;
   background-image: -webkit-linear-gradient(left, green, white, transparent 70%);
   background-position: 100% 0;
@@ -542,20 +542,20 @@ footer a:hover {
   -webkit-background-clip: text;
 }
 
-#HOME a.moreinfobox:hover{
+#HOME .moreinfobox:hover{
   background-position: 0 0;
   color: transparent;
   transition: 2s 0;
 }
 
-#HOME .aanbod a.moreinfobox{
+#HOME .aanbod .moreinfobox{
   background-color: white;
   background-image: -webkit-linear-gradient(left, white, #aaa, transparent 100%);
   
 }
 
 #HOME .welkom .moreinfobox{
-  margin: 2% 40%;
+  margin: 5% 40% 5% 35%;
   border: 1px solid #85c226;
 }
 
@@ -575,6 +575,12 @@ footer a:hover {
   text-align: center;
   margin-left: 16%;
   margin: 5% 5% 5% 16%;
+}
+
+.welkom p{
+    text-align: left;
+    margin-left: 35%;
+    line-height: 2;
 }
 
 
