@@ -43,6 +43,8 @@ li.GKMselected{
   margin-bottom: 2%;
 }
 
+/* -- Sectie Algemeen -- */
+
 #GKM #algemeen p{
   margin-bottom: 10%;
   line-height: 1.5;
@@ -62,6 +64,8 @@ li.GKMselected{
   float: right;
   margin-right: 10%;
 }
+
+/* -- Sectie Slider -- */
 
 #GKM #sliderwrapper{
   background-color: #f1c40f;
@@ -170,22 +174,23 @@ li.GKMselected{
 }
 
 /*Aside lessentabel*/
-#lessentabel{
+
+#GKM #lessentabel{
   margin: 5% 10% 0% 16%;
   padding-left: 5%;
 }
-#lessentabel h2{
+#GKM #lessentabel h2{
   float: left;
   width: 50%;
 }
-#lessentabel h3{
+#GKM #lessentabel h3{
   float: right;
   width: 50%;
   text-align: right;
   margin-bottom: 3%;
 }
 
-#lessentabel table{
+#GKM #lessentabel table{
   border: solid 3px #f1c40f;
   margin: 5% 0;
   width: 100%;
@@ -194,23 +199,23 @@ li.GKMselected{
   
 }
 
-#lessentabel table th{
+#GKM #lessentabel table th{
   text-align: right;
   padding: 2.5% 5% 2.5% 0%;
   margin-right: 15%; 
   font-weight: normal;
 }
 
-#lessentabel table td{
+#GKM #lessentabel table td{
   text-align: center;
   padding: 2.5% 10% 2.5% 10%;
 }
 
-#lessentabel .tableheading{
+#GKM #lessentabel .tableheading{
   font-size: 1.75em;
 }
 
-#lessentabel tr:nth-of-type(odd) th{
+#GKM #lessentabel tr:nth-of-type(odd) th{
     background-color: #f1c40f;
 }
 

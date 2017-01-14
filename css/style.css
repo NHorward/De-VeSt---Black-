@@ -23,6 +23,7 @@ section {
   padding-left: 5%;
 }
 
+
 /* ALGEMENE OPMAAK*/
 
 body {
@@ -30,7 +31,6 @@ body {
   font-family: Tahoma, sans-serif;
   width: 100%;
 }
-
 
 h1 {
   font-family: 'Raleway', sans-serif;
@@ -202,7 +202,7 @@ h3 {
   width: 100%;
   color: #85c226;
   text-align: left;
-  margin-right: 0; 
+  margin-right: 0;
 }
 
 header h1 {
@@ -210,7 +210,7 @@ header h1 {
   padding-bottom: 1%;
   color: white;
   width: 100%;
-  margin-right: 0; 
+  margin-right: 0;
   text-align: left;
   text-indent: 5%;
 }
@@ -399,7 +399,7 @@ li.active {
   text-align: center;
 }
 
-.opl li  a {
+.opl li a {
   font-family: 'Raleway';
   font-weight: 200;
   color: white;
@@ -524,12 +524,14 @@ footer a:hover {
   color: #85c226;
 }
 
-/*Overall*/
-.moreinfoboxicon{
+
+/* -- More info Box -- */
+
+.moreinfoboxicon {
   font-size: 0.6em;
 }
 
-#HOME .moreinfobox{
+#HOME .moreinfobox {
   display: block;
   border-radius: 10px;
   text-align: center;
@@ -541,23 +543,22 @@ footer a:hover {
   background-size: 400% 400%;
   color: transparent;
   -webkit-transition: 0.8s .2s;
-  -webkit-transition-timing-function: ease-out; 
+  -webkit-transition-timing-function: ease-out;
   -webkit-background-clip: text;
 }
 
-#HOME .moreinfobox:hover{
+#HOME .moreinfobox:hover {
   background-position: 0 0;
   color: transparent;
   transition: 2s 0;
 }
 
-#HOME .aanbod .moreinfobox{
+#HOME .aanbod .moreinfobox {
   background-color: white;
   background-image: -webkit-linear-gradient(left, white, #aaa, transparent 100%);
-  
 }
 
-#HOME .welkom .moreinfobox{
+#HOME .welkom .moreinfobox {
   margin: 5% 50% 5% 0%;
   border: 1px solid #85c226;
 }
@@ -567,11 +568,11 @@ footer a:hover {
   color: white;
 }
 
-#HOME .welkom a {
-  color: #85c226;
-}
+
 
 /* ---- HOME PAGE ---- */
+
+/* -- Sectie Welkom -- */
 
 .welkom {
   color: #85c226;
@@ -580,21 +581,25 @@ footer a:hover {
   margin: 5% 5% 5% 16%;
 }
 
-.welkom p{
-    font-family: 'Raleway';
-    text-align: left;
-    font-style: italic;
-    line-height: 2;
-    font-weight: 300;
+#HOME .welkom a {
+  color: #85c226;
 }
 
-.welkom h2{
+.welkom p {
+  font-family: 'Raleway';
+  text-align: left;
+  font-style: italic;
+  line-height: 2;
+  font-weight: 300;
+}
+
+.welkom h2 {
   font-size: 1.75em;
   text-align: left;
   margin-left: 35%;
 }
 
-#visieinleiding{
+#visieinleiding {
   border-top: solid 1px;
   margin-left: 35%;
   padding-left: 0;
@@ -602,9 +607,10 @@ footer a:hover {
   margin-top: 1%;
 }
 
+
 /* -- nieuws sectie -- */
 
-.nieuws{
+.nieuws {
   padding-left: 0;
 }
 
@@ -682,12 +688,11 @@ footer a:hover {
   width: 49%;
 }
 
-#HOME .aanbod .moreinfobox{
+#HOME .aanbod .moreinfobox {
   width: 30%;
   border: 1px solid;
   border-color: white;
   margin-top: 10%;
-  
 }
 
 .basis {
@@ -695,15 +700,14 @@ footer a:hover {
   padding-left: 21%;
   float: left;
   padding-right: 3%;
-  
 }
 
-#HOME .aanbod h3{
+#HOME .aanbod h3 {
   font-size: 2em;
   margin-bottom: 2%;
 }
 
-#HOME .aanbod p{
+#HOME .aanbod p {
   margin-bottom: 5%;
 }
 
@@ -839,5 +843,242 @@ strong {}
   font-weight: bolder;
 }
 
-/*HOVER EFFECT*/
+/* ---------- GKM PAGINA---------- */
+
+/* --- GKM header --- */
+
+#GKM .headerbackground{
+  margin-left: 16%;
+  min-height: 210px;
+  padding-top: 5%;
+  box-sizing: border-box;
+  background-color: #f1c40f;
+}
+
+#GKM header h1{
+  border-bottom: solid white 10px;
+  padding-bottom: 1%;
+  color: white;
+  text-indent: 5%;
+  width: 90%;
+}
+
+/* --- GKM menubar --- */
+
+#GKM .menubar ul li:first-child{
+  margin-top: 0;
+}
+
+#GKM .menubar li:hover{
+  background-color: #f1c40f;
+}
+
+li.GKMselected{
+  background-color: #f1c40f;
+}
+
+/* --- GKM sections --- */
+
+#GKM section{
+  margin-top: 5%;
+  padding-left: 5%;
+}
+
+#GKM h2{
+  margin-bottom: 2%;
+}
+
+/* -- Sectie Algemeen -- */
+
+#GKM #algemeen p{
+  margin-bottom: 10%;
+  line-height: 1.5;
+}
+
+#GKM #algemeen h3{
+  color: #f1c40f;
+}
+
+#GKM #algemeenlinks{
+  width: 30%;
+  float: left;
+}
+
+#GKM #algemeenrechts{
+  width: 50%;
+  float: right;
+  margin-right: 10%;
+}
+
+/* -- Sectie Slider -- */
+
+#GKM #sliderwrapper{
+  background-color: #f1c40f;
+}
+
+#GKM #slider{
+  background-color: white;
+  margin-left: 15%;
+
+}
+
+#GKM #slider figcaption {
+  margin-top: 2%;
+  padding: 3%;
+  text-align: center;
+  margin-right: 10%;
+  color: white;
+}
+
+#GKM #slider figure img{
+  width: 100%;
+  overflow: hidden;
+}
+
+#GKM #slider figure #imgwrapper{
+  overflow: hidden;
+  margin-right: 10%;
+}
+
+#GKM #slider figcaption a{
+  width: 20%;
+  padding: 0 15%;
+  color: white;
+  text-decoration: none;
+}
+
+#GKM #slider figcaption a:hover{
+  color: #5a5760 ;
+}
+/*Sectie Taken*/
+
+#GKM #taken div{
+  width: 34%;
+  float: left;
+  margin-right: 2%;
+  padding: 5%;
+  margin-top:2%;
+  min-height: 190px; 
+}
+
+#GKM #taken #basis{
+  width: 80%;
+  float: none;
+  background-color: #5a5760;
+  margin-right: 2%;
+  color: white;
+  min-height: 90px;
+}
+
+#GKM #taken h3{
+  color: #ffffff;
+  padding-bottom: 4%;
+}
+
+#GKM #taken #basis h3{
+  color: #f1c40f;
+  padding-bottom: 0%;
+}
+
+#GKM #taken ul li{
+ padding-top: 2.5%;
+}
+
+#GKM #taken #basis ul li{
+  padding-top: 2%;
+}
+
+#GKM #takenimg{
+  background-image: url(../img/GKM/studentkerstcupcakes.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+/*Sectie attitudes en stages*/
+#GKM #attitudes, #GKM #stages{
+  margin-left: 15%;
+  padding-left: 0;
+}
+
+#GKM #stageswrapper, #GKM #attitudeswrapper{
+  background-color: #29aae2;
+}
+
+#GKM #stageswrapper .balkeffect, #GKM #attitudeswrapper .balkeffect{
+  background-color: white;
+  padding-left: 7%;
+}
+
+#GKM #attitudes ul, #GKM #stages ul{
+  padding-left: 5%;
+}
+
+#GKM #attitudes ul li, #GKM #stages ul li{
+  padding-top: 1.5%;
+  color: #29aae2;
+}
+
+/*Aside lessentabel*/
+
+#GKM #lessentabel{
+  margin: 5% 10% 0% 16%;
+  padding-left: 5%;
+}
+#GKM #lessentabel h2{
+  float: left;
+  width: 50%;
+}
+#GKM #lessentabel h3{
+  float: right;
+  width: 50%;
+  text-align: right;
+  margin-bottom: 3%;
+}
+
+#GKM #lessentabel table{
+  border: solid 3px #f1c40f;
+  margin: 5% 0;
+  width: 100%;
+  font-weight: lighter;
+  border-collapse: collapse;
+  
+}
+
+#GKM #lessentabel table th{
+  text-align: right;
+  padding: 2.5% 5% 2.5% 0%;
+  margin-right: 15%; 
+  font-weight: normal;
+}
+
+#GKM #lessentabel table td{
+  text-align: center;
+  padding: 2.5% 10% 2.5% 10%;
+}
+
+#GKM #lessentabel .tableheading{
+  font-size: 1.75em;
+}
+
+#GKM #lessentabel tr:nth-of-type(odd) th{
+    background-color: #f1c40f;
+}
+
+/* -- GKM andere opleidingen-- */
+
+#GKM .opleidingen{
+  margin-left: 0;
+  margin-right: 13%;
+}
+
+#GKM #andereopleidingen h2 a{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+  color: #5a5760;
+  padding: 0;
+}
+
+#GKM .opl ul {
+  text-align: left;
+}
 
