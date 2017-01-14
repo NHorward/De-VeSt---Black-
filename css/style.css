@@ -824,8 +824,9 @@ footer a:hover {
 }
 
 .lkr li {
+  text-align: left;
   list-style: none;
-  padding: 1.25% 1%;
+  padding: 1.25% 1.25%;
   width: 45%;
 }
 
