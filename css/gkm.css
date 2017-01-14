@@ -97,6 +97,10 @@ li.GKMselected{
   color: white;
   text-decoration: none;
 }
+
+#GKM #slider figcaption a:hover{
+  color: #5a5760 ;
+}
 /*Sectie Taken*/
 
 #GKM #taken div{
