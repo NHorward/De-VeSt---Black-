@@ -32,8 +32,10 @@ p {
 }
 
 h2 {
-    text-decoration: underline;
     margin-left: 5%;
+    border-bottom: 1px solid white;
+    width: 90%;
+    padding: 1%;
 }
 
 

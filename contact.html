@@ -1,18 +1,12 @@
 <!doctype HTML>
 <html lang="nl">
 
-
-
 <head>
     <meta charset="utf-8">
     <title>Contact - De VeSt</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/contact.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,200i,300" rel="stylesheet">
-
-
-
-</head>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,200i,300" rel="stylesheet"> </head>
 
 <body>
     <header class="clearfix"> <img class="logo" src="img/Logo_Grijs.png">
@@ -21,96 +15,96 @@
         <nav class="menubar">
             <ul>
                 <li> <a href="index.html"> Home</a></li>
-                <li> <a href="#"> Aanbod</a></li>
-                <li> <a href="opleidingsfasen.html"> Opleidingsfases</a></li>
+                <li> <a href="aanbod.html"> Aanbod</a></li>
+                <li> <a href="opleidingsfases.html"> Opleidingsfases</a></li>
                 <li> <a href="info.html"> Praktische info</a></li>
                 <li> <a href="team.html"> Team </a></li>
                 <li class="active">Contact</li>
             </ul>
         </nav>
         <main>
-            <section class="adresgeg">
+            <section class="blokken"> <img id="luchtfoto" src="img/luchtfoto.PNG" alt="luchtfoto de VeSt">
+                <br>
                 <h2>Adresgegevens</h2>
-                <p>Aangepast Beroepsonderwijs de VeSt
+                <br>
+                <p> <b>Aaangepast Beroepsonderwijs de VeSt</b>
                     <br> Vestenstraat 14
                     <br> 1800 Vilvoorde
-                    <br> Tel: 02/ 251 27 03
-                    <br> secretariaat.devest@sovilvoorde.be</p>
+                    <br> tel: 02/ 251 27 03
+                    <br> secretariaat.devest@vilvoorde.be </p>
             </section>
-            <section class="contact blauw">
-            <h2>Contact</h2>
-            <form class="contactform">
-                <p>
-                    <input name="naam" type="text" id="naam" placeholder="Naam"> </p>
-                <p>
-                    <input name="email" type="email" id="Email" placeholder="Email"> </p>
-                <p class="selectbox">
-                    <select name="Onderwerp-lijst" id="onderwerp-select">
-                        <option value="inschrijvingen">inschrijvingenen</option>
-                        <option value="leerkrachten">leerkrachten</option>
-                        <option value="Voorbeelden">een ander voorbeeld</option>
-                        <option value="Andere">anders</option>
-                    </select>
-                </p>
-                <p>
-                    <textarea>Bericht</textarea>
-                </p>
-                <p>
-                    <input name="Knop verzenden" type="submit" value="Verzenden" class="btn"> </p>
-            </form>
-
-            </section>
-            <section class="situering">
-                <h2>Situering</h2>
-                <div id="kaart">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2514.5296035340016!2d4.419096215748932!3d50.93241807954477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3e80099f23bf1%3A0x3aed68e9845f1eae!2sVestenstraat+14%2C+1800+Vilvoorde!5e0!3m2!1snl!2sbe!4v1484219863721" width="450" height="450" frameborder="5px" style="border:5px" allowfullscreen></iframe>
-                </div>
+            <div class="bloklinks">
+                <section class="blauw blokken" id="witterand">
+                    <br>
+                    <h2>Contact</h2>
+                    <br>
+                    <form id="formulier" action="mailto:DeVeSt.email@email.com">
+                        <p>
+                            <input type="text" placeholder="Naam"> </p>
+                        <p>
+                            <input type="email" placeholder="Email-adres"> </p>
+                        <p>
+                            <select id="keuze" name="Onderwerp">
+                                <option value="Onderwerp" disabled selected> Onderwerp </option>
+                                <option value="inschrijvingen">inschrijvingen</option>
+                                <option value="leerkrachten">leerkrachten</option>
+                                <option value="klachten">klachten</option>
+                                <option value="Afspraak">Afspraak maken</option>
+                                <option value="Andere">andere</option>
+                            </select>
+                        </p>
+                        <p>
+                            <textarea placeholder="Bericht"></textarea>
+                        </p>
+                        <p>
+                            <input type="submit"> </p>
+                    </form>
+                </section>
+            </div>
+            <section id="Situering">
+                <h2 id="lijnzwart">Situering</h2>
+                <br>
+                <iframe id="kaart" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2514.5296035340016!2d4.419096215748932!3d50.93241807954477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3e80099f23bf1%3A0x3aed68e9845f1eae!2sVestenstraat+14%2C+1800+Vilvoorde!5e0!3m2!1snl!2sbe!4v1484219863721" width="450" height="450" frameborder="5px" style="border:5px" allowfullscreen></iframe>
             </section>
         </main>
-
         <footer>
-    <div id="footercontent">
-      <nav class="f_prakt_info">
-        <h5><a href="info.html">Praktische informatie</a></h5>
-        <ul>
-          <li><a href="info.html#inschrijven"> Inschrijven</a></li>
-          <li> <a href="info.html#schoolreglement"> Schoolreglement</a></li>
-          <li><a href="info.html#schoolbrochure">Schoolbrochure</a></li>
-          <li><a href="info.html#bereikbaarheid">Bereikbaarheid</a></li>
-        </ul>
-      </nav>
-      <div class="f_logo"><img src="img/Logo_Wit.png"></div>
-      <nav class="f_aanbod">
-        <h5><a href="#">Aanbod</a></h5>
-        <ul>
-          <li><a href="#">Basisaanbod</a></li>
-          <li><a href="#">Type 9 </a></li>
-          <li>.</li>
-          <li>.</li>
-        </ul>
-      </nav>
-      <article class="f_contact">
-        <h5>Contact</h5>
-        <ul>
-          <li>Vestenstraat 14,</li>
-          <li>1800 Vilvoorde</li>
-          <li>Tel.: 02/251 27 03</li>
-          <li>Fax.: 02/251 94 29</li>
-        </ul>
-      </article>
-    </div>
-<<<<<<< HEAD
-    <article class="f_copyright clearfix"> logo facebook
-      <br> &copy; de VeSt - 2017 </article>
-=======
-    <article class="f_copyright clearfix">
-      <ul>
-        <li class="facebook"><a href="https://www.facebook.com/devest.vilvoorde"><span class="icon-facebookwit"></span><br><br></a></li>
-        <li>&copy; de VeSt - 2017</li>
-      </ul>
-    </article>
->>>>>>> origin/master
-  </footer>
+            <div id="footercontent">
+                <nav class="f_prakt_info">
+                    <h5>Praktische informatie</h5>
+                    <ul>
+                        <li>Inschrijven</li>
+                        <li>Schoolreglement</li>
+                        <li>Schoolbrochure</li>
+                        <li>Bereikbaarheid</li>
+                    </ul>
+                </nav>
+                <div class="f_logo"><img src="img/Logo_Wit.png"></div>
+                <nav class="f_aanbod">
+                    <h5>Aanbod</h5>
+                    <ul>
+                        <li>Basisaanbod</li>
+                        <li>Type 9</li>
+                        <li>.</li>
+                        <li>.</li>
+                    </ul>
+                </nav>
+                <article class="f_contact">
+                    <h5>Contact</h5>
+                    <ul>
+                        <li>Vestenstraat 14,</li>
+                        <li>1800 Vilvoorde</li>
+                        <li>Tel.: 02/251 27 03</li>
+                        <li>Fax.: 02/251 94 29</li>
+                    </ul>
+                </article>
+            </div>
+            <article class="f_copyright clearfix">
+                <ul>
+                    <li class="facebook"><a href="https://www.facebook.com/devest.vilvoorde"><span class="icon-facebookwit"></span><br><br></a></li>
+                    <li>&copy; de VeSt - 2017</li>
+                </ul>
+            </article>
+        </footer>
     </header>
 </body>
 

@@ -1,62 +1,108 @@
- /*KLEUREN  
-Accent groen: #85c226
-Accent blauw: #29aae2 
-Logo grijs: #5a5760 
-Kleur HL rood: #e74c3c
-Kleur TA groen: #1abc9c
-Kleur GKM geel: #f1c40f
-Kleur LA paars: #973cb6
-Kleur SD oranje: #fd8125
-Kleur duaal groen: #5ec64d 
-
-p:nth-child(odd){
-  font-weight: bold;
-}
-*/
- 
- .contactform {
-     width: 90%;
-     padding: 3%;
- }
- 
- input,
- textarea {
-     background-color: white;
-     padding: 7px;
-     font-size: 1em;
-     margin-top: 1%;
- }
- 
- input {
-     width: 40%;
- }
- 
- textarea {
-     width: 80%;
- }
- 
- .btn {
-     width: 80%;
-     border: 1px solid white;
-     border-radius: 6px;
-     background-color: transparent;
-     color: white;
-     font-family: 'Raleway';
- }
- 
- .selectbox {
-     margin-top: 1%;
-     margin-bottom: 4%
-     padding: 7px;
-     height: 30px;
-     width: 40%;
-     background-color: white;
-     border border-radius: 5px;
- }
-.selectbox select{
-font-size: 0.85em;
-    width: 100%;
-    background-color: transparent;
-    height: 30px;
-    border: none;
-}
+               /* tekst */
+               
+               h2 {
+                   margin-left: 5%;
+                   border-bottom: 1px solid white;
+                   width: 90%;
+                   padding: 1%;
+               }
+               
+               p {
+                   padding-bottom: 2%;
+                   padding-left: 5%;
+               }
+               /* opmaak */
+               
+               .blokken {
+                   padding: 0%;
+                   margin-top: 4%;
+               }
+               
+               .bloklinks {
+                   background-color: #29aae2;
+               }
+               
+               #witterand {
+                   margin-left: 15%;
+                   border-left: 1.1em solid white;
+               }
+               
+               #luchtfoto {
+                   width: 84%;
+                   height: 34%;
+                   opacity: 0.3;
+                   position: absolute;
+               }
+               
+               #lijnzwart {
+                   border-bottom: 1px solid #737078;
+               }
+               /*formulier */
+               
+               input[type=submit] {
+                   border-radius: 5px;
+                   border: 2px solid white;
+                   text-align: center;
+                   width: 10%;
+                   background-color: #29aae2;
+                   color: white;
+                   padding: 0.2%;
+               }
+               
+               input[type=submit]:hover {
+                   opacity: 0.6;
+                   cursor: pointer;
+               }
+               
+               input[type=text] {
+                   width: 27.5%;
+                   border-radius: 5px;
+                   border: 2px solid white;
+                   padding-bottom: 1%;
+                   padding-left: 2.5%;
+                   padding-top: 1%;
+               }
+               
+               input[type=email] {
+                   width: 27.5%;
+                   border-radius: 5px;
+                   border: 2px solid white;
+                   padding-bottom: 1%;
+                   padding-left: 2.5%;
+                   padding-top: 1%;
+               }
+               
+               textarea {
+                   width: 57.4%;
+                   border-radius: 5px;
+                   border: 2px solid white;
+                   padding-bottom: 15%;
+                   padding-left: 2.5%;
+                   padding-top: 1%;
+               }
+               
+               #keuze {
+                   width: 60%;
+                   padding-top: 1%;
+                   padding-bottom: 1%;
+                   border-radius: 5px;
+                   border: 2px solid white;
+                   padding-left: 2.5%;
+               }
+               
+               ::-webkit-input-placeholder {
+                   font-style: italic;
+               }
+               /*Kaart */
+               
+               #Situering {
+                   margin: 0%;
+                   padding: 0%;
+                   margin-left: 16%;
+                   margin-top: 4%;
+               }
+               
+               #kaart {
+                   width: 62%;
+                   opacity: 0.8;
+               }
