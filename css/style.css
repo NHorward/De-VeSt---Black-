@@ -1322,6 +1322,10 @@ li.GKMselected {
   background-position: bottom;
 }
 
+.HL li {
+  color: white;
+}
+
 
 /*Sectie attitudes en stages*/
 
@@ -1410,6 +1414,7 @@ li.GKMselected {
 
 #HL #lessentabel tr:nth-of-type(odd) th {
   background-color: #e74c3c;
+  color: white;
 }
 
 
