@@ -12,7 +12,7 @@ Kleur duaal groen: #5ec64d */
 
 /* --- AANBOD --- */
 
-.aanbod h2 {
+.aanbod-pagina h2 {
  width: 90%;
  padding-top: 1%;
  padding-bottom: 1%;
@@ -20,19 +20,19 @@ Kleur duaal groen: #5ec64d */
  margin-left: 5%;
 }
 
-.aanbod article:nth-child(odd) {
+.aanbod-pagina article:nth-child(odd) {
  color: #5a5760;
 }
 
-.aanbod article {
+.aanbod-pagina article {
  margin-top: 2em;
  margin-bottom: 2em;
  color: white;
  padding: 0.5em;
 }
 
-.aanbod article ul,
-.aanbod p {
+.aanbod-pagina article ul,
+.aanbod-pagina p {
  max-width: 70%;
  margin-left: 5%;
  margin-bottom: 3em;
@@ -40,7 +40,7 @@ Kleur duaal groen: #5ec64d */
  list-style: inside;
 }
 
-.aanbod a {
+.aanbod-pagina a {
  font-family: 'Raleway', sans-serif;
  color: white;
  text-decoration: none;
