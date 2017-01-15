@@ -17,7 +17,7 @@ p {
 
 .blokken {
     padding: 0%;
-    margin-top: 4%;
+    margin-top: 2%;
 }
 
 .bloklinks {
@@ -26,7 +26,7 @@ p {
 
 #witterand {
     margin-left: 15%;
-    border-left: 1.1em solid white;
+    border-left: 1em solid white;
 }
 
 #lijnzwart {
@@ -108,10 +108,15 @@ textarea {
     margin: 0%;
     padding: 0%;
     margin-left: 16%;
-    margin-top: 4%;
+    margin-top: 2%;
+    margin-bottom: -2%;
 }
 
 #kaart {
     width: 62%;
     opacity: 0.8;
+}
+
+.contact {
+    margin-top: 3.6%;
 }
