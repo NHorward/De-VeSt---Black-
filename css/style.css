@@ -740,7 +740,7 @@ footer a:hover {
 }
 
 
-/* --- AANBOD --- */
+/* --- AANBOD PAGINA--- */
 
 .aanbod-pagina h2 {
  width: 90%;
@@ -834,6 +834,85 @@ a.grijzelink {
 .aanbod-index a {
  text-decoration: none;
  color: #5a5760;
+}
+
+
+/* --- OPLEIDINGEN PAGINA --- */
+
+.opleidingenpagina h2:before {
+ display: inline-block;
+ font-size: 2em;
+ padding: 0.5em;
+ padding-right: 1.5em;
+ max-width: 3%;
+}
+
+.opleidingen-header {
+ background-color: #85c226;
+}
+
+.opleidingen-hrheaderwit {
+ background-color: white;
+ height: 1em;
+ border: none;
+ width: 70%;
+}
+
+.opleidingen-hrheadergroen {
+ background-color: #85c226;
+ height: 2em;
+ border: none;
+ margin-left: 15%;
+}
+
+.opleidingenpagina article {
+ margin-top: 2em;
+ margin-bottom: 2em;
+ color: white;
+ overflow: hidden;
+}
+
+.opleidingenpagina article ul {
+ max-width: 50%;
+ margin: 2em;
+ margin-left: 10em;
+ margin-bottom: 3em;
+}
+
+.opleidingen-foto-rechts {
+ float: right;
+ width: 42%;
+ overflow: hidden;
+ height: 100%;
+ object-fit: fill;
+}
+
+.opleidingen-hrarticle {
+ height: 0.1em;
+ width: 40%;
+ background-color: white;
+ border: none;
+ margin-left: 9em;
+}
+
+.opleidingen-button {
+ text-align: center;
+ display: block;
+ text-decoration: none;
+ color: white;
+ padding: 0.5em;
+ margin: 2em;
+ margin-left: 40%;
+ width: 10%;
+ border-style: solid;
+ border-width: 0.15em;
+ border-radius: 0.5em;
+}
+
+.opleidingenpagina a {
+ font-family: 'Raleway', sans-serif;
+ color: white;
+ text-decoration: none;
 }
 
 
