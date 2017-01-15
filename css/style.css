@@ -740,6 +740,103 @@ footer a:hover {
 }
 
 
+/* --- AANBOD --- */
+
+.aanbod-pagina h2 {
+ width: 90%;
+ padding-top: 1%;
+ padding-bottom: 1%;
+ border-bottom: solid 2px;
+ margin-left: 5%;
+}
+
+.aanbod-pagina article:nth-child(odd) {
+ color: #5a5760;
+}
+
+.aanbod-pagina article {
+ margin-top: 2em;
+ margin-bottom: 2em;
+ color: white;
+ padding: 0.5em;
+}
+
+.aanbod-pagina article ul,
+.aanbod-pagina p {
+ max-width: 70%;
+ margin-left: 5%;
+ margin-bottom: 3em;
+ margin-top: 3em;
+ list-style: inside;
+}
+
+.aanbod-pagina a {
+ font-family: 'Raleway', sans-serif;
+ color: white;
+ text-decoration: none;
+}
+
+.info-button-wit {
+ text-align: center;
+ display: block;
+ text-decoration: none;
+ color: white;
+ padding: 0.5em;
+ margin: 2em;
+ margin-left: 40%;
+ max-width: 20%;
+ border-style: solid;
+ border-width: 0.15em;
+ border-radius: 0.5em;
+}
+
+.info-button-grijs {
+ text-align: center;
+ display: block;
+ text-decoration: none;
+ color: #5a5760;
+ padding: 0.5em;
+ margin: 2em;
+ margin-left: 40%;
+ max-width: 20%;
+ border-color: #5a5760;
+ border-style: solid;
+ border-width: 0.15em;
+ border-radius: 0.5em;
+}
+
+a.info-button-grijs {
+ color: #5a5760;
+}
+
+a.grijzelink {
+ color: #5a5760;
+}
+
+.aanbod-index {
+ margin-top: 1%;
+ margin-left: 11.5%;
+ padding-left: 5%;
+}
+
+.aanbod-index li {
+ text-align: center;
+ list-style: none;
+ margin-right: 1%;
+ width: 15%;
+ display: inline-block;
+ border-bottom: solid #85c226 1px;
+ padding-top: 1%;
+ padding-bottom: 1%;
+ margin-left: 5%;
+}
+
+.aanbod-index a {
+ text-decoration: none;
+ color: #5a5760;
+}
+
+
 /* ---- TEAM PAGINA ---- */
 
 .p_index {
