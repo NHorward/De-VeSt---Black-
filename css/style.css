@@ -603,7 +603,7 @@ Kleur duaal groen: #5ec64d */
                                           margin: 0;
                                         }
                                         
-                                        .nieuws .blauw {
+                                        #HOME .blauw {
                                           padding: 0;
                                         }
                                         
@@ -697,47 +697,42 @@ Kleur duaal groen: #5ec64d */
                                         }
                                         /* --- SLIDER ---*/
                                         
-                                        #HOME #sliderwrapper {
-                                          background-color: #29aae2;
-                                        }
-                                        
-                                        #HOME #slider {
+                                        .slider {
                                           background-color: white;
                                           margin-left: 15%;
                                         }
                                         
-                                        #HOME .balkeffect {
+                                        .balkeffect {
                                           background-color: white;
                                           padding-left: 1%;
                                         }
                                         
-                                        #HOME #slider figcaption {
+                                        .slider figcaption {
                                           margin-top: 2%;
                                           padding: 3%;
                                           text-align: center;
                                           margin-right: 10%;
-                                          background-color: #29aae2;
                                           color: white;
                                         }
                                         
-                                        #HOME #slider figure img {
+                                        .slider figure img {
                                           max-width: 100%;
                                           overflow: hidden;
                                         }
                                         
-                                        #HOME #slider figure #imgwrapper {
+                                        .slider figure .imgwrapper {
                                           overflow: hidden;
                                           margin-right: 10%;
                                         }
                                         
-                                        #HOME #slider figcaption a {
+                                        .slider figcaption a {
                                           width: 20%;
                                           padding: 0 15%;
                                           color: white;
                                           text-decoration: none;
                                         }
                                         
-                                        #HOME #slider figcaption a:hover {
+                                        .slider figcaption a:hover {
                                           color: #5a5760;
                                         }
                                         /* --- AANBOD PAGINA--- */
@@ -1173,22 +1168,14 @@ Kleur duaal groen: #5ec64d */
                                           float: right;
                                           margin-right: 10%;
                                         }
-                                        /* -- Sectie Slider -- */
-                                        
-                                        #GKM #sliderwrapper {
-                                          background-color: #f1c40f;
-                                        }
-                                        
-                                        #HL #sliderwrapper {
-                                          background-color: #e74c3c;
-                                        }
-                                        
-                                        .spec_opl #slider {
+                                        /* -- Sectie Slider DEZE MAG WEG -- */
+                                        /*
+                                        .spec_opl .slider {
                                           background-color: white;
                                           margin-left: 15%;
                                         }
                                         
-                                        .spec_opl #slider figcaption {
+                                        .spec_opl .slider figcaption {
                                           margin-top: 2%;
                                           padding: 3%;
                                           text-align: center;
@@ -1196,26 +1183,26 @@ Kleur duaal groen: #5ec64d */
                                           color: white;
                                         }
                                         
-                                        .spec_opl #slider figure img {
+                                        .spec_opl .slider figure img {
                                           width: 100%;
                                           overflow: hidden;
                                         }
                                         
-                                        .spec_opl #slider figure #imgwrapper {
+                                        .spec_opl .slider figure #imgwrapper {
                                           overflow: hidden;
                                           margin-right: 10%;
                                         }
                                         
-                                        .spec_opl #slider figcaption a {
+                                        .spec_opl .slider figcaption a {
                                           width: 20%;
                                           padding: 0 15%;
                                           color: white;
                                           text-decoration: none;
                                         }
                                         
-                                        .spec_opl #slider figcaption a:hover {
+                                        .spec_opl .slider figcaption a:hover {
                                           color: #5a5760;
-                                        }
+                                        } */
                                         /*Sectie Taken*/
                                         
                                         .spec_opl #taken div {
@@ -1600,15 +1587,15 @@ Kleur duaal groen: #5ec64d */
                                           .f_copyright {
                                             margin-top: 15%;
                                           }
-                                          #HOME #slider {
+                                          .slider {
                                             margin-left: 17%;
                                           }
-                                          #HOME #slider figcaption {
+                                          .slider figcaption {
                                             margin-top: 1%;
                                             padding: 1%;
                                             margin-right: 5%;
                                           }
-                                          #HOME #slider figure #imgwrapper {
+                                          .slider figure .imgwrapper {
                                             margin-right: 5%;
                                           }
                                         }
@@ -1635,18 +1622,18 @@ Kleur duaal groen: #5ec64d */
                                           .headerbackground {
                                             margin-left: 20%;
                                           }
-                                          #HOME #slider {
+                                          .slider {
                                             margin-left: 19%;
                                           }
-                                          #HOME #slider figcaption {
+                                          .slider figcaption {
                                             margin-top: 1%;
                                             padding: 1%;
                                             margin-right: 1%;
                                           }
-                                          #HOME #slider figure #imgwrapper {
+                                          .slider figure .imgwrapper {
                                             margin-right: 1%;
                                           }
-                                          #HOME #slider figcaption a {
+                                          .slider figcaption a {
                                             width: 10%;
                                             padding: 0 5%;
                                             color: white;
@@ -1739,7 +1726,7 @@ Kleur duaal groen: #5ec64d */
                                             width: 50%;
                                             margin-top: 5%;
                                           }
-                                          #HOME #slider {
+                                          .slider {
                                             margin-left: 5%;
                                           }
                                           /* - stukje opleidingen dat algemeen geldt - */
