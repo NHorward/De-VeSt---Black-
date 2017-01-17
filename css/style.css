@@ -1033,11 +1033,13 @@ Kleur duaal groen: #5ec64d */
   /* ---- TEAM PAGINA ---- */
   
   .p_index {
-    margin-top: 1%;
+    margin-top: 5%;
     margin-left: 16%;
     padding-left: 5%;
   }
-  
+  .p_index h2, .lkr h2{
+    margin-bottom: 3%;
+  }
   .p_index li {
     text-align: center;
     list-style: none;
@@ -1079,7 +1081,7 @@ Kleur duaal groen: #5ec64d */
   }
   
   #directie {
-    margin: 1% 0 0 0;
+    margin: 5% 0 0 0;
     padding-left: 21%;
   }
   
@@ -1134,19 +1136,6 @@ Kleur duaal groen: #5ec64d */
     top: 6%;
     right: 2%;
   }
-  /* ---------- GKM PAGINA (en een klein beetje HL)---------- */
-  /* --- GKM header --- */
-  /*
-.spec_opl header h1 {
-  border-bottom: solid white 10px;
-  padding-bottom: 1%;
-  color: white;
-  text-indent: 5%;
-  width: 90%;
-}
-
-
-
 
 /* --- GKM sections --- */
   
@@ -1199,41 +1188,7 @@ Kleur duaal groen: #5ec64d */
     float: right;
     margin-right: 10%;
   }
-  /* -- Sectie Slider DEZE MAG WEG -- */
-  /*
-.spec_opl .slider {
-background-color: white;
-margin-left: 15%;
-}
-
-.spec_opl .slider figcaption {
-margin-top: 2%;
-padding: 3%;
-text-align: center;
-margin-right: 10%;
-color: white;
-}
-
-.spec_opl .slider figure img {
-width: 100%;
-overflow: hidden;
-}
-
-.spec_opl .slider figure #imgwrapper {
-overflow: hidden;
-margin-right: 10%;
-}
-
-.spec_opl .slider figcaption a {
-width: 20%;
-padding: 0 15%;
-color: white;
-text-decoration: none;
-}
-
-.spec_opl .slider figcaption a:hover {
-color: #5a5760;
-} */
+  
   /*Sectie Taken*/
   
   .spec_opl #taken div {
@@ -1324,7 +1279,7 @@ color: #5a5760;
     background-image: url(../img/duaal/takenimg.png);
   }
   
-  .HL li {
+  .HL li, .LA li {
     color: white;
   }
   /*Sectie attitudes en stages*/
@@ -1686,6 +1641,10 @@ color: #5a5760;
     .menubar {
       width: 17%;
     }
+    .pijl {
+    
+    margin-left: 20%;
+  }
     .headerbackground {
       margin-left: 18%;
     }
@@ -1706,6 +1665,12 @@ color: #5a5760;
     .spec_opl header h1 {
       width: 100%;
     }
+    .spec_opl #attitudes, .spec_opl #stages{
+      margin-left: 17%;
+    }
+   .spec_opl #stageswrapper .balkeffect, .spec_opl #attitudeswrapper .balkeffect{
+    padding-left:1%;
+   }
   }
   
   @media screen and (max-width: 980px) {
@@ -1727,8 +1692,14 @@ color: #5a5760;
     .menubar {
       width: 19%;
     }
+    .spec_opl #attitudes, .spec_opl #stages{
+      margin-left: 19%;
+    }
     .headerbackground {
       margin-left: 20%;
+    }
+    .spec_opl section.slider{
+      padding-left:0;
     }
     .slider {
       margin-left: 19%;
@@ -1767,6 +1738,9 @@ color: #5a5760;
     .nieuws img {
       position: relative;
     }
+    .nieuws li:hover img {
+      display: none;
+    }
   }
   
   @media screen and (max-width: 880px) {
@@ -1775,13 +1749,18 @@ color: #5a5760;
       margin-left: 4%;
       padding-left: 1%;
     }
+    body{
+      font-size:15px;
+    }
     /* OPLEIDINGEN NAV */
     .opl li a {
       padding: 2% 2%;
     }
-    .opl li {
-      width: 100%;
+    .opl li{
+      padding: 2%;
     }
+
+    
     /* MENUBAR */
     .menubar {
       text-align: right;
@@ -1856,6 +1835,7 @@ color: #5a5760;
     .nieuws h2 {
       margin-left: 5%;
     }
+    
     /* - aanbod sectie - */
     #HOME .aanbod h2 {
       margin-left: 5%;
@@ -1900,6 +1880,26 @@ color: #5a5760;
       width: 100%;
       margin-top: 5%;
     }
+    .spec_opl #attitudes, .spec_opl #stages{
+      margin-left: 4%;
+    }
+    #OPL .opl li {
+      margin: 0.75%;
+      width: 17%;
+    padding: 1%;
+  }
+  #blokjesopleiding {
+    margin-left: 10%;}
+ .pijl {
+    
+    margin-left: 5%;
+  }
+.p_index{
+  margin-left: 0;
+}
+#directie{
+  padding-left: 5%;
+}
     /* - FOOTER algemeen) - */
     footer {
       padding-top: 2%;
@@ -1914,4 +1914,53 @@ color: #5a5760;
     }
   }
   
-  @media screen and (max-width: 770px) {}
+  @media screen and (max-width: 690px) {
+    .opl li, #OPL .opl li {
+      display: block;
+      width: 94%;
+      padding: 1%;
+    }
+    .headerbackground {
+font-size: 0.5em;
+margin-top: 10%;
+min-height: 0;
+}
+.f_copyright {
+    margin-top: 20%;
+}
+  }
+@media screen and (max-width: 660px) {
+  .headerbackground {
+
+margin-top: 15%;
+
+}
+}
+  @media screen and (max-width: 570px) {
+    .spec_opl #algemeenrechts{
+      float: none;
+      width: auto;
+    }
+    .spec_opl #algemeenlinks{
+      float: none;
+      width: auto;
+    }
+    .spec_opl #algemeen p {
+    margin-bottom: 2%;
+    margin-top: 1%;
+    line-height: 1;
+    }
+     .f_copyright {
+    margin-top: 25%;
+}
+
+
+  }
+
+   @media screen and (max-width: 570px) {
+         .f_copyright {
+    margin-top: 30%;
+}
+
+
+  }
