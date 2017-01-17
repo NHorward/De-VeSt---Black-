@@ -330,8 +330,16 @@ li.HL,
   background-color: #e74c3c;
 }
 
+#HL .menubar li:hover {
+  background-color: #e74c3c;
+}
+
 li.TA,
 .TA {
+  background-color: #1abc9c;
+}
+
+#TA .menubar li:hover {
   background-color: #1abc9c;
 }
 
@@ -340,8 +348,16 @@ li.LA,
   background-color: #973cb6;
 }
 
+#LA .menubar li:hover {
+  background-color: #973cb6;
+}
+
 li.SD,
 .SD {
+  background-color: #fd8125;
+}
+
+#SD .menubar li:hover {
   background-color: #fd8125;
 }
 
@@ -350,8 +366,16 @@ li.GKM,
   background-color: #f1c40f;
 }
 
+#GKM .menubar li:hover {
+  background-color: #f1c40f;
+}
+
 li.duaal,
 .duaal {
+  background-color: #5ec64d;
+}
+
+#duaal .menubar li:hover {
   background-color: #5ec64d;
 }
 
@@ -1167,6 +1191,8 @@ a.grijzelink {
 
 /* --- GKM header --- */
 
+
+/*
 .spec_opl header h1 {
   border-bottom: solid white 10px;
   padding-bottom: 1%;
@@ -1176,23 +1202,6 @@ a.grijzelink {
 }
 
 
-/* --- GKM menubar --- dit kan je normaal gezien weg laten*/
-
-#GKM .menubar ul li:first-child {
-  margin-top: 0;
-}
-
-#GKM .menubar li:hover {
-  background-color: #f1c40f;
-}
-
-#HL .menubar li:hover {
-  background-color: #e74c3c;
-}
-
-li.GKMselected {
-  background-color: #f1c40f;
-}
 
 
 /* --- GKM sections --- */
