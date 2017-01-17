@@ -1607,6 +1607,9 @@ Kleur duaal groen: #5ec64d */
                                           .slider figure .imgwrapper {
                                             margin-right: 5%;
                                           }
+											.spec_opl header h1{
+	width: 100%;
+}
                                         }
                                         
                                         @media screen and (max-width: 980px) {
@@ -1769,6 +1772,13 @@ Kleur duaal groen: #5ec64d */
                                           .opleidingen {
                                             margin-left: 0;
                                           }
+											
+										  /*Spec Opleiding*/
+											.headerbackground{margin-left: 0;
+											width: 100%;
+												margin-top: 2%;
+											}	
+											
                                           /* - FOOTER algemeen) - */
                                           footer {
                                             padding-top: 2%;
