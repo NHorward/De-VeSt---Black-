@@ -1838,12 +1838,13 @@ textarea {
     padding: 0;
     margin: 0;
   }
+  .nieuws {
+    margin-right: 4%;
+  }
   .nieuws .blauw {
     padding: 1%;
   }
   .nieuws li {
-    /*display: inline;*/
-    width: 100%;
     padding: 1%;
   }
   .nieuws h3,
@@ -1860,6 +1861,12 @@ textarea {
   section {
     margin-left: 4%;
     padding-left: 1%;
+  }
+  .opl li a {
+    padding: 2% 2%;
+  }
+  .opl li {
+    width: 100%;
   }
   .welkom {
     margin-top: 15%;
