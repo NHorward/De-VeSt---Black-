@@ -323,7 +323,6 @@ li.active {
 }
 
 
-
 /* -- Verschillende kleuren van de opleidingen */
 
 li.HL,
@@ -331,13 +330,16 @@ li.HL,
   background-color: #e74c3c;
 }
 
-li.TA, .TA {
+li.TA,
+.TA {
   background-color: #1abc9c;
 }
+
 li.LA,
 .LA {
   background-color: #973cb6;
 }
+
 li.SD,
 .SD {
   background-color: #fd8125;
@@ -347,6 +349,7 @@ li.GKM,
 .GKM {
   background-color: #f1c40f;
 }
+
 li.duaal,
 .duaal {
   background-color: #5ec64d;
@@ -1219,6 +1222,22 @@ li.GKMselected {
   color: #e74c3c;
 }
 
+#TA #algemeen h3 {
+  color: #1abc9c;
+}
+
+#LA #algemeen h3 {
+  color: #973cb6;
+}
+
+#SD #algemeen h3 {
+  color: #fd8125;
+}
+
+#duaal #algemeen h3 {
+  color: #5ec64d;
+}
+
 .spec_opl #algemeenlinks {
   width: 30%;
   float: left;
@@ -1295,14 +1314,32 @@ color: #5a5760;
   padding-bottom: 4%;
 }
 
+.spec_opl #taken #basis h3 {
+  padding-bottom: 0%;
+}
+
 #GKM #taken #basis h3 {
   color: #f1c40f;
-  padding-bottom: 0%;
 }
 
 #HL #taken #basis h3 {
   color: #e74c3c;
-  padding-bottom: 0%;
+}
+
+#TA #taken #basis h3 {
+  color: #1abc9c;
+}
+
+#LA #taken #basis h3 {
+  color: #973cb6;
+}
+
+#SD #taken #basis h3 {
+  color: #fd8125;
+}
+
+#duaal #taken #basis h3 {
+  color: #5ec64d;
 }
 
 .spec_opl #taken ul li {
@@ -1313,16 +1350,33 @@ color: #5a5760;
   padding-top: 2%;
 }
 
-#GKM #takenimg {
-  background-image: url(../img/GKM/studentkerstcupcakes.png);
+.spec_opl #takenim {
   background-size: cover;
   background-position: bottom;
 }
 
+#GKM #takenimg {
+  background-image: url(../img/GKM/studentkerstcupcakes.png);
+}
+
 #HL #takenimg {
   background-image: url(../img/HL/laswerk.png);
-  background-size: cover;
-  background-position: bottom;
+}
+
+#TA #takenimg {
+  background-image: url(../img/TA/takenimg.png);
+}
+
+#LA #takenimg {
+  background-image: url(../img/LA/takenimg.png);
+}
+
+#SD #takenimg {
+  background-image: url(../img/SD/takenimg.png);
+}
+
+#duaal #takenimg {
+  background-image: url(../img/duaal/takenimg.png);
 }
 
 .HL li {
@@ -1546,24 +1600,24 @@ color: #5a5760;
   background-color: #29aae2;
 }
 
-#adresgegevens{
+#adresgegevens {
   padding: 2% 5%;
   background-image: url(../img/luchtfotoopacity.jpg);
   background-size: cover;
   background-position: center;
 }
 
-#adresgegevens ul{
+#adresgegevens ul {
   list-style: none;
 }
 
-#adresgegevens ul li{
+#adresgegevens ul li {
   font-family: 'Raleway';
   font-weight: 300;
   padding-bottom: 1%;
 }
 
-#adresgegevens ul li:first-child{
+#adresgegevens ul li:first-child {
   font-size: 2em;
 }
 
