@@ -1449,6 +1449,22 @@ color: #5a5760;
   border: solid 3px #e74c3c;
 }
 
+#TA #lessentabel table {
+  border: solid 3px #1abc9c;
+}
+
+#LA #lessentabel table {
+  border: solid 3px #973cb6;
+}
+
+#SD #lessentabel table {
+  border: solid 3px #fd8125;
+}
+
+#duaal #lessentabel table {
+  border: solid 3px #5ec64d;
+}
+
 .spec_opl #lessentabel table th {
   text-align: right;
   padding: 2.5% 5% 2.5% 0%;
