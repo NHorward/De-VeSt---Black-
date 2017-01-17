@@ -1,4 +1,4 @@
-  /*KLEUREN  
+/*KLEUREN  
 Accent groen: #85c226
 Accent blauw: #29aae2 
 Logo grijs: #5a5760 
@@ -1676,6 +1676,16 @@ Kleur duaal groen: #5ec64d */
     }
   }
   
+  @media screen and (max-width: 1000px) {
+    /* --- AANBOD PAGINA --- */
+    .aanbod-pagina .info-button-wit {
+      max-width: 50%;
+    }
+    .aanbod-pagina .info-button-grijs {
+      max-width: 50%;
+    }
+  }
+  
   @media screen and (max-width: 980px) {
     article,
     section {
@@ -1916,6 +1926,14 @@ Kleur duaal groen: #5ec64d */
     }
   }
   
+  @media screen and (max-width: 780px) {
+    /* --- TEAM PAGINA --- */
+    .team li {
+      margin-right: 1%;
+      width: 30%;
+    }
+  }
+  
   @media screen and (max-width: 690px) {
     .opl li,
     #OPL .opl li {
@@ -1939,27 +1957,42 @@ Kleur duaal groen: #5ec64d */
     }
   }
   
-  @media screen and (max-width: 570px) {
-    .spec_opl #algemeenrechts {
-      float: none;
-      width: auto;
-    }
-    .spec_opl #algemeenlinks {
-      float: none;
-      width: auto;
-    }
-    .spec_opl #algemeen p {
-      margin-bottom: 2%;
-      margin-top: 1%;
-      line-height: 1;
-    }
-    .f_copyright {
-      margin-top: 25%;
+  @media screen and (max-width: 590px) {
+    /* --- TEAM PAGINA --- */
+    .team li {
+      width: 45%;
     }
   }
   
-  @media screen and (max-width: 570px) {
-    .f_copyright {
-      margin-top: 30%;
-    }
+  .spec_opl #algemeenrechts {
+    float: none;
+    width: auto;
   }
+  
+  .spec_opl #algemeenlinks {
+    float: none;
+    width: auto;
+  }
+  
+  .spec_opl #algemeen p {
+    margin-bottom: 2%;
+    margin-top: 1%;
+    line-height: 1;
+  }
+  
+  .f_copyright {
+    margin-top: 25%;
+  }
+}
+@media screen and (max-width: 570px) {
+  .f_copyright {
+    margin-top: 30%;
+  }
+}
+@media screen and (max-width: 490px) {
+  /* --- AANBOD PAGINA --- */
+  
+  .aanbod-pagina h2 {
+    margin-left: 0%;
+  }
+}
