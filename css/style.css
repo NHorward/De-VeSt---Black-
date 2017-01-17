@@ -1724,12 +1724,10 @@ Kleur duaal groen: #5ec64d */
                                           #bannercover {
                                             display: none;
                                           }
-											
-											.banner .logo {
-                                                display: none;
-                                            }
+
                                           .logo {
                                             padding-top: 3%;
+											 display: none;
                                           }
                                           #HOME h1 {
                                             padding-top: 3%;
