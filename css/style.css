@@ -1914,16 +1914,4 @@ color: #5a5760;
     }
   }
   
-  @media screen and (max-width: 710px) {
-    .nav-collapse ul {
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      display: block;
-      list-style: none;
-    }
-    .nav-collapse li {
-      width: 100%;
-      display: block;
-    }
-  }
+  @media screen and (max-width: 710px) {}
