@@ -251,7 +251,8 @@ Kleur duaal groen: #5ec64d */
                                           padding: 7% 5% 2% 10%;
                                         }
                                         
-                                        .menubar li:hover {
+                                        .menubar li:hover,
+                                        .menubar li:focus {
                                           background-color: #29aae2;
                                         }
                                         /* -- actieve link opmaken -- */
@@ -259,7 +260,6 @@ Kleur duaal groen: #5ec64d */
                                         li.active {
                                           background-color: #29aae2;
                                           color: white;
-                                          font-size: 1em;
                                           padding: 7% 5% 2% 10%;
                                           font-size: 1.25em;
                                         }
@@ -1639,9 +1639,33 @@ Kleur duaal groen: #5ec64d */
                                             color: white;
                                             text-decoration: none;
                                           }
+                                          section.nieuw {
+                                            padding: 0;
+                                            margin: 0;
+                                          }
+                                          .nieuws .blauw {
+                                            padding: 1%;
+                                          }
+                                          .nieuws li {
+                                            /*display: inline;*/
+                                            width: 100%;
+                                            padding: 1%;
+                                          }
+                                          .nieuws h3,
+                                          .nieuws p {
+                                            width: 100%;
+                                          }
+                                          .nieuws img {
+                                            position: relative;
+                                          }
                                         }
                                         
                                         @media screen and (max-width: 880px) {
+                                          article,
+                                          section {
+                                            margin-left: 4%;
+                                            padding-left: 1%;
+                                          }
                                           .menubar {
                                             text-align: right;
                                             width: 100%;
@@ -1656,15 +1680,26 @@ Kleur duaal groen: #5ec64d */
                                             list-style: none;
                                             display: inline-block;
                                             margin: 0;
-                                            margin-bottom: 1%;
                                             padding: 1%;
                                             min-height: auto;
                                             border: none;
-                                            border-bottom: solid 1px white;
+                                            width: auto;
+                                            /* prakt info staat ineens boven elkaar */
+                                          }
+                                          .menubar li.active {
+                                            background-color: #29aae2;
+                                            margin: 0;
+                                            padding: 1%;
+                                            min-height: auto;
+                                            border: none;
+                                            width: auto;
                                           }
                                           .menubar a {
                                             display: inline-block;
-                                            padding: 1%;
+                                            padding: 0;
+                                            margin-bottom: 1%;
+                                            border-bottom: solid 1px white;
+                                            width: 100%;
                                           }
                                           #bannercover {
                                             display: none;
@@ -1675,29 +1710,6 @@ Kleur duaal groen: #5ec64d */
                                           #HOME h1 {
                                             padding-top: 3%;
                                           }
-                                          .nieuws {
-                                            padding: 0;
-                                            margin: 0;
-                                          }
-                                          .nieuws h2 {
-                                            color: #29aae2;
-                                            padding-bottom: 1%;
-                                            margin-left: 5%;
-                                            padding-top: 2%;
-                                          }
-                                          .nieuws article {
-                                            margin: 0;
-                                            padding-left: 5%;
-                                          }
-                                          .nieuws ul {
-                                            display: inline-block;
-                                            position: relative;
-                                            width: 100%;
-                                            list-style: none;
-                                          }
-                                          .nieuws li {
-                                            padding: 2% 2% 2% 5%;
-                                          }
                                           #HOME .aanbod h2 {
                                             margin-left: 5%;
                                           }
@@ -1705,6 +1717,7 @@ Kleur duaal groen: #5ec64d */
                                             min-height: auto;
                                             width: 100%;
                                             padding-bottom: 2%;
+                                            padding-top: 1%;
                                           }
                                           .basis {
                                             padding-left: 5%;
@@ -1727,7 +1740,8 @@ Kleur duaal groen: #5ec64d */
                                             margin-top: 5%;
                                           }
                                           .slider {
-                                            margin-left: 5%;
+                                            margin-left: 4%;
+                                            padding-left: 0;
                                           }
                                           /* - stukje opleidingen dat algemeen geldt - */
                                           .opleidingen {
