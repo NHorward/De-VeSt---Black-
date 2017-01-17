@@ -2033,9 +2033,20 @@ textarea {
 
 @media screen and (max-width: 780px) {
   /* --- TEAM PAGINA --- */
+  .team h2 {
+    width: 70%
+  }
+  .team ul {
+    width: 90%;
+  }
   .team li {
     margin-right: 1%;
     width: 30%;
+  }
+  .lkr ul {
+    width: 60%;
+    padding: 1% 20% 1% 0;
+    margin-right: 16%;
   }
   .lkr li {
     width: 45%;
@@ -2063,12 +2074,17 @@ textarea {
   .headerbackground {
     margin-top: 15%;
   }
+  .lkr ul {
+    width: 90%;
+    margin-right: 1%;
+    padding-right: 0;
+  }
   .lkr li:hover img,
   .lkr li:focus img {
     display: none;
   }
   .lkr li {
-    width: 45 %;
+    width: 45%;
     padding: 1%;
   }
 }
@@ -2077,10 +2093,6 @@ textarea {
   /* --- TEAM PAGINA --- */
   .team li {
     width: 45%;
-  }
-  .lkr ul {
-    width: 80%;
-    margin-right: 5%;
   }
   /* Specifieke opleidingen */
   .spec_opl #algemeenrechts {
