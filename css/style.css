@@ -1037,9 +1037,12 @@ Kleur duaal groen: #5ec64d */
     margin-left: 16%;
     padding-left: 5%;
   }
-  .p_index h2, .lkr h2{
+  
+  .p_index h2,
+  .lkr h2 {
     margin-bottom: 3%;
   }
+  
   .p_index li {
     text-align: center;
     list-style: none;
@@ -1136,8 +1139,7 @@ Kleur duaal groen: #5ec64d */
     top: 6%;
     right: 2%;
   }
-
-/* --- GKM sections --- */
+  /* --- GKM sections --- */
   
   .spec_opl section {
     margin-top: 5%;
@@ -1188,7 +1190,6 @@ Kleur duaal groen: #5ec64d */
     float: right;
     margin-right: 10%;
   }
-  
   /*Sectie Taken*/
   
   .spec_opl #taken div {
@@ -1279,7 +1280,8 @@ Kleur duaal groen: #5ec64d */
     background-image: url(../img/duaal/takenimg.png);
   }
   
-  .HL li, .LA li {
+  .HL li,
+  .LA li {
     color: white;
   }
   /*Sectie attitudes en stages*/
@@ -1642,9 +1644,8 @@ Kleur duaal groen: #5ec64d */
       width: 17%;
     }
     .pijl {
-    
-    margin-left: 20%;
-  }
+      margin-left: 20%;
+    }
     .headerbackground {
       margin-left: 18%;
     }
@@ -1665,12 +1666,14 @@ Kleur duaal groen: #5ec64d */
     .spec_opl header h1 {
       width: 100%;
     }
-    .spec_opl #attitudes, .spec_opl #stages{
+    .spec_opl #attitudes,
+    .spec_opl #stages {
       margin-left: 17%;
     }
-   .spec_opl #stageswrapper .balkeffect, .spec_opl #attitudeswrapper .balkeffect{
-    padding-left:1%;
-   }
+    .spec_opl #stageswrapper .balkeffect,
+    .spec_opl #attitudeswrapper .balkeffect {
+      padding-left: 1%;
+    }
   }
   
   @media screen and (max-width: 980px) {
@@ -1692,14 +1695,15 @@ Kleur duaal groen: #5ec64d */
     .menubar {
       width: 19%;
     }
-    .spec_opl #attitudes, .spec_opl #stages{
+    .spec_opl #attitudes,
+    .spec_opl #stages {
       margin-left: 19%;
     }
     .headerbackground {
       margin-left: 20%;
     }
-    .spec_opl section.slider{
-      padding-left:0;
+    .spec_opl section.slider {
+      padding-left: 0;
     }
     .slider {
       margin-left: 19%;
@@ -1749,18 +1753,16 @@ Kleur duaal groen: #5ec64d */
       margin-left: 4%;
       padding-left: 1%;
     }
-    body{
-      font-size:15px;
+    body {
+      font-size: 15px;
     }
     /* OPLEIDINGEN NAV */
     .opl li a {
       padding: 2% 2%;
     }
-    .opl li{
+    .opl li {
       padding: 2%;
     }
-
-    
     /* MENUBAR */
     .menubar {
       text-align: right;
@@ -1835,7 +1837,6 @@ Kleur duaal groen: #5ec64d */
     .nieuws h2 {
       margin-left: 5%;
     }
-    
     /* - aanbod sectie - */
     #HOME .aanbod h2 {
       margin-left: 5%;
@@ -1880,26 +1881,27 @@ Kleur duaal groen: #5ec64d */
       width: 100%;
       margin-top: 5%;
     }
-    .spec_opl #attitudes, .spec_opl #stages{
+    .spec_opl #attitudes,
+    .spec_opl #stages {
       margin-left: 4%;
     }
     #OPL .opl li {
       margin: 0.75%;
       width: 17%;
-    padding: 1%;
-  }
-  #blokjesopleiding {
-    margin-left: 10%;}
- .pijl {
-    
-    margin-left: 5%;
-  }
-.p_index{
-  margin-left: 0;
-}
-#directie{
-  padding-left: 5%;
-}
+      padding: 1%;
+    }
+    #blokjesopleiding {
+      margin-left: 10%;
+    }
+    .pijl {
+      margin-left: 5%;
+    }
+    .p_index {
+      margin-left: 0;
+    }
+    #directie {
+      padding-left: 5%;
+    }
     /* - FOOTER algemeen) - */
     footer {
       padding-top: 2%;
@@ -1915,52 +1917,49 @@ Kleur duaal groen: #5ec64d */
   }
   
   @media screen and (max-width: 690px) {
-    .opl li, #OPL .opl li {
+    .opl li,
+    #OPL .opl li {
       display: block;
       width: 94%;
       padding: 1%;
     }
     .headerbackground {
-font-size: 0.5em;
-margin-top: 10%;
-min-height: 0;
-}
-.f_copyright {
-    margin-top: 20%;
-}
+      font-size: 0.5em;
+      margin-top: 10%;
+      min-height: 0;
+    }
+    .f_copyright {
+      margin-top: 20%;
+    }
   }
-@media screen and (max-width: 660px) {
-  .headerbackground {
-
-margin-top: 15%;
-
-}
-}
+  
+  @media screen and (max-width: 660px) {
+    .headerbackground {
+      margin-top: 15%;
+    }
+  }
+  
   @media screen and (max-width: 570px) {
-    .spec_opl #algemeenrechts{
+    .spec_opl #algemeenrechts {
       float: none;
       width: auto;
     }
-    .spec_opl #algemeenlinks{
+    .spec_opl #algemeenlinks {
       float: none;
       width: auto;
     }
     .spec_opl #algemeen p {
-    margin-bottom: 2%;
-    margin-top: 1%;
-    line-height: 1;
+      margin-bottom: 2%;
+      margin-top: 1%;
+      line-height: 1;
     }
-     .f_copyright {
-    margin-top: 25%;
-}
-
-
+    .f_copyright {
+      margin-top: 25%;
+    }
   }
-
-   @media screen and (max-width: 570px) {
-         .f_copyright {
-    margin-top: 30%;
-}
-
-
+  
+  @media screen and (max-width: 570px) {
+    .f_copyright {
+      margin-top: 30%;
+    }
   }
