@@ -235,6 +235,7 @@ Kleur duaal groen: #5ec64d */
                                           background-color: #85c226;
                                           min-height: 50px;
                                           border: solid 1px white;
+											vertical-align: middle;
                                         }
                                         
                                         .menubar ul li:first-child {
@@ -254,6 +255,14 @@ Kleur duaal groen: #5ec64d */
                                         .menubar li:hover,
                                         .menubar li:focus {
                                           background-color: #29aae2;
+                                        }
+
+										.menubar #logonav img {
+                                            max-width: 100%;
+                                        }
+                                        
+                                        .menubar #logonav {
+                                            display: none;
                                         }
                                         /* -- actieve link opmaken -- */
                                         
@@ -1666,6 +1675,11 @@ Kleur duaal groen: #5ec64d */
                                             margin-left: 4%;
                                             padding-left: 1%;
                                           }
+											
+											.welkom{
+												margin-top:  15%;
+											}
+											
                                           .menubar {
                                             text-align: right;
                                             width: 100%;
@@ -1676,6 +1690,12 @@ Kleur duaal groen: #5ec64d */
                                           .menubar ul {
                                             text-align: center;
                                           }
+											
+											.menubar #logonav {
+                                                width: 10%;
+                                                display: inline-block;
+                                            }
+											
                                           .menubar li {
                                             list-style: none;
                                             display: inline-block;
@@ -1704,6 +1724,10 @@ Kleur duaal groen: #5ec64d */
                                           #bannercover {
                                             display: none;
                                           }
+											
+											.banner .logo {
+                                                display: none;
+                                            }
                                           .logo {
                                             padding-top: 3%;
                                           }
