@@ -1913,3 +1913,5 @@ color: #5a5760;
       width: 16%;
     }
   }
+  
+  @media screen and (max-width: 690px) {}
