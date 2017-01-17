@@ -1350,10 +1350,13 @@ color: #5a5760;
   padding-top: 2%;
 }
 
-.spec_opl #takenim {
+.spec_opl #takenimg {
   background-size: cover;
   background-position: bottom;
 }
+
+
+/* verschillende foto's bij taken per opleiding */
 
 #GKM #takenimg {
   background-image: url(../img/GKM/studentkerstcupcakes.png);
@@ -1379,7 +1382,11 @@ color: #5a5760;
   background-image: url(../img/duaal/takenimg.png);
 }
 
-.HL li {
+
+/* voor een donkere achtergrond: witte tekst */
+
+.HL li,
+.LA li {
   color: white;
 }
 
@@ -1441,6 +1448,9 @@ color: #5a5760;
   border-collapse: collapse;
 }
 
+
+/* andere kleur op de rand van de tabel */
+
 #GKM #lessentabel table {
   border: solid 3px #f1c40f;
 }
@@ -1481,6 +1491,9 @@ color: #5a5760;
   font-size: 1.75em;
 }
 
+
+/* andere achtergrond kleur in de tabel per opleiding */
+
 #GKM #lessentabel tr:nth-of-type(odd) th {
   background-color: #f1c40f;
 }
@@ -1488,6 +1501,23 @@ color: #5a5760;
 #HL #lessentabel tr:nth-of-type(odd) th {
   background-color: #e74c3c;
   color: white;
+}
+
+#LA #lessentabel tr:nth-of-type(odd) th {
+  background-color: #973cb6;
+  color: white;
+}
+
+#TA #lessentabel tr:nth-of-type(odd) th {
+  background-color: #1abc9c;
+}
+
+#SD #lessentabel tr:nth-of-type(odd) th {
+  background-color: #fd8125;
+}
+
+#duaal #lessentabel tr:nth-of-type(odd) th {
+  background-color: #5ec64d;
 }
 
 
