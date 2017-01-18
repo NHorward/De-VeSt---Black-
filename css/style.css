@@ -1621,6 +1621,21 @@ Kleur duaal groen: #5ec64d */
 <meta name="viewport" content="width=device-width, initial-scale=1">
 ---- */
   
+  @media screen and (max-width: 1700px) {
+    .opleidingenpagina article {
+      padding-left: 0%;
+    }
+    .opleidingen-button {
+      margin-left: 20%;
+    }
+  }
+  
+  @media screen and (max-width: 1400px) {
+    .opleidingen-foto-rechts {
+      margin: 2em;
+    }
+  }
+  
   @media screen and (max-width: 1280px) {
     /* -- HOME PAGE -- */
     /* - Nieuws sectie - */
@@ -1633,6 +1648,28 @@ Kleur duaal groen: #5ec64d */
     }
     .nieuws img {
       width: 55%;
+    }
+  }
+  
+  @media screen and (max-width: 1250px) {
+    .opleidingenpagina h2:before {
+      font-size: 1.5em;
+      padding-right: 0.75em;
+    }
+    .opleidingen-hrarticle {
+      margin-left: 6em;
+    }
+    .opleidingenpagina h2 {
+      padding-left: 0;
+    }
+    .opleidingenpagina article ul {
+      margin-left: 5em;
+    }
+  }
+  
+  @media screen and (max-width: 1100px) {
+    .opleidingenpagina h2 {
+      font-size: 1.5em;
     }
   }
   
@@ -1690,6 +1727,15 @@ Kleur duaal groen: #5ec64d */
     #OPL #witruimte {
       border-left: 1em solid white;
       margin-left: 17%;
+    }
+    /* Aanbod */
+    .info-button-wit {
+      max-width: 50%;
+      margin-left: 10%;
+    }
+    .info-button-grijs {
+      max-width: 50%;
+      margin-left: 10%;
     }
   }
   
@@ -1971,6 +2017,30 @@ Kleur duaal groen: #5ec64d */
     .blauwopl {
       margin-left: 0%;
     }
+    /* Aanbod */
+    .aanbod-index {
+      margin-left: 4%;
+      padding-left: 0;
+    }
+    /* Prakt info */
+    .info-button-grijs {
+      max-width: 70%;
+      width: 70%;
+      margin-left: 10%;
+    }
+    .info-button-wit {
+      max-width: 70%;
+      width: 70%;
+      margin-left: 10%;
+    }
+    /* opleidingen */
+    .opleidingen-foto-rechts {
+      margin: 1em;
+    }
+    .opleidingen-button {
+      margin-left: 10%;
+      max-width: 80%;
+    }
   }
   
   @media screen and (max-width: 780px) {
@@ -1992,6 +2062,12 @@ Kleur duaal groen: #5ec64d */
     }
     .lkr li {
       width: 45%;
+    }
+  }
+  
+  @media screen and (max-width: 750px) {
+    .aanbod-pagina p {
+      max-width: 85%;
     }
   }
   
@@ -2034,6 +2110,33 @@ Kleur duaal groen: #5ec64d */
     }
   }
   
+  @media screen and (max-width: 650px) {
+    .opleidingen-foto-rechts {
+      float: none;
+      width: 60%;
+      margin-left: 20%;
+    }
+    .opleidingen-hrarticle {
+      margin-left: 20%;
+      width: 60%;
+    }
+    .opleidingenpagina h2 {
+      margin-left: 20%;
+    }
+    .opleidingenpagina article li {
+      margin-left: 20%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .aanbod-index li {
+      padding-right: 3em;
+    }
+    .info ul ul {
+      margin-left: 2em;
+    }
+  }
+  
   @media screen and (max-width: 590px) {
     /* --- TEAM PAGINA --- */
     .team li {
@@ -2065,10 +2168,37 @@ Kleur duaal groen: #5ec64d */
     }
   }
   
+  @media screen and (max-width: 500px) {
+    .info h2 {
+      font-size: 1.75em;
+    }
+    .info h2:before {
+      font-size: 1.5em;
+    }
+    .info-hrarticle-wit {
+      width: 80%;
+      margin-left: 5%;
+    }
+    .info-hrarticle-grijs {
+      width: 80%;
+      margin-left: 5%;
+    }
+    .info article ul {
+      margin-left: 8%;
+      max-width: 100%;
+    }
+  }
+  
   @media screen and (max-width: 490px) {
     /* --- AANBOD PAGINA --- */
     .aanbod-pagina h2 {
       margin-left: 0%;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .aanbod-pagina h2 {
+      font-size: 2em;
     }
   }
   
@@ -2086,6 +2216,24 @@ Kleur duaal groen: #5ec64d */
     }
   }
   
+  @media screen and (max-width: 335px) {
+    .aanbod-pagina h2 {
+      font-size: 1.5em;
+    }
+    .aanbod-pagina p {
+      font-size: 0.75em;
+    }
+    .aanbod-index li {
+      width: auto;
+    }
+  }
+  
+  @media screen and (max-width: 340px) {
+    .info h2 {
+      font-size: 1.5em;
+    }
+  }
+  
   @media screen and (max-width: 280px) {
     .blauwopl {
       margin-top: 4%;
@@ -2095,5 +2243,11 @@ Kleur duaal groen: #5ec64d */
   @media screen and (max-width: 295px) {
     #OPL h2 {
       font-size: 2em
+    }
+  }
+  
+  @media screen and (max-width: 250px) {
+    .aanbod-pagina h2 {
+      font-size: 1.25em;
     }
   }
