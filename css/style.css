@@ -2236,6 +2236,9 @@ Kleur duaal groen: #5ec64d */
       margin-left: 8%;
       max-width: 100%;
     }
+		.spec_opl #lessentabel{
+			margin: 5%;		
+		}
   }
   
   @media screen and (max-width: 490px) {
@@ -2246,6 +2249,9 @@ Kleur duaal groen: #5ec64d */
   }
   
   @media screen and (max-width: 450px) {
+		body{
+			font-size: 12px;		
+		}
     .aanbod-pagina h2 {
       font-size: 2em;
     }
@@ -2256,6 +2262,37 @@ Kleur duaal groen: #5ec64d */
 			margin-left: 0;			
 		}
   }
+
+	@media screen and (max-width: 425px){
+		.f_prakt_info, .f_contact, .f_aanbod{
+			display: none;		
+		}
+			.f_logo{
+					margin: 0 auto;
+					float: none;
+					width: 20%;
+					position: static;
+			}
+			
+			#footercontent{
+					padding-left: 0;
+			}
+			
+			.f_copyright{
+					margin-top: 2%;
+			}
+			.f_tothetop{
+					color: 
+					display: block;
+					border-radius: 10px;
+   	 			text-align: center;
+    			padding: 1% 5%;
+    			margin-top: 3%;
+    			background-color: white;
+					color: #5a5760 ;
+					
+			}
+	}
   
   @media screen and (max-width: 350px) {
     #OPL .opleidingen-button {
