@@ -1458,11 +1458,11 @@ Kleur duaal groen: #5ec64d */
   }
   /*Opmaak links */
   
-  #OPL #opmaak1 {
+  #OPL .opmaak1 {
       background-color: #85c226;
   }
   
-  #OPL #witruimte {
+  #OPL .witruimte {
       margin-left: 15%;
       border-left: 1em solid white;
   }
@@ -1735,7 +1735,7 @@ Kleur duaal groen: #5ec64d */
           min-height: 220px;
       }
       /* Opleidingsfase pagina */
-      #OPL #witruimte {
+      #OPL .witruimte {
           border-left: 1em solid white;
           margin-left: 17%;
       }
@@ -1830,7 +1830,7 @@ Kleur duaal groen: #5ec64d */
           display: none;
       }
       /* Opleidingsfasen */
-      #OPL #witruimte {
+      #OPL .witruimte {
           border-left: 1em solid white;
           margin-left: 19%;
       }
@@ -2023,7 +2023,7 @@ Kleur duaal groen: #5ec64d */
           float: none;
           margin-bottom: 2%;
       }
-      #OPL #witruimte {
+      #OPL .witruimte {
           margin-left: 0%;
           border: none;
           padding-left: 0%;
@@ -2256,13 +2256,10 @@ Kleur duaal groen: #5ec64d */
       #OPL .opleidingen-button {
           max-width: none;
           margin-left: 10%;
-          ;
-      }
-      #oplbutton {
           padding-left: 25%;
           padding-right: 25%;
           padding-top: 1%;
-          padding-bottom: 1%
+          padding-bottom: 1%;
       }
   }
   
