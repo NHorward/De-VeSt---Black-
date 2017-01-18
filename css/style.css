@@ -1198,8 +1198,13 @@ Kleur duaal groen: #5ec64d */
     margin-right: 2%;
     padding: 5%;
     margin-top: 2%;
-    min-height: 190px;
+		min-height: 220px;
   }
+
+  #taken div:nth-child(5){
+		clear: both;
+	}
+  
   
   .spec_opl #taken #basis {
     width: 80%;
@@ -1672,7 +1677,7 @@ Kleur duaal groen: #5ec64d */
       font-size: 1.5em;
     }
   }
-  
+
   @media screen and (max-width: 1090px) {
     article,
     section {
@@ -1712,9 +1717,6 @@ Kleur duaal groen: #5ec64d */
     .slider figure .imgwrapper {
       margin-right: 5%;
     }
-    .spec_opl header h1 {
-      width: 100%;
-    }
     .spec_opl #attitudes,
     .spec_opl #stages {
       margin-left: 17%;
@@ -1723,6 +1725,11 @@ Kleur duaal groen: #5ec64d */
     .spec_opl #attitudeswrapper .balkeffect {
       padding-left: 1%;
     }
+			
+		.spec_opl #taken div{
+			min-height: 220px;
+		}
+			
     /* Opleidingsfase pagina */
     #OPL #witruimte {
       border-left: 1em solid white;
@@ -1963,6 +1970,15 @@ Kleur duaal groen: #5ec64d */
     .spec_opl #stages {
       margin-left: 4%;
     }
+	  
+	.spec_opl header h1 {
+		margin-top : 2%;
+    }
+
+	.spec_opl #lessentabel {
+	 padding-left: 0;
+	}
+	
     #OPL .opl li {
       margin: 0.75%;
       width: 17%;
@@ -2063,6 +2079,18 @@ Kleur duaal groen: #5ec64d */
     .lkr li {
       width: 45%;
     }
+	
+	.spec_opl #lessentabel .tableheading{
+	font-size:1em;
+	font-weight:bold;
+	}
+
+	  .spec_opl #lessentabel h3{
+	float:none;
+	font-size:1.4em;
+	text-align:left;
+	}
+
   }
   
   @media screen and (max-width: 750px) {
@@ -2089,6 +2117,17 @@ Kleur duaal groen: #5ec64d */
     .f_copyright {
       margin-top: 20%;
     }
+	.spec_opl #lessentabel .tableheading{
+	text-align: center;
+	}
+
+	.spec_opl #lessentabel .tableheading{
+	margin: 0 auto;
+	}
+
+	.spec_opl header h1{
+	margin: 0;
+	}
   }
   
   @media screen and (max-width: 660px) {
@@ -2126,6 +2165,16 @@ Kleur duaal groen: #5ec64d */
     .opleidingenpagina article li {
       margin-left: 20%;
     }
+			
+		.spec_opl #taken div{
+			float:none;
+			width: 80%;
+			min-height: 0;
+		}
+			
+			#takenimg{
+					display: none;
+			}
   }
   
   @media screen and (max-width: 600px) {
@@ -2200,6 +2249,12 @@ Kleur duaal groen: #5ec64d */
     .aanbod-pagina h2 {
       font-size: 2em;
     }
+		.slider{
+	  margin-left: 0;
+		}
+		.spec_opl #attitudes, .spec_opl #stages{
+			margin-left: 0;			
+		}
   }
   
   @media screen and (max-width: 350px) {
