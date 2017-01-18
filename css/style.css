@@ -10,1421 +10,1420 @@ Kleur SD oranje: #fd8125
 Kleur duaal groen: #5ec64d */
   
   * {
-    /* zorgt voor een standaard margin en padding van 0 op alle elementen */
-    margin: 0;
-    padding: 0;
+      /* zorgt voor een standaard margin en padding van 0 op alle elementen */
+      margin: 0;
+      padding: 0;
   }
   
   article,
   section {
-    margin-left: 16%;
-    margin-top: 2%;
-    margin-top: 5%;
-    padding-left: 5%;
+      margin-left: 16%;
+      margin-top: 2%;
+      margin-top: 5%;
+      padding-left: 5%;
   }
   /* ALGEMENE OPMAAK*/
   
   body {
-    color: #5a5760;
-    font-family: Tahoma, sans-serif;
-    width: 100%;
+      color: #5a5760;
+      font-family: Tahoma, sans-serif;
+      width: 100%;
   }
   
   h1 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 4em;
-    font-weight: 200;
-    color: white;
+      font-family: 'Raleway', sans-serif;
+      font-size: 4em;
+      font-weight: 200;
+      color: white;
   }
   
   h2 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 200;
-    font-size: 2.5em;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 200;
+      font-size: 2.5em;
   }
   
   #CT h2,
   #OPL h2 {
-    margin-left: 5%;
-    border-bottom: 1px solid white;
-    width: 90%;
-    padding: 1%;
+      margin-left: 5%;
+      border-bottom: 1px solid white;
+      width: 90%;
+      padding: 1%;
   }
   
   h3 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 200;
-    font-size: 2em;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 200;
+      font-size: 2em;
   }
   /* ---- Iconfont ---- */
   
   @font-face {
-    font-family: 'icomoon';
-    src: url('../fonts/icons/icomoon.eot');
-    src: url('../fonts/icons/icomoon.eot') format('embedded-opentype'), url('../fonts/icons/icomoon.ttf') format('truetype'), url('../fonts/icons/icomoon.woff') format('woff'), url('../fonts/icons/icomoon.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
+      font-family: 'icomoon';
+      src: url('../fonts/icons/icomoon.eot');
+      src: url('../fonts/icons/icomoon.eot') format('embedded-opentype'), url('../fonts/icons/icomoon.ttf') format('truetype'), url('../fonts/icons/icomoon.woff') format('woff'), url('../fonts/icons/icomoon.svg') format('svg');
+      font-weight: normal;
+      font-style: normal;
   }
   
   [class^="icon-"],
   [class*=" icon-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'icomoon' !important;
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 2em;
-    font-variant: normal;
-    text-transform: none;
-    /*line-height: 1;
+      /* use !important to prevent issues with browser extensions that change fonts */
+      font-family: 'icomoon' !important;
+      speak: none;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 2em;
+      font-variant: normal;
+      text-transform: none;
+      /*line-height: 1;
 /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
   }
   
   .icon-facebookgrijs:before {
-    content: "\e90a";
+      content: "\e90a";
   }
   
   .icon-facebookwit:before {
-    content: "\e90b";
+      content: "\e90b";
   }
   
   .icon-bus:before {
-    content: "\e90c";
+      content: "\e90c";
   }
   
   .icon-arrowrechtswit:before {
-    content: "\e906";
+      content: "\e906";
   }
   
   .icon-arrowlinksgrijs:before {
-    content: "\e907";
+      content: "\e907";
   }
   
   .icon-arrowlinkswit:before {
-    content: "\e908";
+      content: "\e908";
   }
   
   .icon-arrowrechtsgrijs:before {
-    content: "\e909";
+      content: "\e909";
   }
   
   .icon-add-contact:before {
-    content: "\e90e";
+      content: "\e90e";
   }
   
   .icon-agreement:before {
-    content: "\e90f";
+      content: "\e90f";
   }
   
   .icon-coins-on-hand:before {
-    content: "\e910";
+      content: "\e910";
   }
   
   .icon-newspaper:before {
-    content: "\e911";
+      content: "\e911";
   }
   
   .icon-open-magazine:before {
-    content: "\e912";
+      content: "\e912";
   }
   
   .icon-open-pdf-booklet:before {
-    content: "\e913";
+      content: "\e913";
   }
   
   .icon-Duaal:before {
-    content: "\e900";
+      content: "\e900";
   }
   
   .icon-TA:before {
-    content: "\e901";
+      content: "\e901";
   }
   
   .icon-GKM:before {
-    content: "\e902";
+      content: "\e902";
   }
   
   .icon-HL:before {
-    content: "\e903";
+      content: "\e903";
   }
   
   .icon-LA:before {
-    content: "\e904";
+      content: "\e904";
   }
   
   .icon-SD:before {
-    content: "\e905";
+      content: "\e905";
   }
   /* ---- CLEARFIX ---- */
   
   .clearfix:after {
-    visibility: hidden;
-    display: block;
-    content: ' ';
-    clear: both;
-    height: 0;
+      visibility: hidden;
+      display: block;
+      content: ' ';
+      clear: both;
+      height: 0;
   }
   /* ---- BANNER & LOGO ---- */
   
   #bannercover {
-    background-image: url(../img/header.jpg);
-    margin-left: 16%;
-    min-height: 163px;
-    box-sizing: border-box;
-    background-size: cover;
-    background-position: center;
+      background-image: url(../img/header.jpg);
+      margin-left: 16%;
+      min-height: 163px;
+      box-sizing: border-box;
+      background-size: cover;
+      background-position: center;
   }
   
   .logo {
-    width: 15%;
-    float: left;
-    padding: 2% 1% 1% 1%;
-    box-sizing: border-box;
+      width: 15%;
+      float: left;
+      padding: 2% 1% 1% 1%;
+      box-sizing: border-box;
   }
   /* --- HEADER TEMPLATE --- */
   
   .headerbackground {
-    margin-left: 16%;
-    min-height: 210px;
-    padding-top: 5%;
-    padding-bottom: 3.4%;
-    box-sizing: border-box;
+      margin-left: 16%;
+      min-height: 210px;
+      padding-top: 5%;
+      padding-bottom: 3.4%;
+      box-sizing: border-box;
   }
   
   #HOME header h1 {
-    border-bottom: solid white 10px;
-    padding-bottom: 1%;
-    color: white;
-    width: 100%;
-    color: #85c226;
-    text-align: left;
-    margin-right: 0;
+      border-bottom: solid white 10px;
+      padding-bottom: 1%;
+      color: white;
+      width: 100%;
+      color: #85c226;
+      text-align: left;
+      margin-right: 0;
   }
   
   header h1 {
-    border-bottom: solid white 10px;
-    padding-bottom: 1%;
-    color: white;
-    width: 100%;
-    margin-right: 0;
-    text-align: left;
-    text-indent: 5%;
+      border-bottom: solid white 10px;
+      padding-bottom: 1%;
+      color: white;
+      width: 100%;
+      margin-right: 0;
+      text-align: left;
+      text-indent: 5%;
   }
   /* ---- NAVIGATIE MENU ----- */
   
   .menubar {
-    width: 15%;
-    position: fixed;
-    top: 160px;
+      width: 15%;
+      position: fixed;
+      top: 160px;
   }
   
   .menubar ul {
-    width: 100%;
-    text-align: left;
+      width: 100%;
+      text-align: left;
   }
   
   .menubar li {
-    font-family: 'Raleway';
-    font-weight: 200;
-    margin: 5% 0;
-    list-style: none;
-    display: block;
-    box-sizing: border-box;
-    background-color: #85c226;
-    min-height: 50px;
-    border: solid 1px white;
-    vertical-align: middle;
+      font-family: 'Raleway';
+      font-weight: 200;
+      margin: 5% 0;
+      list-style: none;
+      display: block;
+      box-sizing: border-box;
+      background-color: #85c226;
+      min-height: 50px;
+      border: solid 1px white;
+      vertical-align: middle;
   }
   
   .menubar ul li:first-child {
-    margin-top: 0;
+      margin-top: 0;
   }
   
   .menubar a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.25em;
-    display: block;
-    height: 100%;
-    width: 100%;
-    padding: 7% 5% 2% 10%;
+      text-decoration: none;
+      color: white;
+      font-size: 1.25em;
+      display: block;
+      height: 100%;
+      width: 100%;
+      padding: 7% 5% 2% 10%;
   }
   
   .menubar li:hover,
   .menubar li:focus {
-    background-color: #29aae2;
+      background-color: #29aae2;
   }
   
   .menubar #logonav img {
-    max-width: 100%;
+      max-width: 100%;
   }
   
   .menubar #logonav {
-    display: none;
+      display: none;
   }
   /* -- actieve link opmaken -- */
   
   li.active {
-    background-color: #29aae2;
-    color: white;
-    padding: 7% 5% 2% 10%;
-    font-size: 1.25em;
+      background-color: #29aae2;
+      color: white;
+      padding: 7% 5% 2% 10%;
+      font-size: 1.25em;
   }
   /* ---- KLEURVLAKKEN ---- */
   /* -- Blauw -- */
   
   .blauw {
-    color: white;
-    background-color: #29aae2;
-    padding: 2%;
+      color: white;
+      background-color: #29aae2;
+      padding: 2%;
   }
   
   .blauw h3 {
-    padding-bottom: 1%;
+      padding-bottom: 1%;
   }
   /* -- Groen --  */
   
   .groen {
-    background-color: #85c226;
-    color: white;
+      background-color: #85c226;
+      color: white;
   }
   
   .groen h3 {
-    padding-bottom: 1%;
+      padding-bottom: 1%;
   }
   /* -- Geel --*/
   
   .geel {
-    background-color: #f1c40f;
+      background-color: #f1c40f;
   }
   /* -- Verschillende kleuren van de opleidingen */
   
   li.HL,
   .HL {
-    background-color: #e74c3c;
+      background-color: #e74c3c;
   }
   
   #HL .menubar li:hover {
-    background-color: #e74c3c;
+      background-color: #e74c3c;
   }
   
   li.TA,
   .TA {
-    background-color: #1abc9c;
+      background-color: #1abc9c;
   }
   
   #TA .menubar li:hover {
-    background-color: #1abc9c;
+      background-color: #1abc9c;
   }
   
   li.LA,
   .LA {
-    background-color: #973cb6;
+      background-color: #973cb6;
   }
   
   #LA .menubar li:hover {
-    background-color: #973cb6;
+      background-color: #973cb6;
   }
   
   li.SD,
   .SD {
-    background-color: #fd8125;
+      background-color: #fd8125;
   }
   
   #SD .menubar li:hover {
-    background-color: #fd8125;
+      background-color: #fd8125;
   }
   
   li.GKM,
   .GKM {
-    background-color: #f1c40f;
+      background-color: #f1c40f;
   }
   
   #GKM .menubar li:hover {
-    background-color: #f1c40f;
+      background-color: #f1c40f;
   }
   
   li.duaal,
   .duaal {
-    background-color: #5ec64d;
+      background-color: #5ec64d;
   }
   
   #duaal .menubar li:hover {
-    background-color: #5ec64d;
+      background-color: #5ec64d;
   }
   
   .opl .HL:hover {
-    opacity: 0.8;
+      opacity: 0.8;
   }
   
   .opl .TA:hover {
-    opacity: 0.8;
+      opacity: 0.8;
   }
   
   .opl .LA:hover {
-    opacity: 0.8;
+      opacity: 0.8;
   }
   
   .opl .SD:hover {
-    opacity: 0.8;
+      opacity: 0.8;
   }
   
   .opl .GKM:hover {
-    opacity: 0.8;
+      opacity: 0.8;
   }
   
   .opl .duaal:hover {
-    opacity: 0.8;
+      opacity: 0.8;
   }
   /* --- OPMAAK VAN DE NAV VAN DE VERSCHILLENDE OPLEIDINGEN --- */
   
   .opleidingen {
-    margin-left: 16%;
-    margin-top: 2%;
-    padding-left: 5%;
+      margin-left: 16%;
+      margin-top: 2%;
+      padding-left: 5%;
   }
   
   .opleidingen h2 {
-    padding: 0;
+      padding: 0;
   }
   
   .opleidingen a {
-    font-family: 'Raleway', sans-serif;
-    text-decoration: none;
-    color: #5a5760;
-    padding: 0;
+      font-family: 'Raleway', sans-serif;
+      text-decoration: none;
+      color: #5a5760;
+      padding: 0;
   }
   
   .opl ul {
-    width: 100%;
-    text-align: center;
+      width: 100%;
+      text-align: center;
   }
   
   .opl li {
-    font-family: 'Raleway';
-    font-weight: 200;
-    color: white;
-    margin: 1% 1% 1% 0;
-    list-style: none;
-    display: inline-block;
-    box-sizing: border-box;
-    width: 14%;
-    text-align: center;
+      font-family: 'Raleway';
+      font-weight: 200;
+      color: white;
+      margin: 1% 1% 1% 0;
+      list-style: none;
+      display: inline-block;
+      box-sizing: border-box;
+      width: 14%;
+      text-align: center;
   }
   
   .opl li a {
-    font-family: 'Raleway';
-    font-weight: 200;
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-    padding: 25% 2%;
+      font-family: 'Raleway';
+      font-weight: 200;
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      padding: 25% 2%;
   }
   /* ---- FOOTER ---- */
   
   footer {
-    background-color: #5a5760;
-    color: white;
-    font-size: 0.75em;
-    width: 100%;
-    padding-top: 3%;
-    margin-top: 5%;
+      background-color: #5a5760;
+      color: white;
+      font-size: 0.75em;
+      width: 100%;
+      padding-top: 3%;
+      margin-top: 5%;
   }
   
   #footercontent {
-    margin-left: 16%;
-    padding-left: 5%;
+      margin-left: 16%;
+      padding-left: 5%;
   }
   
   footer h5 {
-    font-size: 1em;
-    margin-bottom: 5%;
+      font-size: 1em;
+      margin-bottom: 5%;
   }
   
   footer li {
-    list-style: none;
-    font-family: 'Raleway', sans-serif;
-    padding: 3% 0;
+      list-style: none;
+      font-family: 'Raleway', sans-serif;
+      padding: 3% 0;
   }
   
   footer a {
-    text-decoration: none;
-    color: white;
+      text-decoration: none;
+      color: white;
   }
   
   footer a:hover {
-    text-decoration: underline;
-    color: white;
+      text-decoration: underline;
+      color: white;
   }
   
   .f_prakt_info {
-    float: left;
-    width: 16%;
-    position: relative;
-    left: 0%;
-    overflow: hidden;
-    text-align: right;
-    border-right: solid white 1px;
-    padding-right: 2%;
+      float: left;
+      width: 16%;
+      position: relative;
+      left: 0%;
+      overflow: hidden;
+      text-align: right;
+      border-right: solid white 1px;
+      padding-right: 2%;
   }
   
   .f_logo {
-    float: left;
-    width: 16%;
-    position: relative;
-    left: 6%;
-    overflow: hidden;
-    padding: 0 5%;
+      float: left;
+      width: 16%;
+      position: relative;
+      left: 6%;
+      overflow: hidden;
+      padding: 0 5%;
   }
   
   .f_logo img {
-    width: 120%;
+      width: 120%;
   }
   
   .f_aanbod {
-    float: left;
-    width: 16%;
-    position: relative;
-    left: 10%;
-    overflow: hidden;
-    border-left: solid white 1px;
-    padding-left: 2%;
+      float: left;
+      width: 16%;
+      position: relative;
+      left: 10%;
+      overflow: hidden;
+      border-left: solid white 1px;
+      padding-left: 2%;
   }
   
   .f_aanbod ul li:nth-child(3),
   .f_aanbod ul li:nth-child(4) {
-    text-indent: -9999px;
+      text-indent: -9999px;
   }
   
   .f_contact {
-    margin: 0;
-    float: left;
-    width: 16%;
-    position: relative;
-    left: 12%;
-    overflow: hidden;
-    border-left: solid white 1px;
-    padding-left: 2%;
+      margin: 0;
+      float: left;
+      width: 16%;
+      position: relative;
+      left: 12%;
+      overflow: hidden;
+      border-left: solid white 1px;
+      padding-left: 2%;
   }
   
   .f_copyright {
-    margin-left: 0;
-    text-align: center;
-    border-top: solid white 5px;
-    margin-top: 11%;
-    padding: 0.5% 0 2% 0;
+      margin-left: 0;
+      text-align: center;
+      border-top: solid white 5px;
+      margin-top: 11%;
+      padding: 0.5% 0 2% 0;
   }
   
   .f_copyright ul li {
-    padding: 0;
+      padding: 0;
   }
   
   .f_copyright ul li:first-child {
-    padding-top: 1%;
+      padding-top: 1%;
   }
   
   .f_copyright ul li a {
-    color: white;
-    text-decoration: none;
+      color: white;
+      text-decoration: none;
   }
   
   .f_copyright ul li a:hover {
-    color: #85c226;
+      color: #85c226;
   }
   /* -- More info Box -- */
   
   .moreinfoboxicon {
-    font-size: 0.6em;
+      font-size: 0.6em;
   }
   
   #HOME .moreinfobox {
-    display: block;
-    border-radius: 10px;
-    text-align: center;
-    padding: 1% 5%;
-    margin-top: 3%;
-    background-color: #85c226;
-    background-image: -webkit-linear-gradient(left, green, white, transparent 70%);
-    background-position: 100% 0;
-    background-size: 400% 400%;
-    color: transparent;
-    -webkit-transition: 0.8s .2s;
-    -webkit-transition-timing-function: ease-out;
-    -webkit-background-clip: text;
+      display: block;
+      border-radius: 10px;
+      text-align: center;
+      padding: 1% 5%;
+      margin-top: 3%;
+      background-color: #85c226;
+      background-image: -webkit-linear-gradient(left, green, white, transparent 70%);
+      background-position: 100% 0;
+      background-size: 400% 400%;
+      color: transparent;
+      -webkit-transition: 0.8s .2s;
+      -webkit-transition-timing-function: ease-out;
+      -webkit-background-clip: text;
   }
   
   #HOME .moreinfobox:hover {
-    background-position: 0 0;
-    color: transparent;
-    transition: 2s 0;
+      background-position: 0 0;
+      color: transparent;
+      transition: 2s 0;
   }
   
   #HOME .aanbod .moreinfobox {
-    background-color: white;
-    background-image: -webkit-linear-gradient(left, white, #aaa, transparent 100%);
+      background-color: white;
+      background-image: -webkit-linear-gradient(left, white, #aaa, transparent 100%);
   }
   
   #HOME .welkom .moreinfobox {
-    margin: 5% 50% 5% 0%;
-    border: 1px solid #85c226;
+      margin: 5% 50% 5% 0%;
+      border: 1px solid #85c226;
   }
   
   #HOME a.moreinfobox {
-    text-decoration: none;
-    color: white;
+      text-decoration: none;
+      color: white;
   }
   /* ---- HOME PAGE ---- */
   /* -- Sectie Welkom -- */
   
   .welkom {
-    color: #85c226;
-    text-align: center;
-    margin-left: 16%;
-    margin: 5% 5% 5% 16%;
+      color: #85c226;
+      text-align: center;
+      margin-left: 16%;
+      margin: 5% 5% 5% 16%;
   }
   
   #HOME .welkom a {
-    color: #85c226;
+      color: #85c226;
   }
   
   .welkom p {
-    font-family: 'Raleway';
-    text-align: left;
-    font-style: italic;
-    line-height: 2;
-    font-weight: 300;
+      font-family: 'Raleway';
+      text-align: left;
+      font-style: italic;
+      line-height: 2;
+      font-weight: 300;
   }
   
   .welkom h2 {
-    font-size: 1.75em;
-    text-align: left;
-    margin-left: 5%;
-    width: 60%;
+      font-size: 1.75em;
+      text-align: left;
+      margin-left: 5%;
+      width: 60%;
   }
   
   #visieinleiding {
-    border-top: solid 1px;
-    margin-left: 5%;
-    padding-left: 0;
-    padding-top: 2%;
-    margin-top: 1%;
+      border-top: solid 1px;
+      margin-left: 5%;
+      padding-left: 0;
+      padding-top: 2%;
+      margin-top: 1%;
   }
   /* -- nieuws sectie -- */
   
   .nieuws {
-    padding-left: 0;
+      padding-left: 0;
   }
   
   .nieuws h2 {
-    color: #29aae2;
-    padding-bottom: 1%;
-    margin-left: 5%;
-    padding-top: 2%;
+      color: #29aae2;
+      padding-bottom: 1%;
+      margin-left: 5%;
+      padding-top: 2%;
   }
   
   .nieuws article {
-    margin: 0;
+      margin: 0;
   }
   
   #HOME .blauw {
-    padding: 0;
+      padding: 0;
   }
   
   .nieuws ul {
-    display: inline-block;
-    position: relative;
-    width: 100%;
-    list-style: none;
+      display: inline-block;
+      position: relative;
+      width: 100%;
+      list-style: none;
   }
   
   .nieuws li {
-    font: bold sans-serif;
-    list-style: none;
-    padding: 3% 2% 3% 6%;
+      font: bold sans-serif;
+      list-style: none;
+      padding: 3% 2% 3% 6%;
   }
   
   .nieuws li:focus,
   .nieuws li:hover {
-    background-color: #0c6c96;
-    color: #fff;
+      background-color: #0c6c96;
+      color: #fff;
   }
   
   .nieuws h3,
   .nieuws p {
-    width: 50%;
+      width: 50%;
   }
   
   .nieuws li:hover img {
-    display: block;
+      display: block;
   }
   
   .nieuws img {
-    height: 100%;
-    display: none;
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 45%;
+      height: 100%;
+      display: none;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 45%;
   }
   /* -- Aanbod sectie -- */
   
   #HOME .aanbod {
-    height: auto;
-    margin-left: 0;
-    padding-left: 0;
+      height: auto;
+      margin-left: 0;
+      padding-left: 0;
   }
   
   #HOME .aanbod h2 {
-    color: #85c226;
-    margin-left: 21%;
-    padding-bottom: 1%;
+      color: #85c226;
+      margin-left: 21%;
+      padding-bottom: 1%;
   }
   
   #HOME .aanbod article {
-    padding-top: 3%;
-    padding-bottom: 3%;
-    min-height: 280px;
-    box-sizing: border-box;
-    width: 49%;
+      padding-top: 3%;
+      padding-bottom: 3%;
+      min-height: 280px;
+      box-sizing: border-box;
+      width: 49%;
   }
   
   #HOME .aanbod .moreinfobox {
-    width: 30%;
-    border: 1px solid;
-    border-color: white;
-    margin-top: 10%;
+      width: 30%;
+      border: 1px solid;
+      border-color: white;
+      margin-top: 10%;
   }
   
   .basis {
-    margin: 0;
-    padding-left: 21%;
-    float: left;
-    padding-right: 3%;
+      margin: 0;
+      padding-left: 21%;
+      float: left;
+      padding-right: 3%;
   }
   
   #HOME .aanbod h3 {
-    font-size: 2em;
-    margin-bottom: 2%;
+      font-size: 2em;
+      margin-bottom: 2%;
   }
   
   #HOME .aanbod p {
-    margin-bottom: 5%;
+      margin-bottom: 5%;
   }
   
   .type9 {
-    margin: 0;
-    float: right;
-    width: 35%;
-    padding-right: 13%;
-    padding-left: 2%;
+      margin: 0;
+      float: right;
+      width: 35%;
+      padding-right: 13%;
+      padding-left: 2%;
   }
   /* --- SLIDER ---*/
   
   .slider {
-    background-color: white;
-    margin-left: 15%;
+      background-color: white;
+      margin-left: 15%;
   }
   
   .balkeffect {
-    background-color: white;
-    padding-left: 1%;
+      background-color: white;
+      padding-left: 1%;
   }
   
   .slider figcaption {
-    margin-top: 2%;
-    padding: 3%;
-    text-align: center;
-    margin-right: 10%;
-    color: white;
+      margin-top: 2%;
+      padding: 3%;
+      text-align: center;
+      margin-right: 10%;
+      color: white;
   }
   
   .slider figure img {
-    max-width: 100%;
-    overflow: hidden;
+      max-width: 100%;
+      overflow: hidden;
   }
   
   .slider figure .imgwrapper {
-    overflow: hidden;
-    margin-right: 10%;
+      overflow: hidden;
+      margin-right: 10%;
   }
   
   .slider figcaption a {
-    width: 20%;
-    padding: 0 15%;
-    color: white;
-    text-decoration: none;
+      width: 20%;
+      padding: 0 15%;
+      color: white;
+      text-decoration: none;
   }
   
   .slider figcaption a:hover {
-    color: #5a5760;
+      color: #5a5760;
   }
   /* --- AANBOD PAGINA--- */
   
   .aanbod-pagina h2 {
-    width: 90%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    border-bottom: solid 2px;
-    margin-left: 5%;
+      width: 90%;
+      padding-top: 1%;
+      padding-bottom: 1%;
+      border-bottom: solid 2px;
+      margin-left: 5%;
   }
   
   .aanbod-pagina article:nth-child(odd) {
-    color: #5a5760;
+      color: #5a5760;
   }
   
   .aanbod-pagina article {
-    margin-top: 2em;
-    margin-bottom: 2em;
-    color: white;
-    padding: 0.5em;
+      margin-top: 2em;
+      margin-bottom: 2em;
+      color: white;
+      padding: 0.5em;
   }
   
   .aanbod-pagina article ul,
   .aanbod-pagina p {
-    max-width: 70%;
-    margin-left: 5%;
-    margin-bottom: 3em;
-    margin-top: 3em;
-    list-style: inside;
+      max-width: 70%;
+      margin-left: 5%;
+      margin-bottom: 3em;
+      margin-top: 3em;
+      list-style: inside;
   }
   
   .aanbod-pagina a {
-    font-family: 'Raleway', sans-serif;
-    color: white;
-    text-decoration: none;
+      font-family: 'Raleway', sans-serif;
+      color: white;
+      text-decoration: none;
   }
   
   .info-button-wit {
-    text-align: center;
-    display: block;
-    text-decoration: none;
-    color: white;
-    padding: 0.5em;
-    margin: 2em;
-    margin-left: 40%;
-    max-width: 20%;
-    border-style: solid;
-    border-width: 0.15em;
-    border-radius: 0.5em;
+      text-align: center;
+      display: block;
+      text-decoration: none;
+      color: white;
+      padding: 0.5em;
+      margin: 2em;
+      margin-left: 40%;
+      max-width: 20%;
+      border-style: solid;
+      border-width: 0.15em;
+      border-radius: 0.5em;
   }
   
   .info-button-grijs {
-    text-align: center;
-    display: block;
-    text-decoration: none;
-    color: #5a5760;
-    padding: 0.5em;
-    margin: 2em;
-    margin-left: 40%;
-    max-width: 20%;
-    border-color: #5a5760;
-    border-style: solid;
-    border-width: 0.15em;
-    border-radius: 0.5em;
+      text-align: center;
+      display: block;
+      text-decoration: none;
+      color: #5a5760;
+      padding: 0.5em;
+      margin: 2em;
+      margin-left: 40%;
+      max-width: 20%;
+      border-color: #5a5760;
+      border-style: solid;
+      border-width: 0.15em;
+      border-radius: 0.5em;
   }
   
   a.info-button-grijs {
-    color: #5a5760;
+      color: #5a5760;
   }
   
   a.grijzelink {
-    color: #5a5760;
+      color: #5a5760;
   }
   
   .aanbod-index {
-    margin-top: 1%;
-    margin-left: 11.5%;
-    padding-left: 5%;
+      margin-top: 1%;
+      margin-left: 11.5%;
+      padding-left: 5%;
   }
   
   .aanbod-index li {
-    text-align: center;
-    list-style: none;
-    margin-right: 1%;
-    width: 15%;
-    display: inline-block;
-    border-bottom: solid #85c226 1px;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    margin-left: 5%;
+      text-align: center;
+      list-style: none;
+      margin-right: 1%;
+      width: 15%;
+      display: inline-block;
+      border-bottom: solid #85c226 1px;
+      padding-top: 1%;
+      padding-bottom: 1%;
+      margin-left: 5%;
   }
   
   .aanbod-index a {
-    text-decoration: none;
-    color: #5a5760;
+      text-decoration: none;
+      color: #5a5760;
   }
   /* --- OPLEIDINGEN PAGINA --- */
   
   .opleidingenpagina h2:before {
-    display: inline-block;
-    font-size: 2em;
-    padding: 0.5em;
-    padding-right: 1.5em;
-    max-width: 3%;
+      display: inline-block;
+      font-size: 2em;
+      padding: 0.5em;
+      padding-right: 1.5em;
+      max-width: 3%;
   }
   
   .opleidingen-header {
-    background-color: #85c226;
+      background-color: #85c226;
   }
   
   .opleidingen-hrheaderwit {
-    background-color: white;
-    height: 1em;
-    border: none;
-    width: 70%;
+      background-color: white;
+      height: 1em;
+      border: none;
+      width: 70%;
   }
   
   .opleidingen-hrheadergroen {
-    background-color: #85c226;
-    height: 2em;
-    border: none;
-    margin-left: 15%;
+      background-color: #85c226;
+      height: 2em;
+      border: none;
+      margin-left: 15%;
   }
   
   .opleidingenpagina article {
-    margin-top: 2em;
-    margin-bottom: 2em;
-    color: white;
-    overflow: hidden;
+      margin-top: 2em;
+      margin-bottom: 2em;
+      color: white;
+      overflow: hidden;
   }
   
   .opleidingenpagina article ul {
-    max-width: 50%;
-    margin: 2em;
-    margin-left: 10em;
-    margin-bottom: 3em;
+      max-width: 50%;
+      margin: 2em;
+      margin-left: 10em;
+      margin-bottom: 3em;
   }
   
   .opleidingen-foto-rechts {
-    float: right;
-    width: 42%;
-    overflow: hidden;
-    height: 100%;
-    object-fit: fill;
+      float: right;
+      width: 42%;
+      overflow: hidden;
+      height: 100%;
+      object-fit: fill;
   }
   
   .opleidingen-hrarticle {
-    height: 0.1em;
-    width: 40%;
-    background-color: white;
-    border: none;
-    margin-left: 9em;
+      height: 0.1em;
+      width: 40%;
+      background-color: white;
+      border: none;
+      margin-left: 9em;
   }
   
   .opleidingen-button {
-    text-align: center;
-    display: block;
-    text-decoration: none;
-    color: white;
-    padding: 0.5em;
-    margin: 2em;
-    margin-left: 30%;
-    max-width: 25%;
-    border-style: solid;
-    border-width: 0.15em;
-    border-radius: 0.5em;
+      text-align: center;
+      display: block;
+      text-decoration: none;
+      color: white;
+      padding: 0.5em;
+      margin: 2em;
+      margin-left: 30%;
+      max-width: 25%;
+      border-style: solid;
+      border-width: 0.15em;
+      border-radius: 0.5em;
   }
   
   .opleidingenpagina a {
-    font-family: 'Raleway', sans-serif;
-    color: white;
-    text-decoration: none;
+      font-family: 'Raleway', sans-serif;
+      color: white;
+      text-decoration: none;
   }
   /* --- PRAKTISCHE INFO PAGINA--- */
   
   .info h2:before {
-    display: inline-block;
-    font-size: 2em;
-    padding: 0.5em;
-    padding-right: 1.5em;
-    max-width: 3%;
+      display: inline-block;
+      font-size: 2em;
+      padding: 0.5em;
+      padding-right: 1.5em;
+      max-width: 3%;
   }
   
   .info article:nth-child(odd) {
-    color: #5a5760;
+      color: #5a5760;
   }
   
   .info h2:before {
-    display: inline-block;
-    font-size: 2em;
-    padding: 0.5em;
-    padding-right: 1.5em;
-    max-width: 3%;
+      display: inline-block;
+      font-size: 2em;
+      padding: 0.5em;
+      padding-right: 1.5em;
+      max-width: 3%;
   }
   
   .info article {
-    margin-top: 2em;
-    margin-bottom: 2em;
-    color: white;
-    padding: 0.5em;
+      margin-top: 2em;
+      margin-bottom: 2em;
+      color: white;
+      padding: 0.5em;
   }
   
   .info article ul {
-    max-width: 70%;
-    margin: 2em;
-    margin-left: 10em;
-    margin-bottom: 3em;
+      max-width: 70%;
+      margin: 2em;
+      margin-left: 10em;
+      margin-bottom: 3em;
   }
   
   .info a {
-    font-family: 'Raleway', sans-serif;
-    color: white;
-    text-decoration: none;
+      font-family: 'Raleway', sans-serif;
+      color: white;
+      text-decoration: none;
   }
   
   .info-hrarticle-wit {
-    height: 0.1em;
-    width: 40%;
-    background-color: white;
-    border: none;
-    margin-left: 9em;
+      height: 0.1em;
+      width: 40%;
+      background-color: white;
+      border: none;
+      margin-left: 9em;
   }
   
   .info-hrarticle-grijs {
-    height: 0.1em;
-    width: 40%;
-    background-color: #5a5760;
-    ;
-    border: none;
-    margin-left: 9em;
+      height: 0.1em;
+      width: 40%;
+      background-color: #5a5760;
+      ;
+      border: none;
+      margin-left: 9em;
   }
   
   .info-button-wit {
-    text-align: center;
-    display: block;
-    text-decoration: none;
-    color: white;
-    padding: 0.5em;
-    margin: 2em;
-    margin-left: 40%;
-    max-width: 20%;
-    border-style: solid;
-    border-width: 0.15em;
-    border-radius: 0.5em;
+      text-align: center;
+      display: block;
+      text-decoration: none;
+      color: white;
+      padding: 0.5em;
+      margin: 2em;
+      margin-left: 40%;
+      max-width: 20%;
+      border-style: solid;
+      border-width: 0.15em;
+      border-radius: 0.5em;
   }
   
   .info-button-grijs {
-    text-align: center;
-    display: block;
-    text-decoration: none;
-    color: #5a5760;
-    padding: 0.5em;
-    margin: 2em;
-    margin-left: 40%;
-    max-width: 20%;
-    border-color: #5a5760;
-    border-style: solid;
-    border-width: 0.15em;
-    border-radius: 0.5em;
+      text-align: center;
+      display: block;
+      text-decoration: none;
+      color: #5a5760;
+      padding: 0.5em;
+      margin: 2em;
+      margin-left: 40%;
+      max-width: 20%;
+      border-color: #5a5760;
+      border-style: solid;
+      border-width: 0.15em;
+      border-radius: 0.5em;
   }
   
   a.info-button-grijs {
-    color: #5a5760;
+      color: #5a5760;
   }
   
   a.grijzelink {
-    color: #5a5760;
+      color: #5a5760;
   }
   /* ---- TEAM PAGINA ---- */
   
   .p_index {
-    margin-top: 5%;
-    margin-left: 16%;
-    padding-left: 5%;
+      margin-top: 5%;
+      margin-left: 16%;
+      padding-left: 5%;
   }
   
   .p_index h2,
   .lkr h2 {
-    margin-bottom: 3%;
+      margin-bottom: 3%;
   }
   
   .p_index li {
-    text-align: center;
-    list-style: none;
-    margin-right: 1%;
-    width: 15%;
-    display: inline-block;
-    border-bottom: solid #85c226 1px;
-    padding-bottom: 1%;
+      text-align: center;
+      list-style: none;
+      margin-right: 1%;
+      width: 15%;
+      display: inline-block;
+      border-bottom: solid #85c226 1px;
+      padding-bottom: 1%;
   }
   
   .p_index a {
-    text-decoration: none;
-    color: #5a5760;
+      text-decoration: none;
+      color: #5a5760;
   }
   
   .team h2 {
-    width: 90%;
-    color: #85c226;
-    padding-bottom: 1%;
-    border-bottom: solid #85c226 2px;
+      width: 90%;
+      color: #85c226;
+      padding-bottom: 1%;
+      border-bottom: solid #85c226 2px;
   }
   
   #directie h2 {
-    width: 92%;
-    color: white;
-    border-bottom: solid white 2px;
+      width: 92%;
+      color: white;
+      border-bottom: solid white 2px;
   }
   
   .team li {
-    text-align: center;
-    list-style: none;
-    margin-right: 1%;
-    width: 15%;
-    display: inline-block;
+      text-align: center;
+      list-style: none;
+      margin-right: 1%;
+      width: 15%;
+      display: inline-block;
   }
   
   .team img {
-    width: 100%;
+      width: 100%;
   }
   
   #directie {
-    margin: 5% 0 0 0;
-    padding-left: 21%;
+      margin: 5% 0 0 0;
+      padding-left: 21%;
   }
   
   #oht li {
-    text-align: left;
-    list-style: none;
-    display: block;
-    padding-bottom: 1%;
-    width: 100%;
+      text-align: left;
+      list-style: none;
+      display: block;
+      padding-bottom: 1%;
+      width: 100%;
   }
   
   .team p:nth-child(even) {
-    font-weight: regular;
+      font-weight: regular;
   }
   
   .team p:nth-child(odd) {
-    font-style: italic;
+      font-style: italic;
   }
   /* --- Team-pagina lkr --- */
   
   .team ul {
-    margin-top: 1%;
+      margin-top: 1%;
   }
   
   .lkr ul {
-    position: relative;
-    width: 50%;
-    padding: 1% 30% 1% 0;
-    margin-right: 16%;
+      position: relative;
+      width: 50%;
+      padding: 1% 30% 1% 0;
+      margin-right: 16%;
   }
   
   .lkr li {
-    text-align: left;
-    list-style: none;
-    padding: 1.25% 1.25%;
-    width: 45%;
+      text-align: left;
+      list-style: none;
+      padding: 1.25% 1.25%;
+      width: 45%;
   }
   
   .lkr li:focus,
   .lkr li:hover {
-    background-color: #4c750b;
+      background-color: #4c750b;
   }
   
   .lkr li:hover img {
-    display: block;
+      display: block;
   }
   
   .lkr img {
-    width: 30%;
-    display: none;
-    position: absolute;
-    top: 6%;
-    right: 2%;
+      width: 30%;
+      display: none;
+      position: absolute;
+      top: 6%;
+      right: 2%;
   }
   /* --- GKM sections --- */
   
   .spec_opl section {
-    margin-top: 5%;
-    padding-left: 5%;
+      margin-top: 5%;
+      padding-left: 5%;
   }
   
   .spec_opl h2 {
-    margin-bottom: 2%;
+      margin-bottom: 2%;
   }
   /* -- Sectie Algemeen -- */
   
   .spec_opl #algemeen p {
-    margin-bottom: 10%;
-    line-height: 1.5;
+      margin-bottom: 10%;
+      line-height: 1.5;
   }
   
   #GKM #algemeen h3 {
-    color: #f1c40f;
+      color: #f1c40f;
   }
   
   #HL #algemeen h3 {
-    color: #e74c3c;
+      color: #e74c3c;
   }
   
   #TA #algemeen h3 {
-    color: #1abc9c;
+      color: #1abc9c;
   }
   
   #LA #algemeen h3 {
-    color: #973cb6;
+      color: #973cb6;
   }
   
   #SD #algemeen h3 {
-    color: #fd8125;
+      color: #fd8125;
   }
   
   #duaal #algemeen h3 {
-    color: #5ec64d;
+      color: #5ec64d;
   }
   
   .spec_opl #algemeenlinks {
-    width: 30%;
-    float: left;
+      width: 30%;
+      float: left;
   }
   
   .spec_opl #algemeenrechts {
-    width: 50%;
-    float: right;
-    margin-right: 10%;
+      width: 50%;
+      float: right;
+      margin-right: 10%;
   }
   /*Sectie Taken*/
   
   .spec_opl #taken div {
-    width: 34%;
-    float: left;
-    margin-right: 2%;
-    padding: 5%;
-    margin-top: 2%;
-		min-height: 220px;
+      width: 34%;
+      float: left;
+      margin-right: 2%;
+      padding: 5%;
+      margin-top: 2%;
+      min-height: 220px;
   }
-
-  #taken div:nth-child(5){
-		clear: both;
-	}
   
+  #taken div:nth-child(5) {
+      clear: both;
+  }
   
   .spec_opl #taken #basis {
-    width: 80%;
-    float: none;
-    background-color: #5a5760;
-    margin-right: 2%;
-    color: white;
-    min-height: 90px;
+      width: 80%;
+      float: none;
+      background-color: #5a5760;
+      margin-right: 2%;
+      color: white;
+      min-height: 90px;
   }
   
   .spec_opl #taken h3 {
-    color: #ffffff;
-    padding-bottom: 4%;
+      color: #ffffff;
+      padding-bottom: 4%;
   }
   
   .spec_opl #taken #basis h3 {
-    padding-bottom: 0%;
+      padding-bottom: 0%;
   }
   
   #GKM #taken #basis h3 {
-    color: #f1c40f;
+      color: #f1c40f;
   }
   
   #HL #taken #basis h3 {
-    color: #e74c3c;
+      color: #e74c3c;
   }
   
   #TA #taken #basis h3 {
-    color: #1abc9c;
+      color: #1abc9c;
   }
   
   #LA #taken #basis h3 {
-    color: #973cb6;
+      color: #973cb6;
   }
   
   #SD #taken #basis h3 {
-    color: #fd8125;
+      color: #fd8125;
   }
   
   #duaal #taken #basis h3 {
-    color: #5ec64d;
+      color: #5ec64d;
   }
   
   .spec_opl #taken ul li {
-    padding-top: 2.5%;
+      padding-top: 2.5%;
   }
   
   .spec_opl #taken #basis ul li {
-    padding-top: 2%;
+      padding-top: 2%;
   }
   
   .spec_opl #takenim {
-    background-size: cover;
-    background-position: bottom;
+      background-size: cover;
+      background-position: bottom;
   }
   
   #GKM #takenimg {
-    background-image: url(../img/GKM/studentkerstcupcakes.png);
+      background-image: url(../img/GKM/studentkerstcupcakes.png);
   }
   
   #HL #takenimg {
-    background-image: url(../img/HL/laswerk.png);
+      background-image: url(../img/HL/laswerk.png);
   }
   
   #TA #takenimg {
-    background-image: url(../img/TA/takenimg.png);
+      background-image: url(../img/TA/takenimg.png);
   }
   
   #LA #takenimg {
-    background-image: url(../img/LA/takenimg.png);
+      background-image: url(../img/LA/takenimg.png);
   }
   
   #SD #takenimg {
-    background-image: url(../img/SD/takenimg.png);
+      background-image: url(../img/SD/takenimg.png);
   }
   
   #duaal #takenimg {
-    background-image: url(../img/duaal/takenimg.png);
+      background-image: url(../img/duaal/takenimg.png);
   }
   
   .HL li,
   .LA li {
-    color: white;
+      color: white;
   }
   /*Sectie attitudes en stages*/
   
   .spec_opl #attitudes,
   .spec_opl #stages {
-    margin-left: 15%;
-    padding-left: 0;
+      margin-left: 15%;
+      padding-left: 0;
   }
   
   .spec_opl #stageswrapper,
   .spec_opl #attitudeswrapper {
-    background-color: #29aae2;
+      background-color: #29aae2;
   }
   
   .spec_opl #stageswrapper .balkeffect,
   .spec_opl #attitudeswrapper .balkeffect {
-    background-color: white;
-    padding-left: 7%;
+      background-color: white;
+      padding-left: 7%;
   }
   
   .spec_opl #attitudes ul,
   .spec_opl #stages ul {
-    padding-left: 5%;
+      padding-left: 5%;
   }
   
   .spec_opl #attitudes ul li,
   .spec_opl #stages ul li {
-    padding-top: 1.5%;
-    color: #29aae2;
+      padding-top: 1.5%;
+      color: #29aae2;
   }
   /*Aside lessentabel*/
   
   .spec_opl #lessentabel {
-    margin: 5% 10% 0% 16%;
-    padding-left: 5%;
+      margin: 5% 10% 0% 16%;
+      padding-left: 5%;
   }
   
   .spec_opl #lessentabel h2 {
-    float: left;
-    width: 50%;
+      float: left;
+      width: 50%;
   }
   
   .spec_opl #lessentabel h3 {
-    float: right;
-    width: 50%;
-    text-align: right;
-    margin-bottom: 3%;
+      float: right;
+      width: 50%;
+      text-align: right;
+      margin-bottom: 3%;
   }
   
   .spec_opl #lessentabel table {
-    margin: 5% 0;
-    width: 100%;
-    font-weight: lighter;
-    border-collapse: collapse;
+      margin: 5% 0;
+      width: 100%;
+      font-weight: lighter;
+      border-collapse: collapse;
   }
   
   #GKM #lessentabel table {
-    border: solid 3px #f1c40f;
+      border: solid 3px #f1c40f;
   }
   
   #HL #lessentabel table {
-    border: solid 3px #e74c3c;
+      border: solid 3px #e74c3c;
   }
   
   #TA #lessentabel table {
-    border: solid 3px #1abc9c;
+      border: solid 3px #1abc9c;
   }
   
   #LA #lessentabel table {
-    border: solid 3px #973cb6;
+      border: solid 3px #973cb6;
   }
   
   #SD #lessentabel table {
-    border: solid 3px #fd8125;
+      border: solid 3px #fd8125;
   }
   
   #duaal #lessentabel table {
-    border: solid 3px #5ec64d;
+      border: solid 3px #5ec64d;
   }
   
   .spec_opl #lessentabel table th {
-    text-align: right;
-    padding: 2.5% 5% 2.5% 0%;
-    margin-right: 15%;
-    font-weight: normal;
+      text-align: right;
+      padding: 2.5% 5% 2.5% 0%;
+      margin-right: 15%;
+      font-weight: normal;
   }
   
   .spec_opl #lessentabel table td {
-    text-align: center;
-    padding: 2.5% 10% 2.5% 10%;
+      text-align: center;
+      padding: 2.5% 10% 2.5% 10%;
   }
   
   .spec_opl #lessentabel .tableheading {
-    font-size: 1.75em;
+      font-size: 1.75em;
   }
   
   #GKM #lessentabel tr:nth-of-type(odd) th {
-    background-color: #f1c40f;
+      background-color: #f1c40f;
   }
   
   #TA #lessentabel tr:nth-of-type(odd) th {
-    background-color: #1abc9c;
+      background-color: #1abc9c;
   }
   
   #SD #lessentabel tr:nth-of-type(odd) th {
-    background-color: #fd8125;
+      background-color: #fd8125;
   }
   
   #duaal #lessentabel tr:nth-of-type(odd) th {
-    background-color: #5ec64d;
+      background-color: #5ec64d;
   }
   
   #HL #lessentabel tr:nth-of-type(odd) th {
-    background-color: #e74c3c;
-    color: white;
+      background-color: #e74c3c;
+      color: white;
   }
   
   #LA #lessentabel tr:nth-of-type(odd) th {
-    background-color: #973cb6;
-    color: white;
+      background-color: #973cb6;
+      color: white;
   }
   /* -- GKM andere opleidingen-- */
   
   .spec_opl .opleidingen {
-    margin-left: 0;
-    margin-right: 13%;
+      margin-left: 0;
+      margin-right: 13%;
   }
   
   .spec_opl #andereopleidingen h2 a {
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.5em;
-    color: #5a5760;
-    padding: 0;
+      font-family: 'Raleway', sans-serif;
+      font-size: 1.5em;
+      color: #5a5760;
+      padding: 0;
   }
   
   .spec_opl .opl ul {
-    text-align: left;
+      text-align: left;
   }
   /* --- OPLEIDINGSFASES: ---- /
 
@@ -1432,792 +1431,788 @@ Kleur duaal groen: #5ec64d */
 /*kleur  */
   
   .blauwopl {
-    background-color: #29aae2;
-    color: white;
-    padding-bottom: 2%
+      background-color: #29aae2;
+      color: white;
+      padding-bottom: 2%
   }
   /* Tekst */
   
   #OPL p {
-    width: 90%;
-    margin-left: 5%;
-    padding: 1%;
+      width: 90%;
+      margin-left: 5%;
+      padding: 1%;
   }
   
   #blokjesopleiding {
-    margin-left: 20%;
-    width: 80%;
+      margin-left: 20%;
+      width: 80%;
   }
   /*Afbeeldingen */
   
   .pijl {
-    width: 5%;
-    margin-left: 18%;
-    margin-top: 1.3%;
-    float: left;
-    margin-right: 2%;
+      width: 5%;
+      margin-left: 18%;
+      margin-top: 1.3%;
+      float: left;
+      margin-right: 2%;
   }
   /*Opmaak links */
   
-  #OPL #opmaak1 {
-    background-color: #85c226;
+  #OPL .opmaak1 {
+      background-color: #85c226;
   }
   
-  #OPL #witruimte {
-    margin-left: 15%;
-    border-left: 1em solid white;
+  #OPL .witruimte {
+      margin-left: 15%;
+      border-left: 1em solid white;
   }
   /* Soorten fases */
   
   .fases {
-    padding-left: 0%;
-    margin-bottom: 2%;
-    margin-top: 2%;
+      padding-left: 0%;
+      margin-bottom: 2%;
+      margin-top: 2%;
   }
   
   .Duaal {
-    width: 28.5%;
-    margin: 0%;
-    padding-right: 18%;
-    float: right;
-    margin-left: 0%;
+      width: 28.5%;
+      margin: 0%;
+      padding-right: 18%;
+      float: right;
+      margin-left: 0%;
   }
   
   .Kwalificatiefase {
-    width: 28.5%;
-    margin-left: 0%;
-    margin-top: 0%;
-    padding-left: 19.5%;
+      width: 28.5%;
+      margin-left: 0%;
+      margin-top: 0%;
+      padding-left: 19.5%;
   }
   
   .ABO {
-    margin-bottom: -3%;
+      margin-bottom: -3%;
   }
   /* ----- Contact:----- */
   /* tekst */
   
   #CT p {
-    padding-bottom: 2%;
-    margin-left: 6%;
+      padding-bottom: 2%;
+      margin-left: 6%;
   }
   /* opmaak */
   
   .blokken {
-    padding: 0%;
-    margin-top: 2%;
+      padding: 0%;
+      margin-top: 2%;
   }
   
   .bloklinks {
-    background-color: #29aae2;
+      background-color: #29aae2;
   }
   
   #adresgegevens {
-    padding: 2% 5%;
-    background-image: url(../img/luchtfotoopacity.jpg);
-    background-size: cover;
-    background-position: center;
+      padding: 2% 5%;
+      background-image: url(../img/luchtfotoopacity.jpg);
+      background-size: cover;
+      background-position: center;
   }
   
   #adresgegevens ul {
-    list-style: none;
+      list-style: none;
   }
   
   #adresgegevens ul li {
-    font-family: 'Raleway';
-    font-weight: 300;
-    padding-bottom: 1%;
+      font-family: 'Raleway';
+      font-weight: 300;
+      padding-bottom: 1%;
   }
   
   #adresgegevens ul li:first-child {
-    font-size: 2em;
+      font-size: 2em;
   }
   
   #witterand {
-    margin-left: 15%;
-    border-left: 1em solid white;
+      margin-left: 15%;
+      border-left: 1em solid white;
   }
   
   #lijnzwart {
-    border-bottom: 1px solid #737078;
+      border-bottom: 1px solid #737078;
   }
   /*foto */
   
   #luchtfoto {
-    width: 84%;
-    height: 34%;
-    opacity: 0.3;
-    position: absolute;
+      width: 84%;
+      height: 34%;
+      opacity: 0.3;
+      position: absolute;
   }
   /*formulier */
   
+  label {
+      width: 100%;
+      float: left;
+      color: white;
+      margin-left: 0.%;
+  }
+  
   input[type=submit] {
-    border-radius: 5px;
-    border: 2px solid white;
-    text-align: center;
-    width: 10%;
-    background-color: #29aae2;
-    color: white;
-    padding: 0.2%;
+      border-radius: 5px;
+      border: 2px solid white;
+      text-align: center;
+      width: 10%;
+      background-color: #29aae2;
+      color: white;
+      padding: 0.2%;
   }
   
   input[type=submit]:hover {
-    opacity: 0.6;
-    cursor: pointer;
+      opacity: 0.6;
+      cursor: pointer;
   }
   
   input[type=text] {
-    width: 27.5%;
-    border-radius: 5px;
-    border: 2px solid white;
-    padding-bottom: 1%;
-    padding-left: 2.5%;
-    padding-top: 1%;
+      width: 27.5%;
+      border-radius: 5px;
+      border: 2px solid white;
+      padding-bottom: 1%;
+      padding-left: 2.5%;
+      padding-top: 1%;
   }
   
   input[type=email] {
-    width: 27.5%;
-    border-radius: 5px;
-    border: 2px solid white;
-    padding-bottom: 1%;
-    padding-left: 2.5%;
-    padding-top: 1%;
+      width: 27.5%;
+      border-radius: 5px;
+      border: 2px solid white;
+      padding-bottom: 1%;
+      padding-left: 2.5%;
+      padding-top: 1%;
   }
   
   textarea {
-    width: 57.4%;
-    border-radius: 5px;
-    border: 2px solid white;
-    padding-bottom: 15%;
-    padding-left: 2.5%;
-    padding-top: 1%;
+      width: 57.4%;
+      border-radius: 5px;
+      border: 2px solid white;
+      padding-bottom: 15%;
+      padding-left: 2.5%;
+      padding-top: 1%;
   }
   
   #keuze {
-    width: 60%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    border-radius: 5px;
-    border: 2px solid white;
-    padding-left: 2.5%;
+      width: 60%;
+      padding-top: 1%;
+      padding-bottom: 1%;
+      border-radius: 5px;
+      border: 2px solid white;
+      padding-left: 2.5%;
   }
   
   ::-webkit-input-placeholder {
-    font-style: italic;
+      font-style: italic;
   }
   /*Kaart */
   
   #Situering {
-    margin: 0%;
-    padding: 0%;
-    margin-left: 16%;
-    margin-top: 2%;
-    margin-bottom: -2%;
+      margin: 0%;
+      padding: 0%;
+      margin-left: 16%;
+      margin-top: 2%;
+      margin-bottom: -2%;
   }
   
   #kaart {
-    width: 100%;
-    opacity: 0.8;
+      width: 100%;
+      opacity: 0.8;
   }
   
   .contact {
-    margin-top: 3.6%;
+      margin-top: 3.6%;
   }
   /* ---- MEDIAQUERIES 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 ---- */
   
   @media screen and (max-width: 1700px) {
-    .opleidingenpagina article {
-      padding-left: 0%;
-    }
-    .opleidingen-button {
-      margin-left: 20%;
-    }
+      .opleidingenpagina article {
+          padding-left: 0%;
+      }
+      .opleidingen-button {
+          margin-left: 20%;
+      }
   }
   
   @media screen and (max-width: 1400px) {
-    .opleidingen-foto-rechts {
-      margin: 2em;
-    }
+      .opleidingen-foto-rechts {
+          margin: 2em;
+      }
   }
   
   @media screen and (max-width: 1280px) {
-    /* -- HOME PAGE -- */
-    /* - Nieuws sectie - */
-    .nieuws li {
-      padding: 1.25% 1% 1.25% 5%;
-    }
-    .nieuws h3,
-    .nieuws p {
-      width: 40%;
-    }
-    .nieuws img {
-      width: 55%;
-    }
+      /* -- HOME PAGE -- */
+      /* - Nieuws sectie - */
+      .nieuws li {
+          padding: 1.25% 1% 1.25% 5%;
+      }
+      .nieuws h3,
+      .nieuws p {
+          width: 40%;
+      }
+      .nieuws img {
+          width: 55%;
+      }
   }
   
   @media screen and (max-width: 1250px) {
-    .opleidingenpagina h2:before {
-      font-size: 1.5em;
-      padding-right: 0.75em;
-    }
-    .opleidingen-hrarticle {
-      margin-left: 6em;
-    }
-    .opleidingenpagina h2 {
-      padding-left: 0;
-    }
-    .opleidingenpagina article ul {
-      margin-left: 5em;
-    }
+      .opleidingenpagina h2:before {
+          font-size: 1.5em;
+          padding-right: 0.75em;
+      }
+      .opleidingen-hrarticle {
+          margin-left: 6em;
+      }
+      .opleidingenpagina h2 {
+          padding-left: 0;
+      }
+      .opleidingenpagina article ul {
+          margin-left: 5em;
+      }
   }
   
   @media screen and (max-width: 1100px) {
-    .opleidingenpagina h2 {
-      font-size: 1.5em;
-    }
+      .opleidingenpagina h2 {
+          font-size: 1.5em;
+      }
   }
-
+  
   @media screen and (max-width: 1090px) {
-    article,
-    section {
-      margin-left: 18%;
-      padding-left: 2%;
-    }
-    /* -- HOME PAGE -- */
-    .welkom {
-      margin-left: 18%;
-    }
-    #bannercover {
-      margin-left: 18%;
-    }
-    .logo {
-      width: 18%;
-    }
-    .menubar {
-      width: 17%;
-    }
-    .pijl {
-      margin-left: 20%;
-    }
-    .headerbackground {
-      margin-left: 18%;
-    }
-    .f_copyright {
-      margin-top: 15%;
-    }
-    .slider {
-      margin-left: 17%;
-    }
-    .slider figcaption {
-      margin-top: 1%;
-      padding: 1%;
-      margin-right: 5%;
-    }
-    .slider figure .imgwrapper {
-      margin-right: 5%;
-    }
-    .spec_opl #attitudes,
-    .spec_opl #stages {
-      margin-left: 17%;
-    }
-    .spec_opl #stageswrapper .balkeffect,
-    .spec_opl #attitudeswrapper .balkeffect {
-      padding-left: 1%;
-    }
-			
-		.spec_opl #taken div{
-			min-height: 220px;
-		}
-			
-    /* Opleidingsfase pagina */
-    #OPL #witruimte {
-      border-left: 1em solid white;
-      margin-left: 17%;
-    }
-    /* Aanbod */
-    .info-button-wit {
-      max-width: 50%;
-      margin-left: 10%;
-    }
-    .info-button-grijs {
-      max-width: 50%;
-      margin-left: 10%;
-    }
+      article,
+      section {
+          margin-left: 18%;
+          padding-left: 2%;
+      }
+      /* -- HOME PAGE -- */
+      .welkom {
+          margin-left: 18%;
+      }
+      #bannercover {
+          margin-left: 18%;
+      }
+      .logo {
+          width: 18%;
+      }
+      .menubar {
+          width: 17%;
+      }
+      .pijl {
+          margin-left: 20%;
+      }
+      .headerbackground {
+          margin-left: 18%;
+      }
+      .f_copyright {
+          margin-top: 15%;
+      }
+      .slider {
+          margin-left: 17%;
+      }
+      .slider figcaption {
+          margin-top: 1%;
+          padding: 1%;
+          margin-right: 5%;
+      }
+      .slider figure .imgwrapper {
+          margin-right: 5%;
+      }
+      .spec_opl #attitudes,
+      .spec_opl #stages {
+          margin-left: 17%;
+      }
+      .spec_opl #stageswrapper .balkeffect,
+      .spec_opl #attitudeswrapper .balkeffect {
+          padding-left: 1%;
+      }
+      .spec_opl #taken div {
+          min-height: 220px;
+      }
+      /* Opleidingsfase pagina */
+      #OPL .witruimte {
+          border-left: 1em solid white;
+          margin-left: 17%;
+      }
+      /* Aanbod */
+      .info-button-wit {
+          max-width: 50%;
+          margin-left: 10%;
+      }
+      .info-button-grijs {
+          max-width: 50%;
+          margin-left: 10%;
+      }
   }
   
   @media screen and (max-width: 1000px) {
-    /* --- AANBOD PAGINA --- */
-    .aanbod-pagina .info-button-wit {
-      max-width: 50%;
-    }
-    .aanbod-pagina .info-button-grijs {
-      max-width: 50%;
-    }
+      /* --- AANBOD PAGINA --- */
+      .aanbod-pagina .info-button-wit {
+          max-width: 50%;
+      }
+      .aanbod-pagina .info-button-grijs {
+          max-width: 50%;
+      }
   }
   
   @media screen and (max-width: 980px) {
-    article,
-    section {
-      margin-left: 20%;
-      padding-left: 2%;
-    }
-    /* -- HOME PAGE -- */
-    .welkom {
-      margin-left: 20%;
-    }
-    #bannercover {
-      margin-left: 20%;
-    }
-    .logo {
-      width: 20%;
-    }
-    .menubar {
-      width: 19%;
-    }
-    .spec_opl #attitudes,
-    .spec_opl #stages {
-      margin-left: 19%;
-    }
-    .headerbackground {
-      margin-left: 20%;
-    }
-    .spec_opl section.slider {
-      padding-left: 0;
-    }
-    .slider {
-      margin-left: 19%;
-    }
-    .slider figcaption {
-      margin-top: 1%;
-      padding: 1%;
-      margin-right: 1%;
-    }
-    .slider figure .imgwrapper {
-      margin-right: 1%;
-    }
-    .slider figcaption a {
-      width: 10%;
-      padding: 0 5%;
-      color: white;
-      text-decoration: none;
-    }
-    section.nieuw {
-      padding: 0;
-      margin: 0;
-    }
-    .nieuws {
-      margin-right: 4%;
-    }
-    .nieuws .blauw {
-      padding: 1%;
-    }
-    .nieuws li {
-      padding: 1%;
-    }
-    .nieuws h3,
-    .nieuws p {
-      width: 100%;
-    }
-    .nieuws img {
-      position: relative;
-    }
-    .nieuws li:hover img {
-      display: none;
-    }
-    /* Opleidingsfasen */
-    #OPL #witruimte {
-      border-left: 1em solid white;
-      margin-left: 19%;
-    }
+      article,
+      section {
+          margin-left: 20%;
+          padding-left: 2%;
+      }
+      /* -- HOME PAGE -- */
+      .welkom {
+          margin-left: 20%;
+      }
+      #bannercover {
+          margin-left: 20%;
+      }
+      .logo {
+          width: 20%;
+      }
+      .menubar {
+          width: 19%;
+      }
+      .spec_opl #attitudes,
+      .spec_opl #stages {
+          margin-left: 19%;
+      }
+      .headerbackground {
+          margin-left: 20%;
+      }
+      .spec_opl section.slider {
+          padding-left: 0;
+      }
+      .slider {
+          margin-left: 19%;
+      }
+      .slider figcaption {
+          margin-top: 1%;
+          padding: 1%;
+          margin-right: 1%;
+      }
+      .slider figure .imgwrapper {
+          margin-right: 1%;
+      }
+      .slider figcaption a {
+          width: 10%;
+          padding: 0 5%;
+          color: white;
+          text-decoration: none;
+      }
+      section.nieuw {
+          padding: 0;
+          margin: 0;
+      }
+      .nieuws {
+          margin-right: 4%;
+      }
+      .nieuws .blauw {
+          padding: 1%;
+      }
+      .nieuws li {
+          padding: 1%;
+      }
+      .nieuws h3,
+      .nieuws p {
+          width: 100%;
+      }
+      .nieuws img {
+          position: relative;
+      }
+      .nieuws li:hover img {
+          display: none;
+      }
+      /* Opleidingsfasen */
+      #OPL .witruimte {
+          border-left: 1em solid white;
+          margin-left: 19%;
+      }
   }
   
   @media screen and (max-width: 880px) {
-    article,
-    section {
-      margin-left: 4%;
-      padding-left: 1%;
-    }
-    body {
-      font-size: 15px;
-    }
-    /* OPLEIDINGEN NAV */
-    .opl li a {
-      padding: 2% 2%;
-    }
-    .opl li {
-      padding: 2%;
-    }
-    /* MENUBAR */
-    .menubar {
-      text-align: right;
-      width: 100%;
-      top: 0;
-      background-color: #85c226;
-      z-index: 2;
-    }
-    .menubar ul {
-      text-align: center;
-    }
-    .menubar #logonav {
-      width: 8%;
-      display: inline-block;
-    }
-    .menubar li {
-      list-style: none;
-      display: inline-block;
-      margin: 0;
-      padding: 1%;
-      min-height: auto;
-      border: none;
-      width: auto;
-    }
-    .menubar li.active {
-      background-color: #29aae2;
-      margin: 0;
-      padding: 1%;
-      min-height: auto;
-      border: none;
-      width: auto;
-    }
-    .menubar a {
-      display: inline-block;
-      padding: 0;
-      margin-bottom: 1%;
-      border-bottom: solid 1px white;
-      width: 100%;
-    }
-    /* -- HOME PAGE -- */
-    #bannercover {
-      display: none;
-    }
-    .logo {
-      padding-top: 3%;
-      display: none;
-    }
-    /* - Welkom sectie - */
-    .welkom {
-      margin-top: 15%;
-      margin-left: 5%;
-    }
-    #HOME h1 {
-      padding-top: 3%;
-      margin-left: 0;
-      padding-left: 0;
-      text-indent: 0;
-    }
-    .welkom h2 {
-      margin-left: 0;
-    }
-    #visieinleiding {
-      margin-left: 0;
-    }
-    /* - Nieuws sectie - */
-    .nieuws {
-      margin: 0;
-    }
-    .nieuws li {
-      padding-left: 5%;
-    }
-    .nieuws h2 {
-      margin-left: 5%;
-    }
-    /* - aanbod sectie - */
-    #HOME .aanbod h2 {
-      margin-left: 5%;
-    }
-    #HOME .aanbod article {
-      min-height: auto;
-      width: 100%;
-      padding-bottom: 2%;
-      padding-top: 1%;
-    }
-    .basis {
-      padding-left: 5%;
-      float: none;
-    }
-    .type9 {
-      margin-top: 1%;
-      float: none;
-      width: 100%;
-      padding-left: 5%;
-    }
-    #HOME .aanbod h3 {
-      font-size: 2em;
-      margin-top: 0.5%;
-      padding-top: 0;
-      margin-bottom: 0.5%;
-    }
-    #HOME .aanbod .moreinfobox {
-      width: 50%;
-      margin-top: 5%;
-    }
-    .slider {
-      margin-left: 4%;
-      padding-left: 0;
-    }
-    /* - stukje opleidingen dat algemeen geldt - */
-    .opleidingen {
-      margin-left: 0;
-    }
-    /* headers */
-    .headerbackground {
-      margin-left: 0;
-      width: 100%;
-      margin-top: 5%;
-    }
-    .spec_opl #attitudes,
-    .spec_opl #stages {
-      margin-left: 4%;
-    }
-	  
-	.spec_opl header h1 {
-		margin-top : 2%;
-    }
-
-	.spec_opl #lessentabel {
-	 padding-left: 0;
-	}
-	
-    #OPL .opl li {
-      margin: 0.75%;
-      width: 17%;
-      padding: 1%;
-    }
-    #blokjesopleiding {
-      margin-left: 10%;
-    }
-    .pijl {
-      margin-left: 5%;
-    }
-    .p_index {
-      margin-left: 0;
-    }
-    #directie {
-      padding-left: 5%;
-    }
-    /* - FOOTER algemeen) - */
-    footer {
-      padding-top: 2%;
-      margin-top: 3%;
-    }
-    #footercontent {
-      margin-left: 0;
-      padding-left: 5%;
-    }
-    .f_prakt_info {
-      width: 16%;
-    }
-    /* Opleidingsfases */
-    .Kwalificatiefase {
-      width: 80%;
-      padding-left: 2%;
-      padding-right: 18%;
-    }
-    .Duaal {
-      width: 80%;
-      margin: 0%;
-      padding-right: 18%;
-      padding-bottom: 3.2%;
-      float: none;
-      margin-bottom: 2%;
-    }
-    #OPL #witruimte {
-      margin-left: 0%;
-      border: none;
-      padding-left: 0%;
-    }
-    .ABO {
-      margin-bottom: 2%;
-    }
-    .blauwopl {
-      margin-left: 0%;
-    }
-    /* Aanbod */
-    .aanbod-index {
-      margin-left: 4%;
-      padding-left: 0;
-    }
-    /* Prakt info */
-    .info-button-grijs {
-      max-width: 70%;
-      width: 70%;
-      margin-left: 10%;
-    }
-    .info-button-wit {
-      max-width: 70%;
-      width: 70%;
-      margin-left: 10%;
-    }
-    /* opleidingen */
-    .opleidingen-foto-rechts {
-      margin: 1em;
-    }
-    .opleidingen-button {
-      margin-left: 10%;
-      max-width: 80%;
-    }
+      article,
+      section {
+          margin-left: 4%;
+          padding-left: 1%;
+      }
+      body {
+          font-size: 15px;
+      }
+      /* OPLEIDINGEN NAV */
+      .opl li a {
+          padding: 2% 2%;
+      }
+      .opl li {
+          padding: 2%;
+      }
+      /* MENUBAR */
+      .menubar {
+          text-align: right;
+          width: 100%;
+          top: 0;
+          background-color: #85c226;
+          z-index: 2;
+      }
+      .menubar ul {
+          text-align: center;
+      }
+      .menubar #logonav {
+          width: 8%;
+          display: inline-block;
+      }
+      .menubar li {
+          list-style: none;
+          display: inline-block;
+          margin: 0;
+          padding: 1%;
+          min-height: auto;
+          border: none;
+          width: auto;
+      }
+      .menubar li.active {
+          background-color: #29aae2;
+          margin: 0;
+          padding: 1%;
+          min-height: auto;
+          border: none;
+          width: auto;
+      }
+      .menubar a {
+          display: inline-block;
+          padding: 0;
+          margin-bottom: 1%;
+          border-bottom: solid 1px white;
+          width: 100%;
+      }
+      /* -- HOME PAGE -- */
+      #bannercover {
+          display: none;
+      }
+      .logo {
+          padding-top: 3%;
+          display: none;
+      }
+      /* - Welkom sectie - */
+      .welkom {
+          margin-top: 15%;
+          margin-left: 5%;
+      }
+      #HOME h1 {
+          padding-top: 3%;
+          margin-left: 0;
+          padding-left: 0;
+          text-indent: 0;
+      }
+      .welkom h2 {
+          margin-left: 0;
+      }
+      #visieinleiding {
+          margin-left: 0;
+      }
+      /* - Nieuws sectie - */
+      .nieuws {
+          margin: 0;
+      }
+      .nieuws li {
+          padding-left: 5%;
+      }
+      .nieuws h2 {
+          margin-left: 5%;
+      }
+      /* - aanbod sectie - */
+      #HOME .aanbod h2 {
+          margin-left: 5%;
+      }
+      #HOME .aanbod article {
+          min-height: auto;
+          width: 100%;
+          padding-bottom: 2%;
+          padding-top: 1%;
+      }
+      .basis {
+          padding-left: 5%;
+          float: none;
+      }
+      .type9 {
+          margin-top: 1%;
+          float: none;
+          width: 100%;
+          padding-left: 5%;
+      }
+      #HOME .aanbod h3 {
+          font-size: 2em;
+          margin-top: 0.5%;
+          padding-top: 0;
+          margin-bottom: 0.5%;
+      }
+      #HOME .aanbod .moreinfobox {
+          width: 50%;
+          margin-top: 5%;
+      }
+      .slider {
+          margin-left: 4%;
+          padding-left: 0;
+      }
+      /* - stukje opleidingen dat algemeen geldt - */
+      .opleidingen {
+          margin-left: 0;
+      }
+      /* headers */
+      .headerbackground {
+          margin-left: 0;
+          width: 100%;
+          margin-top: 5%;
+      }
+      .spec_opl #attitudes,
+      .spec_opl #stages {
+          margin-left: 4%;
+      }
+      .spec_opl header h1 {
+          margin-top: 2%;
+      }
+      .spec_opl #lessentabel {
+          padding-left: 0;
+      }
+      #OPL .opl li {
+          margin: 0.75%;
+          width: 17%;
+          padding: 1%;
+      }
+      #blokjesopleiding {
+          margin-left: 10%;
+      }
+      .pijl {
+          margin-left: 5%;
+      }
+      .p_index {
+          margin-left: 0;
+      }
+      #directie {
+          padding-left: 5%;
+      }
+      /* - FOOTER algemeen) - */
+      footer {
+          padding-top: 2%;
+          margin-top: 3%;
+      }
+      #footercontent {
+          margin-left: 0;
+          padding-left: 5%;
+      }
+      .f_prakt_info {
+          width: 16%;
+      }
+      /* Opleidingsfases */
+      .Kwalificatiefase {
+          width: 80%;
+          padding-left: 2%;
+          padding-right: 18%;
+      }
+      .Duaal {
+          width: 80%;
+          margin: 0%;
+          padding-right: 18%;
+          padding-bottom: 3.2%;
+          float: none;
+          margin-bottom: 2%;
+      }
+      #OPL .witruimte {
+          margin-left: 0%;
+          border: none;
+          padding-left: 0%;
+      }
+      .ABO {
+          margin-bottom: 2%;
+      }
+      .blauwopl {
+          margin-left: 0%;
+      }
+      /* Aanbod */
+      .aanbod-index {
+          margin-left: 4%;
+          padding-left: 0;
+      }
+      /* Prakt info */
+      .info-button-grijs {
+          max-width: 70%;
+          width: 70%;
+          margin-left: 10%;
+      }
+      .info-button-wit {
+          max-width: 70%;
+          width: 70%;
+          margin-left: 10%;
+      }
+      /* opleidingen */
+      .opleidingen-foto-rechts {
+          margin: 1em;
+      }
+      .opleidingen-button {
+          margin-left: 10%;
+          max-width: 80%;
+      }
   }
   
   @media screen and (max-width: 780px) {
-    /* --- TEAM PAGINA --- */
-    .team h2 {
-      width: 70%
-    }
-    .team ul {
-      width: 90%;
-    }
-    .team li {
-      margin-right: 1%;
-      width: 30%;
-    }
-    .lkr ul {
-      width: 60%;
-      padding: 1% 20% 1% 0;
-      margin-right: 16%;
-    }
-    .lkr li {
-      width: 45%;
-    }
-	
-	.spec_opl #lessentabel .tableheading{
-	font-size:1em;
-	font-weight:bold;
-	}
-
-	  .spec_opl #lessentabel h3{
-	float:none;
-	font-size:1.4em;
-	text-align:left;
-	}
-
+      /* --- TEAM PAGINA --- */
+      .team h2 {
+          width: 70%
+      }
+      .team ul {
+          width: 90%;
+      }
+      .team li {
+          margin-right: 1%;
+          width: 30%;
+      }
+      .lkr ul {
+          width: 60%;
+          padding: 1% 20% 1% 0;
+          margin-right: 16%;
+      }
+      .lkr li {
+          width: 45%;
+      }
+      .spec_opl #lessentabel .tableheading {
+          font-size: 1em;
+          font-weight: bold;
+      }
+      .spec_opl #lessentabel h3 {
+          float: none;
+          font-size: 1.4em;
+          text-align: left;
+      }
   }
   
   @media screen and (max-width: 750px) {
-    .aanbod-pagina p {
-      max-width: 85%;
-    }
+      .aanbod-pagina p {
+          max-width: 85%;
+      }
   }
   
   @media screen and (max-width: 690px) {
-    .opl li,
-    #OPL .opl li {
-      display: block;
-      width: 94%;
-      padding: 1%;
-    }
-    .pijl {
-      display: none;
-    }
-    .headerbackground {
-      font-size: 0.5em;
-      margin-top: 10%;
-      min-height: 0;
-    }
-    .f_copyright {
-      margin-top: 20%;
-    }
-	.spec_opl #lessentabel .tableheading{
-	text-align: center;
-	}
-
-	.spec_opl #lessentabel .tableheading{
-	margin: 0 auto;
-	}
-
-	.spec_opl header h1{
-	margin: 0;
-	}
+      .opl li,
+      #OPL .opl li {
+          display: block;
+          width: 94%;
+          padding: 1%;
+      }
+      .pijl {
+          display: none;
+      }
+      .headerbackground {
+          font-size: 0.5em;
+          margin-top: 10%;
+          min-height: 0;
+      }
+      .f_copyright {
+          margin-top: 20%;
+      }
+      .spec_opl #lessentabel .tableheading {
+          text-align: center;
+      }
+      .spec_opl #lessentabel .tableheading {
+          margin: 0 auto;
+      }
+      .spec_opl header h1 {
+          margin: 0;
+      }
   }
   
   @media screen and (max-width: 660px) {
-    .headerbackground {
-      margin-top: 15%;
-    }
-    .lkr ul {
-      width: 90%;
-      margin-right: 1%;
-      padding-right: 0;
-    }
-    .lkr li:hover img,
-    .lkr li:focus img {
-      display: none;
-    }
-    .lkr li {
-      width: 45%;
-      padding: 1%;
-    }
+      .headerbackground {
+          margin-top: 15%;
+      }
+      .lkr ul {
+          width: 90%;
+          margin-right: 1%;
+          padding-right: 0;
+      }
+      .lkr li:hover img,
+      .lkr li:focus img {
+          display: none;
+      }
+      .lkr li {
+          width: 45%;
+          padding: 1%;
+      }
   }
   
   @media screen and (max-width: 650px) {
-    .opleidingen-foto-rechts {
-      float: none;
-      width: 60%;
-      margin-left: 20%;
-    }
-    .opleidingen-hrarticle {
-      margin-left: 20%;
-      width: 60%;
-    }
-    .opleidingenpagina h2 {
-      margin-left: 20%;
-    }
-    .opleidingenpagina article li {
-      margin-left: 20%;
-    }
-			
-		.spec_opl #taken div{
-			float:none;
-			width: 80%;
-			min-height: 0;
-		}
-			
-			#takenimg{
-					display: none;
-			}
+      .opleidingen-foto-rechts {
+          float: none;
+          width: 60%;
+          margin-left: 20%;
+      }
+      .opleidingen-hrarticle {
+          margin-left: 20%;
+          width: 60%;
+      }
+      .opleidingenpagina h2 {
+          margin-left: 20%;
+      }
+      .opleidingenpagina article li {
+          margin-left: 20%;
+      }
+      .spec_opl #taken div {
+          float: none;
+          width: 80%;
+          min-height: 0;
+      }
+      #takenimg {
+          display: none;
+      }
   }
   
   @media screen and (max-width: 600px) {
-    .aanbod-index li {
-      padding-right: 3em;
-    }
-    .info ul ul {
-      margin-left: 2em;
-    }
+      .aanbod-index li {
+          padding-right: 3em;
+      }
+      .info ul ul {
+          margin-left: 2em;
+      }
   }
   
   @media screen and (max-width: 590px) {
-    /* --- TEAM PAGINA --- */
-    .team li {
-      width: 45%;
-    }
-    /* Specifieke opleidingen */
-    .spec_opl #algemeenrechts {
-      float: none;
-      width: auto;
-    }
-    .spec_opl #algemeenlinks {
-      float: none;
-      width: auto;
-    }
-    .spec_opl #algemeen p {
-      margin-bottom: 2%;
-      margin-top: 1%;
-      line-height: 1;
-    }
-    /* footer */
-    .f_copyright {
-      margin-top: 25%;
-    }
+      /* --- TEAM PAGINA --- */
+      .team li {
+          width: 45%;
+      }
+      /* Specifieke opleidingen */
+      .spec_opl #algemeenrechts {
+          float: none;
+          width: auto;
+      }
+      .spec_opl #algemeenlinks {
+          float: none;
+          width: auto;
+      }
+      .spec_opl #algemeen p {
+          margin-bottom: 2%;
+          margin-top: 1%;
+          line-height: 1;
+      }
+      /* footer */
+      .f_copyright {
+          margin-top: 25%;
+      }
   }
   
   @media screen and (max-width: 570px) {
-    .f_copyright {
-      margin-top: 30%;
-    }
+      .f_copyright {
+          margin-top: 30%;
+      }
   }
   
   @media screen and (max-width: 500px) {
+<<<<<<< HEAD
     .info h2 {
       font-size: 1.75em;
     }
@@ -2239,16 +2234,37 @@ Kleur duaal groen: #5ec64d */
 		.spec_opl #lessentabel{
 			margin: 5%;		
 		}
+=======
+      .info h2 {
+          font-size: 1.75em;
+      }
+      .info h2:before {
+          font-size: 1.5em;
+      }
+      .info-hrarticle-wit {
+          width: 80%;
+          margin-left: 5%;
+      }
+      .info-hrarticle-grijs {
+          width: 80%;
+          margin-left: 5%;
+      }
+      .info article ul {
+          margin-left: 8%;
+          max-width: 100%;
+      }
+>>>>>>> origin/master
   }
   
   @media screen and (max-width: 490px) {
-    /* --- AANBOD PAGINA --- */
-    .aanbod-pagina h2 {
-      margin-left: 0%;
-    }
+      /* --- AANBOD PAGINA --- */
+      .aanbod-pagina h2 {
+          margin-left: 0%;
+      }
   }
   
   @media screen and (max-width: 450px) {
+<<<<<<< HEAD
 		body{
 			font-size: 12px;		
 		}
@@ -2261,6 +2277,18 @@ Kleur duaal groen: #5ec64d */
 		.spec_opl #attitudes, .spec_opl #stages{
 			margin-left: 0;			
 		}
+=======
+      .aanbod-pagina h2 {
+          font-size: 2em;
+      }
+      .slider {
+          margin-left: 0;
+      }
+      .spec_opl #attitudes,
+      .spec_opl #stages {
+          margin-left: 0;
+      }
+>>>>>>> origin/master
   }
 
 	@media screen and (max-width: 425px){
@@ -2295,51 +2323,48 @@ Kleur duaal groen: #5ec64d */
 	}
   
   @media screen and (max-width: 350px) {
-    #OPL .opleidingen-button {
-      max-width: none;
-      margin-left: 10%;
-      ;
-    }
-    #oplbutton {
-      padding-left: 25%;
-      padding-right: 25%;
-      padding-top: 1%;
-      padding-bottom: 1%
-    }
+      #OPL .opleidingen-button {
+          max-width: none;
+          margin-left: 10%;
+          padding-left: 25%;
+          padding-right: 25%;
+          padding-top: 1%;
+          padding-bottom: 1%;
+      }
   }
   
   @media screen and (max-width: 335px) {
-    .aanbod-pagina h2 {
-      font-size: 1.5em;
-    }
-    .aanbod-pagina p {
-      font-size: 0.75em;
-    }
-    .aanbod-index li {
-      width: auto;
-    }
+      .aanbod-pagina h2 {
+          font-size: 1.5em;
+      }
+      .aanbod-pagina p {
+          font-size: 0.75em;
+      }
+      .aanbod-index li {
+          width: auto;
+      }
   }
   
   @media screen and (max-width: 340px) {
-    .info h2 {
-      font-size: 1.5em;
-    }
+      .info h2 {
+          font-size: 1.5em;
+      }
   }
   
   @media screen and (max-width: 280px) {
-    .blauwopl {
-      margin-top: 4%;
-    }
+      .blauwopl {
+          margin-top: 4%;
+      }
   }
   
   @media screen and (max-width: 295px) {
-    #OPL h2 {
-      font-size: 2em
-    }
+      #OPL h2 {
+          font-size: 2em
+      }
   }
   
   @media screen and (max-width: 250px) {
-    .aanbod-pagina h2 {
-      font-size: 1.25em;
-    }
+      .aanbod-pagina h2 {
+          font-size: 1.25em;
+      }
   }
